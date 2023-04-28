@@ -1,0 +1,15 @@
+<url>http://www.dneonline.com/calculator.asmx?WSDL</url>
+<header>Content-Type: text/xml; charset=utf-8, SOAPAction: http://tempuri.org/Divide</header>
+<s11:Envelope xmlns:s11='http://schemas.xmlsoap.org/soap/envelope/'>
+  <s11:Body>
+    <ns1:Divide xmlns:ns1='http://tempuri.org/'>
+      <ns1:intA>20</ns1:intA>
+      <ns1:intB>2</ns1:intB>
+    </ns1:Divide>
+  </s11:Body>
+</s11:Envelope>
+
+
+
+
+

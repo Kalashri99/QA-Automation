@@ -1,0 +1,9 @@
+{
+  "url": "https://login.salesforce.com/services/oauth2/userinfo",
+  "method": "GET",
+  "timeout": 0,
+  "headers": {
+    "Authorization": "Bearer ${access_token}",
+    "Content-Type": "application/json"
+  },
+}

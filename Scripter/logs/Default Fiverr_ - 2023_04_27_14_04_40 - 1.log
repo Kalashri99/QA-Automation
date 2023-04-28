@@ -1,0 +1,22 @@
+[main] 2023-04-27 14:04:40 INFO  - #[ Filename: Fiverr_ ( sheet :Sheet1 ) on line no: 2 ]
+[main] 2023-04-27 14:04:47 INFO  - User have entered URL successfully : https://www.fiverr.com/
+[main] 2023-04-27 14:04:47 INFO  - #[ Filename: Fiverr_ ( sheet :Sheet1 ) on line no: 3 ]
+[main] 2023-04-27 14:04:47 INFO  -  Click Retry Cout: 0
+[main] 2023-04-27 14:04:47 INFO  - Inside the TRY of else block By.xpath: //a[@value='Sign in'] | //a[normalize-space()='Sign in']
+[main] 2023-04-27 14:04:48 INFO  - Inside clickUsingJavaScript step:last
+[main] 2023-04-27 14:04:48 INFO  - Successfully clicked on Sign in Button
+[main] 2023-04-27 14:04:48 INFO  - #[ Filename: Fiverr_ ( sheet :Sheet1 ) on line no: 4 ]
+[main] 2023-04-27 14:04:50 INFO  - Successfully entered text
+[main] 2023-04-27 14:04:50 INFO  - Entered daisyinputpsl@gmail.com in Email / Username field
+[main] 2023-04-27 14:04:50 INFO  - #[ Filename: Fiverr_ ( sheet :Sheet1 ) on line no: 5 ]
+[main] 2023-04-27 14:04:52 INFO  - Successfully entered text
+[main] 2023-04-27 14:04:52 INFO  - Entered Password Successfully
+[main] 2023-04-27 14:04:52 INFO  - #[ Filename: Fiverr_ ( sheet :Sheet1 ) on line no: 6 ]
+[main] 2023-04-27 14:04:52 INFO  -  Click Retry Cout: 0
+[main] 2023-04-27 14:04:52 INFO  - Inside the TRY of else block By.xpath: //button[@value='Continue'] | //button[normalize-space()='Continue']
+[main] 2023-04-27 14:04:52 INFO  - Inside clickUsingJavaScript step:last
+[main] 2023-04-27 14:04:52 INFO  - Successfully clicked on Continue Button
+[main] 2023-04-27 14:04:53 INFO  - Re-Triggering failed test cases is disabled
+[main] 2023-04-27 14:04:53 INFO  - Closing Browser
+[main] 2023-04-27 14:04:54 INFO  - End of execution
+[main] 2023-04-27 14:04:54 INFO  - This is the end of test case execution

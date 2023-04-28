@@ -1,0 +1,96 @@
+[main] 2023-02-21 11:15:10 INFO  - #[ Filename: demoOutput ( sheet :Sheet1 ) on line no: 2 ]
+[main] 2023-02-21 11:15:11 INFO  - User have entered URL successfully : https://github.com/
+[main] 2023-02-21 11:15:11 INFO  - #[ Filename: demoOutput ( sheet :Sheet1 ) on line no: 3 ]
+[main] 2023-02-21 11:15:11 INFO  -  Click Retry Cout: 0
+[main] 2023-02-21 11:15:11 INFO  - Inside the TRY of else block By.xpath: /html/body/div[1]/div[1]/header/div/div[2]/div/div/div[2]/a
+[main] 2023-02-21 11:15:11 INFO  - Inside clickUsingJavaScript step:last
+[main] 2023-02-21 11:15:11 INFO  - Successfully clicked on Sign In Button
+[main] 2023-02-21 11:15:11 INFO  - #[ Filename: demoOutput ( sheet :Sheet1 ) on line no: 4 ]
+[main] 2023-02-21 11:15:14 INFO  - Successfully entered text
+[main] 2023-02-21 11:15:14 INFO  - Entered daisy-input in Username field
+[main] 2023-02-21 11:15:14 INFO  - #[ Filename: demoOutput ( sheet :Sheet1 ) on line no: 5 ]
+[main] 2023-02-21 11:15:16 INFO  - Successfully entered text
+[main] 2023-02-21 11:15:16 INFO  - Entered Password Successfully
+[main] 2023-02-21 11:15:16 INFO  - #[ Filename: demoOutput ( sheet :Sheet1 ) on line no: 6 ]
+[main] 2023-02-21 11:15:16 INFO  -  Click Retry Cout: 0
+[main] 2023-02-21 11:15:16 INFO  - Inside the TRY of else block By.name: commit
+[main] 2023-02-21 11:15:17 INFO  - Inside clickUsingJavaScript step:last
+[main] 2023-02-21 11:15:17 INFO  - Successfully clicked on Sign in Button
+[main] 2023-02-21 11:15:17 INFO  - #[ Filename: demoOutput ( sheet :Sheet1 ) on line no: 7 ]
+[main] 2023-02-21 11:15:18 INFO  -  Click Retry Cout: 0
+[main] 2023-02-21 11:15:18 INFO  - Inside the TRY of else block By.xpath: /html/body/div[1]/div[5]/div/aside/div/loading-context/div/div[1]/div/h2/a
+[main] 2023-02-21 11:15:19 INFO  - Inside clickUsingJavaScript step:last
+[main] 2023-02-21 11:15:19 INFO  - Successfully clicked on Repository Button
+[main] 2023-02-21 11:15:19 INFO  - #[ Filename: demoOutput ( sheet :Sheet1 ) on line no: 8 ]
+[main] 2023-02-21 11:15:21 INFO  - Successfully entered text
+[main] 2023-02-21 11:15:21 INFO  - Entered DaisyDemo1 in Repository Name field
+[main] 2023-02-21 11:15:21 INFO  - #[ Filename: demoOutput ( sheet :Sheet1 ) on line no: 9 ]
+[main] 2023-02-21 11:15:21 INFO  -  Click Retry Cout: 0
+[main] 2023-02-21 11:15:21 INFO  - Inside the TRY of else block By.xpath: //*[@id="new_repository"]/div[5]/button
+[main] 2023-02-21 11:15:23 INFO  - Inside clickUsingJavaScript step:last
+[main] 2023-02-21 11:15:23 INFO  - Successfully clicked on Create repository Button
+[main] 2023-02-21 11:15:23 INFO  - #[ Filename: demoOutput ( sheet :Sheet1 ) on line no: 10 ]
+[main] 2023-02-21 11:15:23 INFO  -  Click Retry Cout: 0
+[main] 2023-02-21 11:15:23 INFO  - Inside the TRY of else block By.xpath: //*[@id="repo-content-pjax-container"]/div/git-clone-help/div[1]/p/a[3]
+[main] 2023-02-21 11:15:23 INFO  - Inside clickUsingJavaScript step:last
+[main] 2023-02-21 11:15:23 INFO  - Successfully clicked on Readme Link Button
+[main] 2023-02-21 11:15:23 INFO  - #[ Filename: demoOutput ( sheet :Sheet1 ) on line no: 11 ]
+[main] 2023-02-21 11:15:24 INFO  -  Click Retry Cout: 0
+[main] 2023-02-21 11:15:24 INFO  - Inside the TRY of else block By.xpath: //*[@id="submit-file"]
+[main] 2023-02-21 11:15:25 INFO  - Inside clickUsingJavaScript step:last
+[main] 2023-02-21 11:15:25 INFO  - Successfully clicked on Commit button Button
+[main] 2023-02-21 11:15:25 INFO  - #[ Filename: demoOutput ( sheet :Sheet1 ) on line no: 12 ]
+[main] 2023-02-21 11:15:26 INFO  -  Click Retry Cout: 0
+[main] 2023-02-21 11:15:26 INFO  - Inside the TRY of else block By.xpath: //*[@id="repo-content-pjax-container"]/div/div/div[3]/div[1]/div[2]/details/summary
+[main] 2023-02-21 11:15:26 INFO  - Inside clickUsingJavaScript step:last
+[main] 2023-02-21 11:15:26 INFO  - Successfully clicked on Adding file Button
+[main] 2023-02-21 11:15:26 INFO  - #[ Filename: demoOutput ( sheet :Sheet1 ) on line no: 13 ]
+[main] 2023-02-21 11:15:26 INFO  -  Click Retry Cout: 0
+[main] 2023-02-21 11:15:26 INFO  - Inside the TRY of else block By.xpath: //*[@id="repo-content-pjax-container"]/div/div/div[3]/div[1]/div[2]/details/div/ul/li[3]/form/button
+[main] 2023-02-21 11:15:27 INFO  - Inside clickUsingJavaScript step:last
+[main] 2023-02-21 11:15:27 INFO  - Successfully clicked on New File Button
+[main] 2023-02-21 11:15:27 INFO  - #[ Filename: demoOutput ( sheet :Sheet1 ) on line no: 14 ]
+[main] 2023-02-21 11:15:29 INFO  - Successfully entered text
+[main] 2023-02-21 11:15:29 INFO  - Entered file1 in file Name field
+[main] 2023-02-21 11:15:29 INFO  - #[ Filename: demoOutput ( sheet :Sheet1 ) on line no: 15 ]
+[main] 2023-02-21 11:15:31 INFO  - Successfully entered text
+[main] 2023-02-21 11:15:31 INFO  - Entered Hello World in edit file field
+[main] 2023-02-21 11:15:31 INFO  - #[ Filename: demoOutput ( sheet :Sheet1 ) on line no: 16 ]
+[main] 2023-02-21 11:15:31 INFO  -  Click Retry Cout: 0
+[main] 2023-02-21 11:15:31 INFO  - Inside the TRY of else block By.xpath: //*[@id="submit-file"]
+[main] 2023-02-21 11:15:32 INFO  - Inside clickUsingJavaScript step:last
+[main] 2023-02-21 11:15:32 INFO  - Successfully clicked on commit button Button
+[main] 2023-02-21 11:15:32 INFO  - #[ Filename: demoOutput ( sheet :Sheet1 ) on line no: 17 ]
+[main] 2023-02-21 11:15:32 INFO  -  Click Retry Cout: 0
+[main] 2023-02-21 11:15:32 INFO  - Inside the TRY of else block By.xpath: //*[@id="settings-tab"]
+[main] 2023-02-21 11:15:32 INFO  - Inside clickUsingJavaScript step:last
+[main] 2023-02-21 11:15:32 INFO  - Successfully clicked on setting Button
+[main] 2023-02-21 11:15:32 INFO  - #[ Filename: demoOutput ( sheet :Sheet1 ) on line no: 18 ]
+[main] 2023-02-21 11:15:33 INFO  -  Click Retry Cout: 0
+[main] 2023-02-21 11:15:33 INFO  - Inside the TRY of else block By.xpath: //*[@id="options_bucket"]/div[9]/ul/li[4]/details/summary
+[main] 2023-02-21 11:15:33 INFO  - Inside clickUsingJavaScript step:last
+[main] 2023-02-21 11:15:33 INFO  - Successfully clicked on Deleting repo Button
+[main] 2023-02-21 11:15:33 INFO  - #[ Filename: demoOutput ( sheet :Sheet1 ) on line no: 19 ]
+[main] 2023-02-21 11:15:35 INFO  - Successfully entered text
+[main] 2023-02-21 11:15:35 INFO  - Entered daisy-input/DaisyDemo1 in Repo Name field
+[main] 2023-02-21 11:15:35 INFO  - #[ Filename: demoOutput ( sheet :Sheet1 ) on line no: 20 ]
+[main] 2023-02-21 11:15:35 INFO  -  Click Retry Cout: 0
+[main] 2023-02-21 11:15:35 INFO  - Inside the TRY of else block By.xpath: //*[@id="options_bucket"]/div[9]/ul/li[4]/details/details-dialog/div[3]/form/button/span[1]
+[main] 2023-02-21 11:15:37 INFO  - Inside clickUsingJavaScript step:last
+[main] 2023-02-21 11:15:37 INFO  - Successfully clicked on Deleting repo Button
+[main] 2023-02-21 11:15:37 INFO  - #[ Filename: demoOutput ( sheet :Sheet1 ) on line no: 21 ]
+[main] 2023-02-21 11:15:37 INFO  -  Click Retry Cout: 0
+[main] 2023-02-21 11:15:37 INFO  - Inside the TRY of else block By.xpath: /html/body/div[1]/div[1]/header/div[7]/details/summary
+[main] 2023-02-21 11:15:37 INFO  - Inside clickUsingJavaScript step:last
+[main] 2023-02-21 11:15:37 INFO  - Successfully clicked on profile click Button
+[main] 2023-02-21 11:15:37 INFO  - #[ Filename: demoOutput ( sheet :Sheet1 ) on line no: 22 ]
+[main] 2023-02-21 11:15:37 INFO  -  Click Retry Cout: 0
+[main] 2023-02-21 11:15:37 INFO  - Inside the TRY of else block By.xpath: /html/body/div[1]/div[1]/header/div[7]/details/details-menu/form/button
+[main] 2023-02-21 11:15:38 INFO  - Inside clickUsingJavaScript step:last
+[main] 2023-02-21 11:15:38 INFO  - Successfully clicked on Logout Button
+[main] 2023-02-21 11:15:39 INFO  - Skipped by User - OutputTest
+[main] 2023-02-21 11:15:39 INFO  - Skipped by User - MainOutput
+[main] 2023-02-21 11:15:39 INFO  - Re-Triggering failed test cases is disabled
+[main] 2023-02-21 11:15:39 INFO  - Closing Browser
+[main] 2023-02-21 11:15:39 INFO  - End of execution
+[main] 2023-02-21 11:15:39 INFO  - This is the end of test case execution

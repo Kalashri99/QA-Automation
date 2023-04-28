@@ -1,0 +1,22 @@
+[main] 2023-04-21 15:27:47 INFO  - #[ Filename: RGI-Feature testcase1 ( sheet :Sheet1 ) on line no: 2 ]
+[main] 2023-04-21 15:27:50 INFO  - User have entered URL successfully : https://github.com
+[main] 2023-04-21 15:27:50 INFO  - #[ Filename: RGI-Feature testcase1 ( sheet :Sheet1 ) on line no: 3 ]
+[main] 2023-04-21 15:27:51 INFO  -  Click Retry Cout: 0
+[main] 2023-04-21 15:27:52 INFO  - Inside the TRY of else block By.xpath: //a[@value='Sign in'] | //a[normalize-space()='Sign in']
+[main] 2023-04-21 15:27:52 INFO  - Inside clickUsingJavaScript step:last
+[main] 2023-04-21 15:27:52 INFO  - Successfully clicked on Sign in Button
+[main] 2023-04-21 15:27:52 INFO  - #[ Filename: RGI-Feature testcase1 ( sheet :Sheet1 ) on line no: 4 ]
+[main] 2023-04-21 15:27:55 INFO  - Successfully entered text
+[main] 2023-04-21 15:27:55 INFO  - Entered daisy-input in Username or email address field
+[main] 2023-04-21 15:27:55 INFO  - #[ Filename: RGI-Feature testcase1 ( sheet :Sheet1 ) on line no: 5 ]
+[main] 2023-04-21 15:27:57 INFO  - Successfully entered text
+[main] 2023-04-21 15:27:57 INFO  - Entered Password Successfully
+[main] 2023-04-21 15:27:57 INFO  - #[ Filename: RGI-Feature testcase1 ( sheet :Sheet1 ) on line no: 6 ]
+[main] 2023-04-21 15:27:57 INFO  -  Click Retry Cout: 0
+[main] 2023-04-21 15:27:57 INFO  - Inside the TRY of else block By.xpath: //input[@value='Sign in'] | //input[normalize-space()='Sign in']
+[main] 2023-04-21 15:27:59 INFO  - Inside clickUsingJavaScript step:last
+[main] 2023-04-21 15:27:59 INFO  - Successfully clicked on Sign in Button
+[main] 2023-04-21 15:28:00 INFO  - Re-Triggering failed test cases is disabled
+[main] 2023-04-21 15:28:00 INFO  - Closing Browser
+[main] 2023-04-21 15:28:02 INFO  - End of execution
+[main] 2023-04-21 15:28:03 INFO  - This is the end of test case execution

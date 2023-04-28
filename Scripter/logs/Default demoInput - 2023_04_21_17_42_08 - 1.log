@@ -1,0 +1,50 @@
+[main] 2023-04-21 17:42:08 INFO  - #[ Filename: demoInput ( sheet :Sheet1 ) on line no: 2 ]
+[main] 2023-04-21 17:42:11 INFO  - User have entered URL successfully : https://github.com/
+[main] 2023-04-21 17:42:11 INFO  - #[ Filename: demoInput ( sheet :Sheet1 ) on line no: 3 ]
+[main] 2023-04-21 17:42:11 INFO  -  Click Retry Cout: 0
+[main] 2023-04-21 17:42:13 INFO  - Inside the TRY of else block By.xpath: /html/body/div[1]/div[1]/header/div/div[2]/div/div/div[2]/a
+[main] 2023-04-21 17:42:13 INFO  - Inside clickUsingJavaScript step:last
+[main] 2023-04-21 17:42:13 INFO  - Successfully clicked on Sign In Button
+[main] 2023-04-21 17:42:13 INFO  - #[ Filename: demoInput ( sheet :Sheet1 ) on line no: 4 ]
+[main] 2023-04-21 17:42:16 INFO  - Successfully entered text
+[main] 2023-04-21 17:42:16 INFO  - Entered daisy-input in Username field
+[main] 2023-04-21 17:42:16 INFO  - #[ Filename: demoInput ( sheet :Sheet1 ) on line no: 5 ]
+[main] 2023-04-21 17:42:18 INFO  - Successfully entered text
+[main] 2023-04-21 17:42:18 INFO  - Entered Password Successfully
+[main] 2023-04-21 17:42:18 INFO  - #[ Filename: demoInput ( sheet :Sheet1 ) on line no: 6 ]
+[main] 2023-04-21 17:42:18 INFO  -  Click Retry Cout: 0
+[main] 2023-04-21 17:42:18 INFO  - Inside the TRY of else block By.name: commit
+[main] 2023-04-21 17:42:20 INFO  - Inside clickUsingJavaScript step:last
+[main] 2023-04-21 17:42:20 INFO  - Successfully clicked on Sign in Button
+[main] 2023-04-21 17:42:20 INFO  - #[ Filename: demoInput ( sheet :Sheet1 ) on line no: 7 ]
+[main] 2023-04-21 17:42:21 INFO  -  Click Retry Cout: 0
+[main] 2023-04-21 17:42:21 INFO  - Inside the TRY of else block By.xpath: /html/body/div[1]/div[6]/div/aside/div/loading-context/div/div[1]/div/h2/a
+[main] 2023-04-21 17:42:22 INFO  - Inside clickUsingJavaScript step:last
+[main] 2023-04-21 17:42:22 INFO  - Successfully clicked on Repository Button
+[main] 2023-04-21 17:42:22 INFO  - #[ Filename: demoInput ( sheet :Sheet1 ) on line no: 8 ]
+[main] 2023-04-21 17:42:24 INFO  - Successfully entered text
+[main] 2023-04-21 17:42:24 INFO  - Entered DaisyDemo9 in Repository Name field
+[main] 2023-04-21 17:42:24 INFO  - #[ Filename: demoInput ( sheet :Sheet1 ) on line no: 9 ]
+[main] 2023-04-21 17:42:24 INFO  -  Click Retry Cout: 0
+[main] 2023-04-21 17:42:24 INFO  - Inside the TRY of else block By.xpath: //*[@id="new_repository"]/div[5]/button
+[main] 2023-04-21 17:42:27 INFO  - Inside clickUsingJavaScript step:last
+[main] 2023-04-21 17:42:27 INFO  - Successfully clicked on Create repository Button
+[main] 2023-04-21 17:42:27 INFO  - #[ Filename: demoInput ( sheet :Sheet1 ) on line no: 10 ]
+[main] 2023-04-21 17:42:27 INFO  -  Click Retry Cout: 0
+[main] 2023-04-21 17:42:27 INFO  - Inside the TRY of else block By.xpath: //*[@id="repo-content-pjax-container"]/div/git-clone-help/div[1]/p/a[3]
+[main] 2023-04-21 17:42:27 INFO  - Inside clickUsingJavaScript step:last
+[main] 2023-04-21 17:42:27 INFO  - Successfully clicked on Readme Link Button
+[main] 2023-04-21 17:42:27 INFO  - #[ Filename: demoInput ( sheet :Sheet1 ) on line no: 11 ]
+[main] 2023-04-21 17:42:29 INFO  -  Click Retry Cout: 0
+[main] 2023-04-21 17:42:29 INFO  - Inside the TRY of else block By.xpath: //*[@id="submit-file"]
+[main] 2023-04-21 17:42:32 INFO  - Inside clickUsingJavaScript step:last
+[main] 2023-04-21 17:42:32 INFO  - Successfully clicked on Commit button Button
+[main] 2023-04-21 17:42:32 INFO  - #[ Filename: demoInput ( sheet :Sheet1 ) on line no: 12 ]
+[main] 2023-04-21 17:42:42 WARN  - Waited for 10 seconds. Element is not Visible!
+[main] 2023-04-21 17:42:43 ERROR - Element is not visible : By.xpath: //*[@id="repo-content-turbo-frame"]/div/div/div[2]/div[1]/div[2]/details/div/ul/li[3]/form/button
+[main] 2023-04-21 17:42:43 ERROR - !!!Failure in demoInput ( sheet : Sheet1 ) on line no: 12
+[main] 2023-04-21 17:42:44 ERROR - ERROR : Element is not visible : By.xpath: //*[@id="repo-content-turbo-frame"]/div/div/div[2]/div[1]/div[2]/details/div/ul/li[3]/form/button
+[main] 2023-04-21 17:42:44 INFO  - Re-Triggering failed test cases is disabled
+[main] 2023-04-21 17:42:44 INFO  - Closing Browser
+[main] 2023-04-21 17:42:45 INFO  - End of execution
+[main] 2023-04-21 17:42:46 INFO  - This is the end of test case execution

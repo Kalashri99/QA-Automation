@@ -1,0 +1,24 @@
+[main] 2023-04-07 15:46:22 INFO  - #[ Filename: output ( sheet :Sheet1 ) on line no: 2 ]
+[main] 2023-04-07 15:46:50 INFO  - User have entered URL successfully : https://www.techgig.com/
+[main] 2023-04-07 15:46:50 INFO  - #[ Filename: output ( sheet :Sheet1 ) on line no: 3 ]
+[main] 2023-04-07 15:46:50 INFO  -  Click Retry Cout: 0
+[main] 2023-04-07 15:46:50 INFO  - Inside the TRY of else block By.xpath: //a[@value='Login / SignUp'] | //a[normalize-space()='Login / SignUp']
+[main] 2023-04-07 15:46:52 INFO  - Inside clickUsingJavaScript step:last
+[main] 2023-04-07 15:46:52 INFO  - Successfully clicked on Login / SignUp Button
+[main] 2023-04-07 15:46:52 INFO  - #[ Filename: output ( sheet :Sheet1 ) on line no: 4 ]
+[main] 2023-04-07 15:46:54 INFO  - Successfully entered text
+[main] 2023-04-07 15:46:54 INFO  - Entered daisy-input in Email field
+[main] 2023-04-07 15:46:54 INFO  - #[ Filename: output ( sheet :Sheet1 ) on line no: 5 ]
+[main] 2023-04-07 15:46:56 INFO  - Successfully entered text
+[main] 2023-04-07 15:46:56 INFO  - Entered Password Successfully
+[main] 2023-04-07 15:46:56 INFO  - #[ Filename: output ( sheet :Sheet1 ) on line no: 6 ]
+[main] 2023-04-07 15:46:56 INFO  -  Click Retry Cout: 0
+[main] 2023-04-07 15:46:56 INFO  - Inside the TRY of else block By.xpath: //input[@value='Log In'] | //input[normalize-space()='Log In']
+[main] 2023-04-07 15:46:57 INFO  - Inside clickUsingJavaScript step:last
+[main] 2023-04-07 15:46:57 INFO  - Successfully clicked on Log In Button
+[main] 2023-04-07 15:46:57 INFO  - Skipped by User - DemoSequenceExecution4
+[main] 2023-04-07 15:46:57 INFO  - Skipped by User - api-demos-MobileAutomation Nativeapp
+[main] 2023-04-07 15:46:57 INFO  - Re-Triggering failed test cases is disabled
+[main] 2023-04-07 15:46:57 INFO  - Closing Browser
+[main] 2023-04-07 15:46:58 INFO  - End of execution
+[main] 2023-04-07 15:46:58 INFO  - This is the end of test case execution

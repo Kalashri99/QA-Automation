@@ -1,0 +1,17 @@
+[main] 2023-04-21 16:19:41 INFO  - #[ Filename: HackerRank ( sheet :Sheet1 ) on line no: 2 ]
+[main] 2023-04-21 16:19:46 INFO  - User have entered URL successfully : https://www.hackerrank.com/auth/login
+[main] 2023-04-21 16:19:46 INFO  - #[ Filename: HackerRank ( sheet :Sheet1 ) on line no: 3 ]
+[main] 2023-04-21 16:19:48 INFO  - Successfully entered text
+[main] 2023-04-21 16:19:48 INFO  - Entered project.daisy.input@gmail.com in Your username or email field
+[main] 2023-04-21 16:19:48 INFO  - #[ Filename: HackerRank ( sheet :Sheet1 ) on line no: 4 ]
+[main] 2023-04-21 16:19:50 INFO  - Successfully entered text
+[main] 2023-04-21 16:19:50 INFO  - Entered Project@123 in Your password field
+[main] 2023-04-21 16:19:50 INFO  - #[ Filename: HackerRank ( sheet :Sheet1 ) on line no: 5 ]
+[main] 2023-04-21 16:19:50 INFO  -  Click Retry Cout: 0
+[main] 2023-04-21 16:19:50 INFO  - Inside the TRY of else block By.xpath: //button[@value='Log In'] | //button[normalize-space()='Log In']
+[main] 2023-04-21 16:19:50 INFO  - Inside clickUsingJavaScript step:last
+[main] 2023-04-21 16:19:50 INFO  - Successfully clicked on Log In Button
+[main] 2023-04-21 16:19:51 INFO  - Re-Triggering failed test cases is disabled
+[main] 2023-04-21 16:19:51 INFO  - Closing Browser
+[main] 2023-04-21 16:19:52 INFO  - End of execution
+[main] 2023-04-21 16:19:52 INFO  - This is the end of test case execution

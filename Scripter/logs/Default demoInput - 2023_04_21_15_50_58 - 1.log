@@ -1,0 +1,55 @@
+[main] 2023-04-21 15:50:58 INFO  - #[ Filename: demoInput ( sheet :Sheet1 ) on line no: 2 ]
+[main] 2023-04-21 15:51:02 INFO  - User have entered URL successfully : https://github.com/
+[main] 2023-04-21 15:51:02 INFO  - #[ Filename: demoInput ( sheet :Sheet1 ) on line no: 3 ]
+[main] 2023-04-21 15:51:03 INFO  -  Click Retry Cout: 0
+[main] 2023-04-21 15:51:03 INFO  - Inside the TRY of else block By.xpath: /html/body/div[1]/div[1]/header/div/div[2]/div/div/div[2]/a
+[main] 2023-04-21 15:51:03 INFO  - Inside clickUsingJavaScript step:last
+[main] 2023-04-21 15:51:03 INFO  - Successfully clicked on Sign In Button
+[main] 2023-04-21 15:51:03 INFO  - #[ Filename: demoInput ( sheet :Sheet1 ) on line no: 4 ]
+[main] 2023-04-21 15:51:06 INFO  - Successfully entered text
+[main] 2023-04-21 15:51:06 INFO  - Entered daisy-input in Username field
+[main] 2023-04-21 15:51:06 INFO  - #[ Filename: demoInput ( sheet :Sheet1 ) on line no: 5 ]
+[main] 2023-04-21 15:51:08 INFO  - Successfully entered text
+[main] 2023-04-21 15:51:08 INFO  - Entered Password Successfully
+[main] 2023-04-21 15:51:08 INFO  - #[ Filename: demoInput ( sheet :Sheet1 ) on line no: 6 ]
+[main] 2023-04-21 15:51:08 INFO  -  Click Retry Cout: 0
+[main] 2023-04-21 15:51:08 INFO  - Inside the TRY of else block By.name: commit
+[main] 2023-04-21 15:51:10 INFO  - Inside clickUsingJavaScript step:last
+[main] 2023-04-21 15:51:10 INFO  - Successfully clicked on Sign in Button
+[main] 2023-04-21 15:51:10 INFO  - #[ Filename: demoInput ( sheet :Sheet1 ) on line no: 7 ]
+[main] 2023-04-21 15:51:10 INFO  -  Click Retry Cout: 0
+[main] 2023-04-21 15:51:10 INFO  - Inside the TRY of else block By.xpath: /html/body/div[1]/div[6]/div/aside/div/loading-context/div/div[1]/div/h2/a
+[main] 2023-04-21 15:51:12 INFO  - Inside clickUsingJavaScript step:last
+[main] 2023-04-21 15:51:12 INFO  - Successfully clicked on Repository Button
+[main] 2023-04-21 15:51:12 INFO  - #[ Filename: demoInput ( sheet :Sheet1 ) on line no: 8 ]
+[main] 2023-04-21 15:51:14 INFO  - Successfully entered text
+[main] 2023-04-21 15:51:14 INFO  - Entered DaisyDemo8 in Repository Name field
+[main] 2023-04-21 15:51:14 INFO  - #[ Filename: demoInput ( sheet :Sheet1 ) on line no: 9 ]
+[main] 2023-04-21 15:51:14 INFO  -  Click Retry Cout: 0
+[main] 2023-04-21 15:51:14 INFO  - Inside the TRY of else block By.xpath: //*[@id="new_repository"]/div[5]/button
+[main] 2023-04-21 15:51:16 INFO  - Inside clickUsingJavaScript step:last
+[main] 2023-04-21 15:51:16 INFO  - Successfully clicked on Create repository Button
+[main] 2023-04-21 15:51:16 INFO  - #[ Filename: demoInput ( sheet :Sheet1 ) on line no: 10 ]
+[main] 2023-04-21 15:51:16 INFO  -  Click Retry Cout: 0
+[main] 2023-04-21 15:51:16 INFO  - Inside the TRY of else block By.xpath: //*[@id="repo-content-pjax-container"]/div/git-clone-help/div[1]/p/a[3]
+[main] 2023-04-21 15:51:17 INFO  - Inside clickUsingJavaScript step:last
+[main] 2023-04-21 15:51:17 INFO  - Successfully clicked on Readme Link Button
+[main] 2023-04-21 15:51:17 INFO  - #[ Filename: demoInput ( sheet :Sheet1 ) on line no: 11 ]
+[main] 2023-04-21 15:51:18 INFO  -  Click Retry Cout: 0
+[main] 2023-04-21 15:51:18 INFO  - Inside the TRY of else block By.xpath: //*[@id="submit-file"]
+[main] 2023-04-21 15:51:20 INFO  - Inside clickUsingJavaScript step:last
+[main] 2023-04-21 15:51:20 INFO  - Successfully clicked on Commit button Button
+[main] 2023-04-21 15:51:20 INFO  - #[ Filename: demoInput ( sheet :Sheet1 ) on line no: 12 ]
+[main] 2023-04-21 15:51:20 INFO  -  Click Retry Cout: 0
+[main] 2023-04-21 15:51:20 INFO  - Inside the TRY of else block By.xpath: //*[@id="repo-content-pjax-container"]/div/div/div[2]/div[1]/div[2]/details/summary
+[main] 2023-04-21 15:51:21 INFO  - Inside clickUsingJavaScript step:last
+[main] 2023-04-21 15:51:21 INFO  - Successfully clicked on Adding file Button
+[main] 2023-04-21 15:51:21 INFO  - #[ Filename: demoInput ( sheet :Sheet1 ) on line no: 13 ]
+[main] 2023-04-21 15:51:31 WARN  - Waited for 10 seconds. Element is not Visible!
+[main] 2023-04-21 15:51:32 ERROR - Element is not visible : By.xpath: //*[@id="repo-content-pjax-container"]/div/div/div[3]/div[1]/div[2]/details/div/ul/li[3]/form/button
+[main] 2023-04-21 15:51:32 ERROR - !!!Failure in demoInput ( sheet : Sheet1 ) on line no: 13
+[main] 2023-04-21 15:51:32 ERROR - ERROR : Element is not visible : By.xpath: //*[@id="repo-content-pjax-container"]/div/div/div[3]/div[1]/div[2]/details/div/ul/li[3]/form/button
+[main] 2023-04-21 15:51:32 INFO  - Re-Triggering failed test cases is disabled
+[main] 2023-04-21 15:51:32 INFO  - Closing Browser
+[main] 2023-04-21 15:51:34 INFO  - End of execution
+[main] 2023-04-21 15:51:34 INFO  - This is the end of test case execution

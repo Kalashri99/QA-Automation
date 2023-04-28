@@ -1,0 +1,36 @@
+[main] 2023-04-21 16:00:21 INFO  - #[ Filename: demoInput ( sheet :Sheet1 ) on line no: 2 ]
+[main] 2023-04-21 16:00:26 INFO  - User have entered URL successfully : https://github.com/
+[main] 2023-04-21 16:00:26 INFO  - #[ Filename: demoInput ( sheet :Sheet1 ) on line no: 3 ]
+[main] 2023-04-21 16:00:26 INFO  -  Click Retry Cout: 0
+[main] 2023-04-21 16:00:26 INFO  - Inside the TRY of else block By.xpath: /html/body/div[1]/div[1]/header/div/div[2]/div/div/div[2]/a
+[main] 2023-04-21 16:00:26 INFO  - Inside clickUsingJavaScript step:last
+[main] 2023-04-21 16:00:26 INFO  - Successfully clicked on Sign In Button
+[main] 2023-04-21 16:00:26 INFO  - #[ Filename: demoInput ( sheet :Sheet1 ) on line no: 4 ]
+[main] 2023-04-21 16:00:30 INFO  - Successfully entered text
+[main] 2023-04-21 16:00:30 INFO  - Entered daisy-input in Username field
+[main] 2023-04-21 16:00:30 INFO  - #[ Filename: demoInput ( sheet :Sheet1 ) on line no: 5 ]
+[main] 2023-04-21 16:00:32 INFO  - Successfully entered text
+[main] 2023-04-21 16:00:32 INFO  - Entered Password Successfully
+[main] 2023-04-21 16:00:32 INFO  - #[ Filename: demoInput ( sheet :Sheet1 ) on line no: 6 ]
+[main] 2023-04-21 16:00:32 INFO  -  Click Retry Cout: 0
+[main] 2023-04-21 16:00:32 INFO  - Inside the TRY of else block By.name: commit
+[main] 2023-04-21 16:00:35 INFO  - Inside clickUsingJavaScript step:last
+[main] 2023-04-21 16:00:35 INFO  - Successfully clicked on Sign in Button
+[main] 2023-04-21 16:00:35 INFO  - #[ Filename: demoInput ( sheet :Sheet1 ) on line no: 7 ]
+[main] 2023-04-21 16:00:35 INFO  -  Click Retry Cout: 0
+[main] 2023-04-21 16:00:35 INFO  - Inside the TRY of else block By.xpath: /html/body/div[1]/div[6]/div/aside/div/loading-context/div/div[1]/div/h2/a
+[main] 2023-04-21 16:00:36 INFO  - Inside clickUsingJavaScript step:last
+[main] 2023-04-21 16:00:36 INFO  - Successfully clicked on Repository Button
+[main] 2023-04-21 16:00:36 INFO  - #[ Filename: demoInput ( sheet :Sheet1 ) on line no: 8 ]
+[main] 2023-04-21 16:00:38 INFO  - Successfully entered text
+[main] 2023-04-21 16:00:38 INFO  - Entered DaisyDemo3 in Repository Name field
+[main] 2023-04-21 16:00:38 INFO  - #[ Filename: demoInput ( sheet :Sheet1 ) on line no: 9 ]
+[main] 2023-04-21 16:00:39 INFO  -  Click Retry Cout: 0
+[main] 2023-04-21 16:00:49 ERROR - Element is not clickable : By.xpath: //*[@id="new_repository"]/div[5]/button
+[main] 2023-04-21 16:00:51 ERROR - Element is not clickable : By.xpath: //*[@id="new_repository"]/div[5]/button
+[main] 2023-04-21 16:00:51 ERROR - !!!Failure in demoInput ( sheet : Sheet1 ) on line no: 9
+[main] 2023-04-21 16:00:51 ERROR - ERROR : Element is not clickable : By.xpath: //*[@id="new_repository"]/div[5]/button
+[main] 2023-04-21 16:00:51 INFO  - Re-Triggering failed test cases is disabled
+[main] 2023-04-21 16:00:51 INFO  - Closing Browser
+[main] 2023-04-21 16:00:53 INFO  - End of execution
+[main] 2023-04-21 16:00:54 INFO  - This is the end of test case execution

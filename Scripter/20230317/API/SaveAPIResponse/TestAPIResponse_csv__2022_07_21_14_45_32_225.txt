@@ -1,0 +1,2 @@
+/totalSize,/done,/records/Id,/records/Name,/records/BillingCity,/records/attributes/type,/records/attributes/url
+1.0,true, 0015g000005X2DIAA0 , PSL ,, Account , /services/data/v55.0/sobjects/Account/0015g000005X2DIAA0 

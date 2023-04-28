@@ -1,0 +1,8 @@
+<Configuration>
+	<Default>
+		<ScriptDir>.</ScriptDir>
+		<DataDir>.</DataDir>
+		<ConfigDir>.\\config</ConfigDir>
+		<FileUploadDir>.</FileUploadDir>
+	</Default>	
+</Configuration>

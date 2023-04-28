@@ -1,0 +1,20 @@
+[main] 2023-02-24 00:05:56 INFO  - #[ Filename: demoOutput ( sheet :Sheet1 ) on line no: 2 ]
+[main] 2023-02-24 00:05:57 INFO  - User have entered URL successfully : https://github.com/
+[main] 2023-02-24 00:05:57 INFO  - #[ Filename: demoOutput ( sheet :Sheet1 ) on line no: 3 ]
+[main] 2023-02-24 00:05:58 INFO  -  Click Retry Cout: 0
+[main] 2023-02-24 00:05:58 INFO  - Inside the TRY of else block By.xpath: /html/body/div[1]/div[1]/header/div/div[2]/div/div/div[2]/a
+[main] 2023-02-24 00:05:58 INFO  - Inside clickUsingJavaScript step:last
+[main] 2023-02-24 00:05:58 INFO  - Successfully clicked on Sign In Button
+[main] 2023-02-24 00:05:58 INFO  - #[ Filename: demoOutput ( sheet :Sheet1 ) on line no: 4 ]
+[main] 2023-02-24 00:06:01 WARN  - Error: element expectionno such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=110.0.1587.50)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HJ-INSINS15418', ip: '10.53.96.208', os.name: 'Windows NT (unknown)', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_92'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 110.0.1587.50, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:57605}, msedge: {msedgedriverVersion: 110.0.1587.50 (05bf83b2e806..., userDataDir: C:\Users\NITIN_~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 38cb2e8c0ba570b4a814c31847948c4b
+*** Element info: {Using=id, value=login_field}
+[main] 2023-02-24 00:06:01 INFO  - Successfully entered text
+[main] 2023-02-24 00:06:01 INFO  - Entered daisy-input in Username field
+[main] 2023-02-24 00:06:01 INFO  - #[ Filename: demoOutput ( sheet :Sheet1 ) on line no: 5 ]

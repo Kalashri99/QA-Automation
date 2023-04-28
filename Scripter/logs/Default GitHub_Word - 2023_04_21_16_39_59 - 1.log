@@ -1,0 +1,27 @@
+[main] 2023-04-21 16:39:59 INFO  - #[ Filename: GitHub_Word ( sheet :Sheet1 ) on line no: 2 ]
+[main] 2023-04-21 16:40:04 INFO  - User have entered URL successfully : https://github.com/
+[main] 2023-04-21 16:40:04 INFO  - #[ Filename: GitHub_Word ( sheet :Sheet1 ) on line no: 3 ]
+[main] 2023-04-21 16:40:06 INFO  -  Click Retry Cout: 0
+[main] 2023-04-21 16:40:06 INFO  - Inside the TRY of else block By.xpath: /html/body/div[1]/div[1]/header/div/div[2]/div/div/div[2]/a
+[main] 2023-04-21 16:40:06 INFO  - Inside clickUsingJavaScript step:last
+[main] 2023-04-21 16:40:06 INFO  - Successfully clicked on Sign In Button
+[main] 2023-04-21 16:40:06 INFO  - #[ Filename: GitHub_Word ( sheet :Sheet1 ) on line no: 4 ]
+[main] 2023-04-21 16:40:09 INFO  - Successfully entered text
+[main] 2023-04-21 16:40:09 INFO  - Entered daisy-input in Username field
+[main] 2023-04-21 16:40:09 INFO  - #[ Filename: GitHub_Word ( sheet :Sheet1 ) on line no: 5 ]
+[main] 2023-04-21 16:40:11 INFO  - Successfully entered text
+[main] 2023-04-21 16:40:11 INFO  - Entered Password Successfully
+[main] 2023-04-21 16:40:11 INFO  - #[ Filename: GitHub_Word ( sheet :Sheet1 ) on line no: 6 ]
+[main] 2023-04-21 16:40:11 INFO  -  Click Retry Cout: 0
+[main] 2023-04-21 16:40:11 INFO  - Inside the TRY of else block By.name: commit
+[main] 2023-04-21 16:40:13 INFO  - Inside clickUsingJavaScript step:last
+[main] 2023-04-21 16:40:13 INFO  - Successfully clicked on Sign in Button
+[main] 2023-04-21 16:40:13 INFO  - #[ Filename: GitHub_Word ( sheet :Sheet1 ) on line no: 7 ]
+[main] 2023-04-21 16:40:24 WARN  - Waited for 10 seconds. Element is not Visible!
+[main] 2023-04-21 16:40:28 ERROR - Element is not visible : By.xpath: /html/body/div[1]/div[5]/div/aside/div/loading-context/div/div[1]/div/h2/a
+[main] 2023-04-21 16:40:28 ERROR - !!!Failure in GitHub_Word ( sheet : Sheet1 ) on line no: 7
+[main] 2023-04-21 16:40:29 ERROR - ERROR : Element is not visible : By.xpath: /html/body/div[1]/div[5]/div/aside/div/loading-context/div/div[1]/div/h2/a
+[main] 2023-04-21 16:40:29 INFO  - Re-Triggering failed test cases is disabled
+[main] 2023-04-21 16:40:29 INFO  - Closing Browser
+[main] 2023-04-21 16:40:30 INFO  - End of execution
+[main] 2023-04-21 16:40:31 INFO  - This is the end of test case execution

@@ -1,0 +1,17 @@
+[main] 2023-03-31 10:43:12 INFO  - >>>Failed  in output ( sheet :Sheet1 ) on line no: 1
+[main] 2023-03-31 10:43:12 INFO  - #[ Filename: output ( sheet :Sheet1 ) on line no: 2 ]
+[main] 2023-03-31 10:43:15 INFO  - User have entered URL successfully : https://github.com
+[main] 2023-03-31 10:43:15 INFO  - #[ Filename: output ( sheet :Sheet1 ) on line no: 3 ]
+[main] 2023-03-31 10:43:15 INFO  - ClickJS is not supported for Mobile platform. Kindly use Button or ButtonClick. Refer Daisy documenation for more details
+[main] 2023-03-31 10:43:15 INFO  - >>>Failed  in output ( sheet :Sheet1 ) on line no: 3
+[main] 2023-03-31 10:43:15 INFO  - #[ Filename: output ( sheet :Sheet1 ) on line no: 4 ]
+[main] 2023-03-31 10:43:25 WARN  - Waited for 10 seconds. Element is not Visible!
+[main] 2023-03-31 10:43:40 WARN  - Error in for loop: Element is not visible : By.xpath: //label[@placeholder='Username or email address'] | //label[contains(normalize-space(),'Username or email address')]/following::input[@type='text' or @type='password'][1]
+[main] 2023-03-31 10:43:40 ERROR - !!!Failure in output ( sheet : Sheet1 ) (Iteration : 0 ) on line no: 5
+[main] 2023-03-31 10:43:40 ERROR - ERROR : Element is not visible : By.xpath: //label[@placeholder='Username or email address'] | //label[contains(normalize-space(),'Username or email address')]/following::input[@type='text' or @type='password'][1]
+[main] 2023-03-31 10:43:40 INFO  - Skipped by User - DemoSequenceExecution4
+[main] 2023-03-31 10:43:40 INFO  - Skipped by User - api-demos-MobileAutomation Nativeapp
+[main] 2023-03-31 10:43:40 INFO  - Re-Triggering failed test cases is disabled
+[main] 2023-03-31 10:43:40 INFO  - Closing Browser
+[main] 2023-03-31 10:43:41 INFO  - End of execution
+[main] 2023-03-31 10:43:41 INFO  - This is the end of test case execution

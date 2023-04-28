@@ -1,0 +1,2145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Header>
+
+	<Import>	
+		<![CDATA[package com.persistent.daisy.gen;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;	
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.Dimension;
+import org.openqa.selenium.JavascriptExecutor;
+import java.util.List;
+import java.util.ArrayList;
+import java.util.Map;
+import java.util.HashMap;
+import org.testng.annotations.Test;
+import com.persistent.daisy.core.browser.SeleniumUtils;
+		]]>
+	</Import>
+	
+	<TestNg>
+	<![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite" parallel="methods" thread-count="${thread-count}">	
+	<test name="Test">		
+		<classes>${classes}</classes>
+	</test>
+</suite>
+	]]>
+	</TestNg>
+	
+	<TestUtility>
+	<![CDATA[package com.persistent.daisy.gen;
+
+import java.io.File;
+import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.net.URLClassLoader;
+import java.util.Enumeration;
+import java.util.jar.JarEntry;
+import java.util.jar.JarFile;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.htmlunit.HtmlUnitDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.DataProvider;
+
+import com.persistent.daisy.base.Logs;
+import com.persistent.daisy.base.Report;
+import com.persistent.daisy.base.Configurations;
+import com.persistent.daisy.core.browser.SeleniumUtils;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+//import com.persistent.daisy.core.browser.SeleniumUtilIntf;
+
+public class TestUtility {
+
+	static {
+		System.setProperty("config", "Default");
+		System.setProperty("is_running_extractedcode", "true");
+		Configurations.getInstance().initialize();		
+	}
+
+	private SeleniumUtils createExecutor() {
+		SeleniumUtils ex1 = new SeleniumUtils();
+
+		String target = Configurations.getInstance().getAttribute("target");
+		String browser = Configurations.getInstance().getAttribute("browser");
+		int timeout = Configurations.getInstance().getAttributeInt("timeout");
+		String platform = Configurations.getInstance().getAttribute("platform");
+		String saucelabsUser = Configurations.getInstance().getAttribute("saucelabs_user");
+		String sauceLabsAccessKey = Configurations.getInstance().getAttribute("saucelabs_access_key");
+		String browserVersion = Configurations.getInstance().getAttribute("browserVersion");
+
+		if (target.equalsIgnoreCase("saucelabs")) {
+			ex1.setSauceLabsBrowser(browser, timeout, platform, saucelabsUser, sauceLabsAccessKey, browserVersion);
+		} else if (target.equalsIgnoreCase("remote")) {
+			ex1.setRemoteBrowser(browser, timeout, platform);
+		} else {
+			ex1.setBrowser(browser, timeout);
+		}
+
+		return ex1;
+	}
+
+// In case you want to remove SeleniumUtils from extraction just uncomment this code and use.
+//	public WebDriver getDriver(String browser) {
+//
+//		if (browser.equalsIgnoreCase("IE")) {
+//			WebDriverManager.iedriver().setup();
+//			return new InternetExplorerDriver();
+//		} else if (browser.equalsIgnoreCase("CHROME")) {
+//			WebDriverManager.chromedriver().setup();
+//			return new ChromeDriver();
+//		} else if (browser.equalsIgnoreCase("EDGE")) {
+//			WebDriverManager.edgedriver().setup();
+//			return new EdgeDriver();
+//		} else if (browser.equalsIgnoreCase("HTMLUNIT")) {
+//			return new HtmlUnitDriver();
+//		} else {
+//			WebDriverManager.firefoxdriver().setup();
+//			return new FirefoxDriver();
+//		}
+//	}
+
+	@DataProvider(name = "getDrivers")
+	public Object[][] getDrivers() {
+
+		SeleniumUtils utils = createExecutor();
+
+		String filename = this.getClass().getSimpleName();		
+		Logs.getLog().setScriptName(filename);   
+		Report.getReport().logTestName(filename);
+		
+//		In case you want to remove SeleniumUtils from extraction just uncomment this code and change accordingly.
+//		WebDriver driver = getDriver("CHROME");
+//		WebDriverWait wait = new WebDriverWait(driver, 100);
+//		Actions actions = new Actions(driver);
+
+		return new Object[][] { { utils } };
+	}
+
+}
+	]]>
+	</TestUtility>
+	<Setup>
+		<![CDATA[
+public class DaisyEntry {
+	
+	public static WebDriver driver;
+	public static WebDriverWait wait;
+	public static Actions actions;
+	
+	public static WebDriver getDriver() {
+		return driver;
+	}
+
+	public static void setDriver(WebDriver driver) {
+		DaisyEntry.driver = driver;
+	}
+
+	public static WebDriverWait getWait() {
+		return wait;
+	}
+
+	public static void setWait(WebDriverWait wait) {
+		DaisyEntry.wait = wait;
+	}
+
+	public static Actions getActions() {
+		return actions;
+	}
+
+	public static void setActions(Actions actions) {
+		DaisyEntry.actions = actions;
+	}
+	
+	public static void setup() {
+		//String strDriverPath= System.getProperty("user.dir").replace("\\src\\com\\persistent\\daisy\\gen", "");
+		System.setProperty("webdriver.chrome.driver", ".\\drivers\\chromedriver.exe");
+        WebDriver driver = new ChromeDriver();
+        setDriver(driver);
+      	WebDriverWait wait = new WebDriverWait(driver, 100); 
+        setWait(wait);
+        Actions actions = new Actions(driver);
+        setActions(actions);
+   }
+		]]>
+	</Setup>
+	
+	<TestSuite>
+		<![CDATA[
+	public static void testSuite() {
+		[#${}#]		
+	}
+		]]>
+	</TestSuite>
+	
+	<Main>
+		<![CDATA[
+	public static void main(String[] args){
+		setup();
+		ResourceManager.readProperty();
+		testSuite();
+	}
+}
+		]]>
+	</Main>
+	
+		<wrapp>
+		<![CDATA[package com.persistent.daisy.gen;
+
+import java.awt.AWTException;
+import java.awt.Rectangle;
+import java.awt.Robot;
+import java.awt.Toolkit;
+import java.awt.event.KeyEvent;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Properties;
+
+import javax.imageio.ImageIO;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import com.persistent.daisy.core.browser.SeleniumUtils;
+
+public class Wrap {
+
+	public Map<String, String> variableMap = new HashMap<String, String>();
+	public boolean flagForVerify;
+
+	// We haven't stored driver and wait for easy access because driver instance may
+	// change with time, due to OpenNewWindow
+	private SeleniumUtils utils;
+
+	public Wrap(SeleniumUtils utils) {
+		this.utils = utils;
+	}
+
+	public void click(WebElement element) {
+		element.click();
+	}
+
+	public WebDriverWait getWebDriverWaitFor(int seconds) {
+		WebDriver driver = utils.getDriver();
+
+		return new WebDriverWait(driver, seconds);
+	}
+
+	public void setValues(WebElement element, String str, String... arg) {
+		JavascriptExecutor jsExecutor = (JavascriptExecutor) utils.getDriver();
+
+		element.clear();
+		element.sendKeys(str);
+
+		if (arg.length == 0)
+			element.sendKeys(Keys.UP);
+		else {
+			jsExecutor.executeScript("arguments[0].blur();", element);
+		}
+	}
+
+	public void waitToLoad(int timeout) {
+		try {
+			Thread.sleep(timeout);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	public void waitForPageLoaded() {
+		WebDriver driver = utils.getDriver();
+		WebDriverWait wait = utils.getWait();
+
+		ExpectedCondition<Boolean> page = new ExpectedCondition<Boolean>() {
+			public Boolean apply(WebDriver input) {
+				return ((JavascriptExecutor) driver).executeScript("return document.readyState").toString()
+						.equals("complete");
+			}
+		};
+		wait.until(page);
+	}
+
+	public int ordinalIndexOf(String str, String substr, int n) {
+		int pos = str.indexOf(substr);
+		while (--n > 0 && pos != -1)
+			pos = str.indexOf(substr, pos + 1);
+		return pos;
+	}
+
+	public void writeKey(String data, String value, By locator) {
+		WebDriver driver = utils.getDriver();
+
+		String vart = null;
+		String option = "";
+
+		try {
+			// data = filename.keyname
+			// value = value to store in key
+
+			// For taking value from given xpath
+			if (locator != null) { // if locator type is not given
+				value = driver.findElement(locator).getText();
+			}
+
+			// For taking variable
+			if (value.contains("${Var.")) {
+				int index = value.indexOf("${Var.");
+				int index2 = value.indexOf("}");
+				vart = value.substring(index + 6, index2);
+				value = variableMap.get(vart);
+			}
+
+			// For checking append or removekey condition
+			if (data.contains(";")) {
+				option = data.split(";")[1];
+				data = data.split(";")[0];
+			}
+
+			if (value == null || value.trim().equalsIgnoreCase("null") || value.trim().equals("")) {
+				System.out.println("WriteKey Locator Value is missing");
+
+				if (!option.equalsIgnoreCase("removekey")) {
+					System.out.println("Value of " + data + " does not exist");
+					value = "null";
+				}
+			}
+
+			String fileName = data.split("\\.")[0];
+			String keyName = data.split("\\.")[1];
+
+			String p = System.getProperty("user.dir") + File.separator + "programdata" + File.separator;
+			File dir = new File(p);
+			dir.mkdirs();
+
+			String path = p + fileName + ".dat";
+			File newFile = new File(path);
+			Properties props = new Properties();
+
+			if (newFile.createNewFile() && !option.equalsIgnoreCase("removekey")) {
+				System.out
+						.println("File created: " + newFile.getName() + " with Key: " + keyName + ", Value: " + value);
+				props.setProperty(keyName, value);
+				FileOutputStream out = new FileOutputStream(path);
+				props.store(out, null);
+				out.close();
+			} else {
+				FileInputStream in = new FileInputStream(newFile);
+				props.load(in);
+				in.close();
+				// Condition for removing key
+				if (option.equalsIgnoreCase("removekey") && props.containsKey(keyName)) {
+					System.out.println("Removing Key : " + keyName + " with value: " + props.getProperty(keyName)
+							+ ", from file: " + newFile.getName());
+					props.remove(keyName);
+					FileOutputStream out = new FileOutputStream(path);
+					props.store(out, null);
+					out.close();
+				}
+				// Trying to rempve key which is not in file
+				else if (option.equalsIgnoreCase("removekey") && !props.containsKey(keyName)) {
+					System.out.println("No key with keyname : " + keyName + "in file: " + newFile.getName());
+				}
+				// Extra condition to append in list format if append is provided in option
+				else if (option.equalsIgnoreCase("append") && props.containsKey(keyName)) {
+					String oldValue = props.getProperty(keyName);
+					String newValue = "";
+					if (oldValue.contains("[") && oldValue.contains("]")) {
+						int index = oldValue.indexOf("]");
+						newValue = oldValue.substring(0, index) + "," + value + "]";
+					} else {
+						newValue = "[" + oldValue + "," + value + "]";
+					}
+					props.setProperty(keyName, newValue);
+					System.out.println(
+							"Appending value : " + value + " in key: " + keyName + ", from file: " + newFile.getName());
+					FileOutputStream out = new FileOutputStream(path);
+					props.store(out, null);
+					out.close();
+				} else if (props.containsKey(keyName)) {
+					System.out.println("Key already exists. Replacing key's value in file: " + newFile.getName()
+							+ " with Key: " + keyName + ", Value: " + value);
+					props.setProperty(keyName, value);
+					FileOutputStream out = new FileOutputStream(path);
+					props.store(out, null);
+					out.close();
+				} else {
+					props.clear();
+					System.out.println("File already exists. Appending to file: " + newFile.getName() + " with Key: "
+							+ keyName + ", Value: " + value);
+					props.setProperty(keyName, value);
+					FileOutputStream out = new FileOutputStream(path, true);
+					props.store(out, null);
+					out.close();
+				}
+			}
+		} catch (Exception e) {
+			// if variable doesn't exist
+			if (!variableMap.containsKey(vart)) {
+				System.out.println("Variable " + vart + "does not exist");
+			} else if (value == null) {
+				System.out.println("Value of" + vart + "does not exist");
+			} else {
+				System.out.println("Exception occured in WriteKey");
+			}
+		}
+	}
+
+	public void readKey(String data, By locator) {
+		WebDriver driver = utils.getDriver();
+
+		String option = "";
+		String fileName = "";
+
+		try {
+			// data = filename.keyname or filename.keyname;Iterate
+			String value = "";
+
+			// Condition for checking Iterate or SearchKey
+			if (data.contains(";")) {
+				option = data.split(";")[1];
+				data = data.split(";")[0];
+			}
+
+			fileName = data.split("\\.")[0];
+			String keyName = data.split("\\.")[1];
+
+			String path = System.getProperty("user.dir") + File.separator + "ProgramData" + File.separator + fileName
+					+ ".dat";
+			File newFile = new File(path);
+			FileInputStream in = new FileInputStream(newFile);
+			Properties props = new Properties();
+
+			if (newFile.exists()) {
+				props.load(in);
+				// Search for given key and returns if value exists
+				if (option.equalsIgnoreCase("searchkey") && props.containsKey(keyName)) {
+					String expected_value = "";
+
+					if (locator != null) { // if locator type is not given
+						expected_value = driver.findElement(locator).getText();
+					}
+
+					value = props.getProperty(keyName);
+					if (value.contains("[")) { // i.e given is list
+						value = value.substring(1, value.length() - 1);
+						for (String each : value.split(",")) {
+							if (each.equals(expected_value)) {
+								value = each;
+								break;
+							}
+						}
+					}
+
+					if (value.equals(expected_value)) { // else only put key if its same as expected
+						variableMap.put(keyName, value);
+						System.out.println("Read file: " + newFile.getName() + " and search Key: " + keyName
+								+ ", Expected Value: " + expected_value + " Actual Value: " + value);
+					} else {
+						System.out.println("Read file: " + newFile.getName() + " and search Key: " + keyName
+								+ ", Expected Value: " + expected_value + " Not Found");
+					}
+				}
+				// Extra Condition if user want to retreive value one by one in forloop
+				else if (option.equalsIgnoreCase("Iterate") && props.containsKey(keyName)
+						&& props.getProperty(keyName).contains("[")) {
+					int index = Integer.parseInt(variableMap.getOrDefault(keyName + "_index_", "0"));
+					value = props.getProperty(keyName);
+					if (index == 0) {
+						variableMap.put(keyName, value.substring(1, ordinalIndexOf(value, ",", 1)));
+					} else {
+						int startIndex = ordinalIndexOf(value, ",", index);
+						int endIndex = ordinalIndexOf(value, ",", index + 1);
+						if (endIndex == -1)
+							endIndex = value.length() - 1;
+						variableMap.put(keyName, value.substring(startIndex + 1, endIndex));
+					}
+					System.out.println(
+							"Read file: " + newFile.getName() + " and stored Key: " + keyName + ", Iterating Value: "
+									+ variableMap.get(keyName) + " into Variable: " + "${Var." + keyName + "}");
+					variableMap.put(keyName + "_index_", String.valueOf(index + 1));
+				} else if (props.containsKey(keyName)) {
+					value = props.getProperty(keyName);
+					variableMap.put(keyName, value);
+					System.out.println("Read file: " + newFile.getName() + " and stored Key: " + keyName + ", Value: "
+							+ value + " into Variable: " + "${Var." + keyName + "}");
+				} else {
+					System.out.println("Key: " + keyName + " does not exist in file: " + newFile.getName());
+				}
+			} else {
+				System.out.println("File to be read does not exist: " + fileName + ".dat");
+			}
+
+			in.close();
+		} catch (FileNotFoundException e) {
+			System.out.println("File to be read does not exist: " + fileName + ".dat");
+		} catch (Exception e) {
+			System.out.println("Wrong value entered for ReadKey");
+		}
+
+	}
+
+	public void deleteFile(String data) {
+
+		try {
+			String fileName = data; // filename
+			String path = System.getProperty("user.dir") + File.separator + "ProgramData" + File.separator + fileName
+					+ ".dat";
+			File newFile = new File(path);
+
+			if (newFile.exists()) {
+				newFile.delete();
+				System.out.println("File deleted: " + fileName + ".dat");
+			} else {
+				System.out.println("File to be deleted does not exist: " + fileName + ".dat");
+			}
+		} catch (Exception e) {
+			System.out.println("Wrong value entered for DeleteFile");
+		}
+	}
+
+	public Boolean verifyValues(String actual, String expected, String msg) {
+
+		try {
+			if (actual.contains("${Var.")) {
+				flagForVerify = false;
+				return flagForVerify;
+			} else if (expected.equals("IfNull")) {
+				if (actual.isEmpty() || actual == null) {
+					flagForVerify = true;
+				} else {
+					System.out.println(msg);
+					flagForVerify = false;
+				}
+
+			} else if (expected.equals("IfNotNull")) {
+				if (actual.isEmpty() || actual == null) {
+					System.out.println(msg);
+					flagForVerify = false;
+				} else {
+					flagForVerify = true;
+				}
+
+			} else {
+
+				if (actual.equals(expected)) {
+					flagForVerify = true;
+				} else {
+					System.out.println(msg);
+					flagForVerify = false;
+				}
+			}
+
+		} catch (Exception e) {
+			System.out.println("[log] Wrong value entered for verifyValues");
+		}
+
+		return flagForVerify;
+	}
+
+	public void downloadPDF(String... typeOfElement) {
+		WebDriver driver = utils.getDriver();
+		Robot robot = null;
+
+		if (typeOfElement.length == 1 && !typeOfElement[0].equals("")) {
+			String fileAddress = "";
+			if (typeOfElement[0].equalsIgnoreCase("iframe")) {
+				WebElement downloadIcon = driver.findElement(By.tagName("iframe"));
+				fileAddress = downloadIcon.getAttribute("src");
+			} else if (typeOfElement[0].equalsIgnoreCase("embed")) {
+				WebElement downloadIcon = driver.findElement(By.tagName("embed"));
+				fileAddress = downloadIcon.getAttribute("src");
+			} else if (typeOfElement[0].equalsIgnoreCase("object")) {
+				WebElement downloadIcon = driver.findElement(By.tagName("object"));
+				fileAddress = downloadIcon.getAttribute("data");
+			}
+			driver.get(fileAddress);
+		}
+
+		try {
+			robot = new Robot();
+		} catch (AWTException e) {
+			System.out.println(e.getMessage());
+			return;
+		}
+
+		try {
+			Thread.sleep(1000);
+			robot.keyPress(KeyEvent.VK_CONTROL);
+			robot.keyPress(KeyEvent.VK_S);
+			robot.keyRelease(KeyEvent.VK_S);
+			robot.keyRelease(KeyEvent.VK_CONTROL);
+			Thread.sleep(10000);
+			robot.keyPress(KeyEvent.VK_ENTER);
+			robot.keyRelease(KeyEvent.VK_ENTER);
+			Thread.sleep(1000);
+
+			// for navigating back to original page
+			if (typeOfElement.length == 1 && !typeOfElement[0].equals("")) {
+				driver.navigate().back();
+				waitForPageLoaded();
+			}
+
+			System.out.println("PDF file saved..");
+		} catch (InterruptedException e) {
+			System.out.println(e.getMessage());
+			System.out.println("PDF file not saved..");
+		}
+	}
+
+	public void PRINTSCREEN() {
+
+		try {
+			Thread.sleep(120);
+			Robot r = new Robot();
+
+			Calendar calendar = Calendar.getInstance();
+			SimpleDateFormat formater = new SimpleDateFormat("dd_MM_yyyy_hh_mm_ss");
+
+			File dir = new File(System.getProperty("user.dir") + File.separator + "Screenshots");
+			dir.mkdirs();
+
+			String filename = "Screenshot_" + formater.format(calendar.getTime()) + ".jpg";
+			File file = new File(dir, filename);
+
+			Rectangle capture = new Rectangle(Toolkit.getDefaultToolkit().getScreenSize());
+			BufferedImage Image = r.createScreenCapture(capture);
+			ImageIO.write(Image, "jpg", file);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+}
+		]]>
+	</wrapp>
+
+	
+	<ResourceManager>
+		<![CDATA[package com.persistent.daisy.gen;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.LinkedHashMap;
+import java.util.Map;
+import java.util.Properties;
+
+public class ResourceManager {
+	private static Properties properties = new Properties();
+	private static FileInputStream input = null;
+	private static Map<String, String> map = new LinkedHashMap<String, String>();
+
+	public static void setValue(String key, String value) {
+		map.put(key, value);
+	}
+
+	public static String getValue(String key) {
+		return map.get(key);
+	}
+
+	static {
+		readProperty();
+	}
+
+	public static Properties readProperty() {
+		try {
+			String path = System.getProperty("user.dir");
+			if (path == null) path = ".";
+
+			String file_location = path + File.separator + "config" + File.separator + "HardcodedValues.properties";
+
+			input = new FileInputStream(file_location);
+			properties.load(input);
+
+			for (String key : properties.stringPropertyNames()) {
+				String value = properties.getProperty(key);
+				setValue(key, value);
+			}
+
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+
+		return properties;
+	}
+}
+		]]>
+	</ResourceManager>
+	
+	<DaisyUtilityMain>
+		<![CDATA[package com.persistent.daisy.gen;
+		
+import com.persistent.daisy.core.browser.BrowserConfig;
+import java.awt.AWTException;
+import java.awt.Rectangle;
+import java.awt.Robot;
+import java.awt.Toolkit;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+import javax.imageio.ImageIO;
+import org.apache.pdfbox.pdmodel.PDDocument;
+import org.apache.pdfbox.text.PDFTextStripper;
+import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.Point;
+import org.openqa.selenium.TimeoutException;
+import org.openqa.selenium.WebDriverException;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
+import org.testng.Assert;
+import com.persistent.daisy.base.DynamicGenericXpath;
+import com.persistent.daisy.base.Report;
+import com.persistent.daisy.base.Utility;
+import com.persistent.daisy.command.StringCmd;
+import com.persistent.daisy.core.ActionData;
+import com.persistent.daisy.core.CustomException;
+import com.persistent.daisy.core.Executor;
+import com.persistent.daisy.core.ExtLoader;
+import com.sun.glass.events.KeyEvent;
+import atu.testrecorder.exceptions.ATUTestRecorderException;
+import org.openqa.selenium.StaleElementReferenceException;
+import atu.testrecorder.ATUTestRecorder;
+import org.testng.util.Strings;
+
+public class DaisyUtility extends BrowserConfig{
+	
+	private enum Locators {
+		xpath, link, id, className, name, tag, cssSelector, label_name, label_for
+	}
+	public String random = "";
+	public StringCmd stringCmd = null;
+	static boolean flagForVerify = false;
+	static boolean flagForVerifyCompare= false;
+	public String tempGlobalVar = "";
+	ATUTestRecorder recorder; 
+	
+		]]>
+	</DaisyUtilityMain>
+	
+<DaisyUtility>
+	<ClearText>
+		<![CDATA[
+	public void ClearText(By locator,Map<String, Object> argumentValues) {
+		WebElement webelement = driver.findElement((By)((locator)));
+		webelement.clear();
+	}
+		]]>
+	</ClearText>
+	
+	<RefreshBrowser>
+		<![CDATA[
+	public void RefreshBrowser(Map<String,Object>  argumentValues) {   
+		//getcallerMethod1(argumentValues);
+		driver.navigate().refresh();
+		return;
+	}
+		]]>
+	</RefreshBrowser>
+	
+	<MixSendKeyMethod1>
+		<![CDATA[
+	public void MixSendKeyMethod1(By locator,Keys firstKey,ActionData actionData, String secKey,
+		Map<String, Object> argumentValues) {
+		// TODO Auto-generated method stub
+		//getcallerMethod1(argumentValues);	
+	 	WebElement webelement=driver.findElement((By)((locator)));		
+        String mixKeys = Keys.chord(firstKey,secKey);
+        webelement.sendKeys(mixKeys);
+        Report.getReport().logPass("Sendkey is working for " +actionData.getData()); 
+        System.out.println("Mixed sendKey is working for "+actionData.getData());
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+	}
+		]]>
+	</MixSendKeyMethod1>
+	
+	<MixSendKeyMethod2>
+		<![CDATA[
+	public void MixSendKeyMethod2(By locator, Keys firstKey, ActionData actionData, Keys secKey1,
+		Map<String, Object> argumentValues) {
+		// TODO Auto-generated method stub
+		//getcallerMethod1(argumentValues);
+		String mixKeys = Keys.chord(firstKey, secKey1 );
+		WebElement webelement=driver.findElement((By)((locator)));
+		webelement.sendKeys(mixKeys);
+        //System.out.println("Mixed sendKey is working ");
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }         
+        Report.getReport().logPass("Sendkey is working for " +actionData.getData());         
+        System.out.println("[log] Succesfully run sendKeys for : " +actionData.getData());  	
+	}
+		]]>
+	</MixSendKeyMethod2>
+	
+	<MixSendKeyMethod3>
+		<![CDATA[
+	public void MixSendKeyMethod3(By locator,Keys keyCode,ActionData actionData, Map<String, Object> argumentValues) {
+		// TODO Auto-generated method stub
+		//getcallerMethod1(argumentValues);
+		 WebElement webelement=driver.findElement((By)((locator)));
+		 webelement.sendKeys(keyCode);
+         //System.out.println("SendKey is working "+keyCode);
+         Report.getReport().logPass("Sendkey is working for " +actionData.getData()); 
+         System.out.println("[log] Succesfully run sendKeys for  : " +actionData.getData());
+         try {
+             Thread.sleep(2000);
+         } catch (InterruptedException e) {
+             // TODO Auto-generated catch block
+             e.printStackTrace();
+         }
+	}
+		]]>
+	</MixSendKeyMethod3>
+	
+	<buttonClick>
+	<![CDATA[
+	public void buttonClick(By locator, Map<String,Object> argumentValues) {
+		int count = 0;
+		boolean clicked = false;
+		while (count < 3 && !clicked)
+		{
+			try 
+			{
+				waitForPageLoaded();
+				try {
+					waitForElementtoBeVisible(locator, argumentValues);
+				} catch (CustomException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				}
+				waitForElementtoBeClickable(locator, argumentValues);
+				System.out.println("*//[log] Inside Try Block of ButtonClick method--->Step1");
+				WebElement button = driver.findElement(locator);
+				System.out.println("*//[log] Inside Try Block of ButtonClick method--->Step2");
+				Actions actions = new Actions(driver);
+				System.out.println("*//[log] Inside Try Block of ButtonClick method--->Step3");
+				actions.moveToElement(button).click().build().perform();
+				System.out.println("*//[log] Inside Try Block of ButtonClick method--->Step4");
+				clicked = true;
+			} 
+			catch (StaleElementReferenceException e)
+			{
+				e.toString();
+				System.out.println("Trying to recover from a stale element :" + e.getMessage());
+				count = count+1;
+			}
+		}
+	}
+	]]>
+	</buttonClick>
+	
+	<listSelect>
+		<![CDATA[
+	public void listSelect(By locator,String actionData,Map<String, Object> argumentValues) {
+		//getcallerMethod1(argumentValues);
+		Select select = new Select(driver.findElement(locator));
+		select.selectByVisibleText(actionData);		
+	}
+		]]>
+	</listSelect>
+	
+	<click>
+		<![CDATA[
+	public void click(By locator, Map<String,Object> argumentValues) {
+		//getcallerMethod1(argumentValues);
+		int count = 0;
+		boolean clicked = false;
+		while (count < 3 && !clicked)
+		{
+			System.out.println("*//[log] Click Retry Cout: "+count);
+			waitForPageLoaded();
+			try {
+				waitForElementtoBeVisible(locator, argumentValues);
+			} catch (CustomException e1) {
+				System.out.println("[log] Error: element not visibe.");
+			}
+			waitForElementtoBeClickable(locator, argumentValues);
+
+			if(locator.toString().contains("slds-icon-utility-setup")){
+				System.out.println("*//[log] Inside the locator.toString().contains(slds-icon-utility-setup) "+locator.toString());
+				//this condition was created specifically for Lightning Setup gear. 
+				//this makes the syscommands functions lightning compatible in Firefox browser as well.
+				clickUsingJavaScript(locator, argumentValues);
+				clicked = true;
+			}
+			else {
+				try {
+					System.out.println("*//[log] Inside the TRY of else block "+locator.toString());
+					clickUsingJavaScript(locator, argumentValues);
+					try {
+						if(driver.findElement(locator).isDisplayed() && driver.findElement(locator).isEnabled()) {
+							System.out.println("*//[log] JS Click did not work, hence trying to click again");
+							try {
+								driver.findElement(locator).click();
+							}
+							catch (Exception e){
+								System.out.println("*//[log] Exception caught in if: ");
+							}
+						}}
+					catch (Exception e){
+						System.out.println("*//[log] Exception caught in if2: ");
+					}
+
+					clicked = true;
+				} 
+				catch (StaleElementReferenceException e){
+					e.toString();
+					System.out.println("Trying to recover from a stale element :" + e.getMessage());
+					count++;
+				}
+				catch (WebDriverException e) {
+					System.out.println("*//[log] Inside the Catch of else block"+e.toString());
+					clickUsingJavaScript(locator, argumentValues);
+					clicked = true;
+				}
+			}
+
+		}
+	}
+		]]>
+	</click>
+	
+	<click>
+		<![CDATA[
+	public void click(WebElement element, Map<String,Object> argumentValues) {
+		//getcallerMethod1(argumentValues);
+		waitForElementtoBeVisible(element, argumentValues);
+		waitForElementtoBeClickable(element, argumentValues);
+		if(! getbrowserName().equals("ie")) {
+			try {
+				element.click();
+			} catch (WebDriverException e) {
+				clickUsingJavaScript(element, argumentValues);
+			}
+		}
+		else {
+			clickUsingJavaScript(element, argumentValues);
+		}
+	}
+		]]>
+	</click>
+	
+	<ByLabelMethod>
+		<![CDATA[
+	public void ByLabelMethod(String labelName, String str2, Map<String,Object> argumentValues) {
+		Actions actions = new Actions(driver);
+		String IDe = driver.findElement(By.xpath("//label[contains(.,'" + labelName + "')]")).getAttribute("for");
+		WebElement web = driver.findElement(By.id(IDe));
+		String typeOfInput = web.getAttribute("type");			
+		switch (typeOfInput) {
+			case "email": {
+						actions.sendKeys(web, str2).build().perform();
+						System.out.println("Used ByLabel for email");
+						break;
+					}
+			case "password": {
+						actions.sendKeys(web, str2).build().perform();
+						System.out.println("Enter text in " + labelName);
+						break;
+					}
+			case "text": {
+						if (web.getAttribute("role") != null && web.getAttribute("role").equalsIgnoreCase("combobox")) {
+							actions.sendKeys(web, str2).build().perform();
+							clickUsingJavaScript(
+									By.xpath("//*[contains(@title, '" + str2
+											+ "')and contains(@class, 'primaryLabel slds-truncate slds-lookup__result-text')]"),
+									argumentValues);
+						} else {
+							actions.sendKeys(web, str2).build().perform();
+						}
+						System.out.println("[log] Enter text in " + labelName);
+						break;
+					}
+			case "submit": {
+						clickUsingJavaScript(web, argumentValues);
+						break;
+					}
+			
+			case "checkbox": {
+				          
+						clickUsingJavaScript(web, argumentValues);
+						System.out.println("[log] Clicked on checkbox " + labelName);
+						break;
+					}
+			case "radio": {
+						clickUsingJavaScript(web, argumentValues);
+						System.out.println("[log] Selected RadioButton " + labelName);
+						break;
+					}
+			case "list": {
+						Select webElement1 = new Select(web);
+						webElement1.selectByVisibleText(str2);
+						System.out.println("[log] Selected item " + str2);
+						break;
+					}
+			case "select-one": {			
+						List<WebElement> options = web.findElements(By.tagName("option"));           
+						for (WebElement option : options) {
+							if (str2.equals(option.getText().trim()))
+			
+								option.click();
+						}
+						System.out.println("[log] Selected item " + str2);
+						break;
+					}
+			default: {
+						actions.sendKeys(web, str2).build().perform();
+						System.out.println(web.getAttribute("role"));
+					}
+			}
+	}
+		]]>
+	</ByLabelMethod>
+	
+	<actionSendKey>
+		<![CDATA[
+	public void actionSendKey(String data, Map<String,Object> argumentValues) {
+		//getcallerMethod1(argumentValues);
+		Actions actions = new Actions(driver);
+		Keys keyCode = Keys.valueOf(data.toUpperCase());
+		
+		actions.sendKeys(keyCode).build().perform();
+		try {
+			Thread.sleep(2000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		//System.out.println("without xpath sendkey funtion");
+	}
+		]]>
+	</actionSendKey>
+	
+	<genRandom>
+		<![CDATA[
+	public void genRandom(int length, String type) {
+		String str = "";
+		StringBuilder sb = new StringBuilder(length);
+		if (type.equalsIgnoreCase("ALPHA")) {
+			str = "ABCDEFGHIJKLMNOPQRSTUVWXYZ" + "abcdefghijklmnopqrstuvwxyz";
+		} 
+		else if (type.equalsIgnoreCase("NUM")) {
+			str = "0123456789";
+		} 
+		else if (type.equalsIgnoreCase("ALPHANUM")) {
+			str = "ABCDEFGHIJKLMNOPQRSTUVWXYZ" + "0123456789" + "abcdefghijklmnopqrstuvwxyz";
+		} 
+		else {
+			random = sb.toString();
+			Report.getReport().logPass("Invalid locator value : " + type);
+			System.out.println("[log] Invliad locator value : " + type);
+		}
+			
+		if (str.length() > 0) {
+			for (int i = 0; i < length; i++) {
+				int index = (int) (str.length() * Math.random());
+				sb.append(str.charAt(index));
+			}
+			random = sb.toString();
+			Report.getReport().logPass("Random String of length " + length + " and type " + type + " : " + random);
+			System.out.println("[log] Random String of length " + length + " and type " + type + " : " + random);
+		}
+	}
+		]]>
+	</genRandom>
+	
+	<rightClick>
+		<![CDATA[
+	public void rightClick(WebElement elementLocator, Map<String,Object> argumentValues){
+		//getcallerMethod1(argumentValues);
+			waitForPageLoaded();
+		    waitForElementtoBeVisible(elementLocator, argumentValues);
+			waitForElementtoBeClickable(elementLocator, argumentValues);
+		/*	WebDriverWait wait = new WebDriverWait(driver,0);
+			wait.until(ExpectedConditions.elementToBeClickable(elementLocator));*/
+			
+			try{
+			Actions actions = new Actions(driver);
+			actions.contextClick(elementLocator).perform();
+			/*action.contextClick(elementLocator).sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.RETURN).click().perform();*/
+			}
+			
+			catch(WebDriverException e){
+				
+			}
+		} 
+		]]>
+	</rightClick>
+	
+	<DoubleClick1>
+		<![CDATA[		
+	public void DoubleClick1(By locator, Map<String, Object> argumentValues) {
+		//getcallerMethod1(argumentValues);			
+		WebElement webelement = driver.findElement((By) ((locator)));
+		Actions actions = new Actions(driver);
+		actions.doubleClick(webelement).perform();
+	}
+		]]>
+	</DoubleClick1>
+	
+	<hoverToElement>
+		<![CDATA[
+	public void hoverToElement(WebElement element, Map<String,Object> argumentValues) {
+
+		//getcallerMethod1(argumentValues);
+		waitForPageLoaded();
+		waitForElementtoBeVisible(element, argumentValues);
+		waitForElementtoBeClickable(element, argumentValues);
+		
+		String ExpectedTooltip = element.getAttribute("title");
+		
+		try{
+		Actions actions = new Actions(driver);
+		
+		actions.moveToElement(element).clickAndHold(element).build().perform();
+		
+		String actualTooltip = element.getAttribute("title");
+		
+		System.out.println("Actual Title of Tool Tip: "+actualTooltip);
+		
+		if(actualTooltip.equals(ExpectedTooltip)) {	
+			System.out.println("Test Case Passed");	
+		}
+		else{
+			System.out.println("Fail : Tooltip NOT matching expected value"); 
+			} 
+		}
+		
+		catch(WebDriverException e){
+		
+		}
+		
+	}
+		]]>
+	</hoverToElement>	
+	
+	<PageDown>
+	<![CDATA[
+	public void PageDown(Map<String,Object> argumentValues) {
+		//getcallerMethod1(argumentValues);
+		Actions actions = new Actions(driver);
+		driver.getCurrentUrl();
+		actions.sendKeys(Keys.PAGE_DOWN).build().perform();
+		try {
+			Thread.sleep(5000);
+		} catch (InterruptedException e) {	
+			e.printStackTrace();
+		}
+		System.out.println("After thread sleep");
+	}
+		]]>
+	</PageDown>
+		
+	<PageUp>
+		<![CDATA[
+	public void PageUp(Map<String,Object> argumentValues) {
+		//getcallerMethod1(argumentValues);
+		Actions actions = new Actions(driver);
+		driver.getCurrentUrl();
+		actions.sendKeys(Keys.PAGE_UP).build().perform();
+		try {
+			Thread.sleep(5000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+		System.out.println("After thread sleep");
+	}
+		]]>
+	</PageUp>
+	
+	<Space>
+		<![CDATA[
+	public void Space() {
+		Actions actions = new Actions(driver);
+		driver.getCurrentUrl();
+		actions.sendKeys(Keys.SPACE).build().perform();
+		try {
+			Thread.sleep(5000);
+		} catch (InterruptedException e) {		
+			e.printStackTrace();
+		}
+		System.out.println("After thread sleep");
+	}
+		]]>
+	</Space>
+	
+	<ScrollToView>
+		<![CDATA[
+	public void ScrollToView(WebElement el, Map<String,Object> argumentValues) {
+		//getcallerMethod1(argumentValues);
+		waitForPageLoaded();
+		waitForElementtoBeVisible(el, argumentValues);
+		waitForElementtoBeClickable(el, argumentValues);			
+		JavascriptExecutor je = (JavascriptExecutor) driver;
+		je.executeScript("arguments[0].scrollIntoView(true);", el);
+	}
+		]]>
+	</ScrollToView>
+	
+	<clickUsingJavaScript>
+		<![CDATA[
+	public void clickUsingJavaScript(By locator, Map<String,Object> argumentValues) {
+		//getcallerMethod1(argumentValues);
+		try {
+			waitForElementtoBeVisible(locator, argumentValues);
+		} catch (CustomException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		waitForElementtoBeClickable(locator, argumentValues);
+		JavascriptExecutor executor = (JavascriptExecutor) driver;
+		WebElement webelement = driver.findElement((By)(locator));
+		executor.executeScript("arguments[0].click();", webelement);
+	}
+		]]>
+	</clickUsingJavaScript>
+	
+	<clickUsingJavaScript>
+		<![CDATA[
+	public void clickUsingJavaScript(WebElement element, Map<String,Object> argumentValues) {
+		//getcallerMethod1(argumentValues);
+		waitForElementtoBeClickable(element, argumentValues);
+		JavascriptExecutor executor = (JavascriptExecutor) driver;
+		executor.executeScript("arguments[0].click();", element);
+	}
+		]]>
+	</clickUsingJavaScript>
+	
+	<closeCurrentTab>
+	<![CDATA[
+	public void closeCurrentTab(Map<String,Object> argumentValues) {
+		//getcallerMethod1(argumentValues);
+		driver.close();
+	}
+	]]>
+	</closeCurrentTab>
+	
+	<enter>
+	<![CDATA[
+	public void enter(By locator, String txt, Map<String,Object> argumentValues) {
+		//getcallerMethod1(argumentValues);
+		try {
+			waitForElementtoBeVisible(locator, argumentValues);
+		} catch (CustomException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
+		if (!isElementEnable(locator, argumentValues)) {
+			wait(5);
+		}
+		driver.findElement(locator).clear();
+		try {
+			Thread.sleep(1000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+		driver.findElement(locator).sendKeys(txt);
+		try {
+			Thread.sleep(500);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+		driver.findElement(locator).sendKeys(Keys.UP);
+	}
+	]]>
+	</enter>
+	
+	<getUrl>
+		<![CDATA[
+	public void getUrl(String url, Map<String,Object> argumentValues) {		
+		//getcallerMethod1(argumentValues);
+		driver.manage().window().maximize();
+		driver.get(url);
+	}
+		]]>
+	</getUrl>
+	
+	<findElement>
+		<![CDATA[
+	public WebElement findElement(By locator, Map<String,Object> argumentValues) {
+		waitForElementtoBePresent(locator, argumentValues);
+		try {
+			waitForElementtoBeVisible(locator, argumentValues);
+		} catch (CustomException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return driver.findElement(locator);
+	}
+	]]>
+	</findElement>
+	
+	<getText>
+		<![CDATA[
+	public String getText(By locator, Map<String,Object> argumentValues) {
+		//getcallerMethod1(argumentValues);
+		waitForElementtoBePresent(locator, argumentValues);
+		try {
+			waitForElementtoBeVisible(locator, argumentValues);
+		} catch (CustomException e) {
+			e.printStackTrace();
+		}
+		return driver.findElement(locator).getText();
+	}
+		]]>
+	</getText>
+	
+	<getAttributeValue>
+	<![CDATA[
+	public String getAttributeValue(By locator, String attribute, Map<String,Object> argumentValues) {
+		//getcallerMethod1(argumentValues);
+		try {
+			waitForElementtoBeVisible(locator, argumentValues);
+		} catch (CustomException e) {
+			e.printStackTrace();
+		}
+			waitForElementtoBePresent(locator, argumentValues);
+			return driver.findElement(locator).getAttribute(attribute);
+	}
+	]]>
+	</getAttributeValue>
+	
+	<getWindowHandles>
+		<![CDATA[
+	public Set<String> getWindowHandles() {
+		return driver.getWindowHandles();
+	}
+	]]>
+	</getWindowHandles>
+	
+	<isDataMissing>
+		<![CDATA[
+	public void isDataMissing(ActionData actionData, String location) throws CustomException {
+		if (Utility.isStringEmpty(actionData.getData())) {
+			System.out.println(location + " Data is missing");
+			throw new CustomException(location + " Data is missing");
+		}
+	}
+		]]>
+	</isDataMissing>
+	
+	<switchToWindow>
+	<![CDATA[
+	public void switchToWindow(String windowHandle, Map<String,Object> argumentValues) {
+		//getcallerMethod(argumentValues);
+		driver.switchTo().window(windowHandle);
+	}
+	]]>
+	</switchToWindow>
+	
+	<isElementEnable>
+		<![CDATA[
+	public boolean isElementEnable(By locator, Map<String,Object> argumentValues) {
+		//getcallerMethod(argumentValues);
+		return driver.findElement(locator).isEnabled();
+	}
+		]]>
+	</isElementEnable>
+	
+	<moveToElement>
+	<![CDATA[
+	public void moveToElement(By locator, Map<String,Object> argumentValues) {
+		//getcallerMethod1(argumentValues);
+		Actions actions = new Actions(driver);
+		WebElement move = driver.findElement(locator);
+		actions.moveToElement(move).build().perform();
+	}
+	]]>
+	</moveToElement>
+	
+	<moveToElement>
+	<![CDATA[
+	public void moveToElement(WebElement element, Map<String,Object> argumentValues) {
+		//getcallerMethod1(argumentValues);
+		Actions actions = new Actions(driver);
+		actions.moveToElement(element).build().perform();
+	}
+	]]>
+	</moveToElement>
+	
+	<selectByVisibleText>
+	<![CDATA[
+	public void selectByVisibleText(By locator, String value, Map<String,Object> argumentValues) {
+		//getcallerMethod1(argumentValues);
+		try {
+			waitForElementtoBeVisible(locator, argumentValues);
+		} catch (CustomException e) {
+			e.printStackTrace();
+		}
+		WebElement dropdown = driver.findElement(locator);
+		Select select = new Select(dropdown);
+		select.selectByVisibleText(value);
+	}
+	]]>
+	</selectByVisibleText>
+	
+	<deSelectByVisibleText>
+	<![CDATA[
+	public void deSelectByVisibleText(By locator, String value, Map<String,Object> argumentValues) throws CustomException {
+		//getcallerMethod1(argumentValues);
+		waitForElementtoBeVisible(locator, argumentValues);
+		WebElement webelement  = driver.findElement(locator);
+		Select select = new Select(webelement);
+		select.deselectByVisibleText(value);
+	}
+	]]>
+	</deSelectByVisibleText>
+	
+	<selectCheckBox>
+	<![CDATA[
+	public void selectCheckBox(By locator, Map<String,Object> argumentValues) {
+		//getcallerMethod1(argumentValues);
+		waitForPageLoaded();
+		try {
+			waitForElementtoBeVisible(locator, argumentValues);
+		} catch (CustomException e) {
+			e.printStackTrace();
+		}
+		if (!(driver.findElement(locator).isSelected())) {
+			driver.findElement(locator).click();
+		}
+	}
+	]]>
+	</selectCheckBox>
+	
+	<deselectCheckBox>
+	<![CDATA[
+	public void deselectCheckBox(By locator, Map<String,Object> argumentValues) {
+		//getcallerMethod1(argumentValues);
+		waitForPageLoaded();
+		try {
+			waitForElementtoBeVisible(locator, argumentValues);
+		} catch (CustomException e) {
+		// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		if (driver.findElement(locator).isSelected()) {
+			driver.findElement(locator).click();
+		}
+	}
+	]]>
+	</deselectCheckBox>
+	
+	<isSelected>
+	<![CDATA[
+	public void isSelected(By locator,Map<String,Object> argumentValues) throws CustomException{
+		//getcallerMethod1(argumentValues);
+		try {
+			waitForElementtoBeVisible(locator, argumentValues);
+		} catch (CustomException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		driver.findElement(locator).isSelected();
+	}
+	]]>
+	</isSelected>
+	
+	<switchToFrame>
+	<![CDATA[
+	public void switchToFrame(By locator, Map<String,Object> argumentValues) {
+		//getcallerMethod1(argumentValues);
+		wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(locator));
+	}
+	]]>
+	</switchToFrame>
+	
+	<switchToDefaultContent>
+	<![CDATA[
+	public void switchToDefaultContent(Map<String,Object> argumentValues) {
+		//getcallerMethod1(argumentValues);
+		
+		driver.switchTo().defaultContent();
+	}
+	]]>
+	</switchToDefaultContent>
+	
+	<switchToAlertAndAccept>
+	<![CDATA[
+	public void switchToAlertAndAccept() {
+		wait.until(ExpectedConditions.alertIsPresent());
+		driver.switchTo().alert().accept();
+	}
+	]]>
+	</switchToAlertAndAccept>
+	
+	<switchToAlertAndDismiss>
+	<![CDATA[
+	public void switchToAlertAndDismiss() {
+		wait.until(ExpectedConditions.alertIsPresent());
+		driver.switchTo().alert().dismiss();
+	}
+	]]>
+	</switchToAlertAndDismiss>
+	
+	<verifyValues>
+	<![CDATA[
+	public boolean verifyValues(String actual, String expected, String msg) {
+		if(actual.equals(expected)) {
+         flagForVerify=true;
+         System.out.println("Verification passed");
+     }
+     else {
+         System.out.println(msg);
+         flagForVerify = false;
+     }
+     return flagForVerify;
+	}
+	]]>
+	</verifyValues>
+	
+	<VerifyCompareValues>
+	<![CDATA[
+	public boolean VerifyCompareValues(String actual, String expected, String msg) {
+
+	     if(actual.equals(expected)) {
+	         flagForVerifyCompare=true;
+	         System.out.println("Verification passed");
+	     }
+	     else {
+	         System.out.println(msg);
+	         flagForVerifyCompare = false;
+	     }
+	     return flagForVerifyCompare;
+	 }
+	 ]]>
+	</VerifyCompareValues>
+
+
+	<skipIfVerifyFailed>
+	<![CDATA[
+ 	public boolean skipIfVerifyFailed() {
+    	 return flagForVerify;
+	 }
+ 	]]>
+	</skipIfVerifyFailed>
+ 
+ 
+ <SkifIfVerifyCompareFailed>
+	<![CDATA[
+ 	public boolean SkifIfVerifyCompareFailed() {
+     	return flagForVerifyCompare;
+ 	}
+ 	]]>
+	</SkifIfVerifyCompareFailed>
+	
+	
+	<verifyRegExValues>
+	<![CDATA[
+	public void verifyRegExValues(String actual, String regex, String msg) {
+		Assert.assertTrue(stringCmd.stringContainsRegex(actual, regex), msg);
+	}
+	]]>
+	</verifyRegExValues>
+	
+	<verifyValues>
+	<![CDATA[
+	public void verifyValues(boolean actual, boolean expected, String msg) {
+		Assert.assertEquals(actual, expected, msg);
+	}
+	]]>
+	</verifyValues>
+	
+	<fail>
+	<![CDATA[
+	public void fail(String message) {
+		Assert.fail(message);
+	}
+	]]>
+	</fail>
+	
+	<waitForElementtoBeClickable>
+	<![CDATA[
+	public void waitForElementtoBeClickable(By locator, Map<String,Object> argumentValues) {
+		//getcallerMethod1(argumentValues);
+		try {
+			wait.until(ExpectedConditions.elementToBeClickable(locator));
+		} catch (TimeoutException e) {
+			Assert.fail("Element is not clickable : " + locator);
+		}
+	}
+	]]>
+	</waitForElementtoBeClickable>
+	
+	<waitForElementtoBeClickable>
+	<![CDATA[
+	public void waitForElementtoBeClickable(WebElement element, Map<String,Object> argumentValues) {
+		//getcallerMethod1(argumentValues);
+		try {
+			wait.until(ExpectedConditions.elementToBeClickable(element));
+		} catch (TimeoutException e) {
+			Assert.fail("Element is not clickable : " + element);
+		}
+	}
+	]]>
+	</waitForElementtoBeClickable>
+	
+	<waitForElementtoBeVisible>
+	<![CDATA[
+	public void waitForElementtoBeVisible(WebElement element, Map<String,Object> argumentValues) {
+		//getcallerMethod1(argumentValues);
+		
+		try {
+			wait.until(ExpectedConditions.visibilityOf(element));
+			if (!isWebElementVisible(element)) {
+				try {
+					moveToElement(element, argumentValues);
+				} catch (Exception e) {
+				}
+			}
+		} catch (TimeoutException e) {
+			Assert.fail("Element is not visible : " + element);
+		}
+	}
+	]]>
+	</waitForElementtoBeVisible>
+	
+	<waitForElementtoBeVisible>
+	<![CDATA[
+	public void waitForElementtoBeVisible(By locator, Map<String,Object> argumentValues) throws CustomException {
+		//getcallerMethod1(argumentValues);
+		
+		try {
+			try {
+				wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+			} catch (Exception e) {
+				throw new CustomException(e.getMessage());
+			}
+			if (!isWebElementVisible(driver.findElement(locator))) {
+				try {
+					moveToElement(locator, argumentValues);
+				} catch (Exception e) {
+				}
+			}
+		} catch (TimeoutException e) {
+			Assert.fail("Element is not visible : " + locator);
+		}
+	}
+	]]>
+	</waitForElementtoBeVisible>
+	
+	<waitForElementtoBePresent>
+	<![CDATA[
+	public void waitForElementtoBePresent(By locator, Map<String,Object> argumentValues) {
+		//getcallerMethod1(argumentValues);
+		try {
+			wait.until(ExpectedConditions.presenceOfElementLocated(locator));
+		} catch (TimeoutException e) {
+			Assert.fail("Element is not present : " + locator);
+		}
+	}
+	]]>
+	</waitForElementtoBePresent>
+	
+	<isWebElementVisible>
+	<![CDATA[
+	public boolean isWebElementVisible(WebElement w) {
+		Dimension weD = w.getSize();
+		Point weP = w.getLocation();
+		Dimension d = driver.manage().window().getSize();
+		int x = d.getWidth();
+		int y = d.getHeight();
+		int x2 = weD.getWidth() + weP.getX();
+		int y2 = weD.getHeight() + weP.getY();
+		return x2 <= x && y2 <= y;
+	}
+	]]>
+	</isWebElementVisible>
+	
+	<performActions>
+	<![CDATA[
+	public void performActions(String type, ArrayList<By> locator, String data, String field, String locator_value,
+	ExtLoader loader) throws  ClassNotFoundException, NoSuchMethodException,
+	SecurityException, InstantiationException, IllegalAccessException, CustomException {
+		ActionData actionData = new ActionData(type, locator, data, field, locator_value, null);
+		loader.findCommandInChain(actionData);
+	}
+	]]>
+	</performActions>
+	
+	<toLocator>
+	<![CDATA[
+	public ArrayList<By> toLocator(String locator_type, ArrayList<String> list, String type,
+		Map<String,Object> argumentValues) {
+		//getcallerMethod(argumentValues);
+		ArrayList<By> l = new ArrayList<By>();
+		if (list.size() > 1) {
+			for (int i = 0; i < list.size(); i++) {
+				String locator_value = list.get(i);
+				By loc = toLocator(locator_type, locator_value, type, argumentValues);
+				l.add(i, loc);
+			}
+			return l;
+		} else {
+			String locator_value = list.get(0);
+			By loc = toLocator(locator_type, locator_value, type, argumentValues);
+			l.add(0, loc);
+			return l;
+		}
+	}		
+	]]>
+	</toLocator>
+	
+	<toLocator>
+	<![CDATA[
+	public By toLocator(String locator_type, String locator_value, String type, Map<String,Object> argumentValues) {
+		//getcallerMethod(argumentValues);
+		if (locator_type.trim().isEmpty()) {
+			return null;
+		}
+		Locators loc = Locators.valueOf(locator_type.trim());
+		switch (loc) {
+			case xpath:
+					return By.xpath(locator_value);
+			case link:
+					return By.linkText(locator_value);
+			case id:
+					return By.id(locator_value);
+			case name:
+					return By.name(locator_value);
+			case tag:
+					return By.tagName(locator_value);
+			case cssSelector:
+					return By.cssSelector(locator_value);
+			case className:
+					return By.className(locator_value);
+			case label_name:
+					return null;
+			case label_for:
+					return By.xpath(new DynamicGenericXpath().getXpathByAttributeFOR(locator_value, type));
+		}
+		return null;
+	}
+	]]>
+	</toLocator>
+	
+	<waitForTexttoBePresent>
+	<![CDATA[
+	public void waitForTexttoBePresent(By locator, String text, Map<String,Object> argumentValues) {
+		//getcallerMethod1(argumentValues);
+		try {
+			wait.until(ExpectedConditions.textToBePresentInElementLocated(locator, text));
+		} catch (TimeoutException e) {
+			Assert.fail("Text is not present in the element : " + locator + " and text " + text);
+		}
+	}
+	]]>
+	</waitForTexttoBePresent>
+	
+	<waitForElementToDisappear>
+	<![CDATA[
+	public void waitForElementToDisappear(By locator, Map<String,Object> argumentValues) {
+		//getcallerMethod1(argumentValues);
+		try {
+			wait.until(ExpectedConditions.invisibilityOfElementLocated(locator));
+			wait(1);
+		} catch (TimeoutException e) {
+		}
+	}
+	]]>
+	</waitForElementToDisappear>
+	
+	<setVariableMethod>
+	<![CDATA[
+	public void setVariableMethod(Executor exec,String varName,By locator1,Map<String,Object> argumentValues) {
+		//getcallerMethod1(argumentValues);
+		List<WebElement> list = driver.findElements(locator1);
+		for(WebElement wb : list){
+			if(wb.isDisplayed())
+			{
+				String attr = wb.getAttribute("value");
+				if(Strings.isNullOrEmpty(attr)){
+					attr = wb.getText();
+				}
+				exec.variableMap.put(varName, attr);
+				System.out.println("[log] Stored data in varName:" + varName + " and data :" +attr); 
+				Report.getReport().logPass("Stored data in varName:" + varName + " and data :" +attr);
+				//return;
+				break;
+			}
+		}
+	}
+	]]>
+	</setVariableMethod>
+	
+	<getTempVarMethod>
+	<![CDATA[
+	public void getTempVarMethod(Executor exec,By locator2,Map<String,Object> argumentValues) {
+		//getcallerMethod1(argumentValues);
+		List<WebElement> list = driver.findElements(locator2);
+		for(WebElement wb : list){
+			if(wb.isDisplayed())
+			{
+				String attr = wb.getAttribute("value");
+				if(attr!=null && attr!="")
+					tempGlobalVar = wb.getAttribute("value");
+				else
+					tempGlobalVar = wb.getText();
+				
+				exec.variableMap.put("TempVar", tempGlobalVar);
+				//return;
+				break;
+			}
+		}
+	}
+	]]>
+	</getTempVarMethod>
+	
+	<getURLMethod>
+	<![CDATA[
+	public void getURLMethod(Executor exec,Map<String,Object> argumentValues) {
+		//getcallerMethod1(argumentValues);
+		String storeURL= driver.getCurrentUrl();
+		exec.variableMap.put("TempURL", storeURL);
+	}
+	]]>
+	</getURLMethod>
+	
+	<SkipIfElementMissingMethod>
+	<![CDATA[
+	public void SkipIfElementMissingMethod(Executor exec,By locator,ActionData actionData,Map<String,Object> argumentValues){
+    	//getcallerMethod1(argumentValues);
+        List<WebElement> list = driver.findElements(locator);
+        boolean b = true;
+        for (WebElement wb : list) {
+            if (wb.isDisplayed()) {
+                b = false;
+                break;
+            }
+        }
+        String lineC = actionData.getData();
+        System.out.println("[log] Checking if XPath element with name " + actionData.getLocatorTypeData().toString()
+                + " exist");
+        if (b) {
+            try {
+                exec.skipCount = Integer.parseInt(lineC);
+            } catch (Exception ex) {
+                System.out.println("[log] Unable to read line to skip, resuming to next line");
+                exec.skipCount = 0;
+            }
+            System.out.println("[log] Skipping " + lineC + " Lines");
+        } else {
+            System.out.println("[log] Element exist");
+        }
+        System.out.println("[log] Successfully executed SkipIfElementMissing");
+        Report.getReport().logPass("Successfully executed SkipIfElementMissing");
+    }
+	]]>
+	</SkipIfElementMissingMethod>
+	
+	<wait>
+	<![CDATA[
+	public void wait(int seconds) {
+		try {
+			Thread.sleep(seconds * 1000);
+		} catch (InterruptedException e) {
+			System.out.println("[log] Failed to wait for :" + seconds + " seconds");
+		}
+	}
+	]]>
+	</wait>
+	
+	<verifyTableValue>
+	<![CDATA[
+	public void verifyTableValue(By locator, int row, int col, String expectedTxt, String msg,
+		Map<String,Object> argumentValues) {
+		//getcallerMethod1(argumentValues);
+		WebElement ele = driver.findElement(locator);
+		List<WebElement> rows = ele.findElements(By.tagName("tr"));
+		if (rows.size() > row) {
+			List<WebElement> cols = rows.get(row).findElements(By.tagName("tr"));
+			String output = cols.get(col).getText();
+			verifyValues(output, expectedTxt, msg);
+		}
+	}
+			
+	]]>
+	</verifyTableValue>
+	
+	<verifyListValue>
+	<![CDATA[
+	public void verifyListValue(By locator, String expectedTxt, Map<String,Object> argumentValues) {
+		//getcallerMethod1(argumentValues);
+		Select drpCountry = new Select(driver.findElement(locator));
+      drpCountry.selectByVisibleText(expectedTxt);
+	}
+	]]>
+	</verifyListValue>
+	
+	<readPDF>
+	<![CDATA[
+	public String readPDF(String pdfLocation) {
+		String pdfContents = null;
+		try {
+			FileInputStream pdfFile = new FileInputStream(pdfLocation);
+			PDDocument pdfDocument = PDDocument.load(pdfFile);
+			PDFTextStripper pdfTextStrip = new PDFTextStripper();
+			pdfContents = pdfTextStrip.getText(pdfDocument);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		return pdfContents;
+	}
+	]]>
+	</readPDF>
+	
+	<validatePDFContents>
+	<![CDATA[
+	public boolean validatePDFContents(String pdfContents, String values) {
+		return pdfContents.contains(values);
+	}
+	]]>
+	</validatePDFContents>
+	
+	<switchToTab>
+	<![CDATA[
+	public void switchToTab() {
+		String currentScreen = driver.getWindowHandle();
+		Set<String> tabSet = driver.getWindowHandles();
+		for (String tab : tabSet) {
+			if (!tab.equals(currentScreen)) {
+				driver.switchTo().window(tab);
+				System.out.println(driver.getCurrentUrl());
+			}
+		}
+	}
+	]]>
+	</switchToTab>
+	
+	<downloadPDF>
+	<![CDATA[
+	public void downloadPDF() {
+		System.out.println(driver.getCurrentUrl());
+		Robot robot = null;
+		
+		try {
+			robot = new Robot();
+		} catch (AWTException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		try {
+			Thread.sleep(1000);
+			robot.keyPress(KeyEvent.VK_CONTROL);
+			robot.keyPress(KeyEvent.VK_S);
+			robot.keyRelease(KeyEvent.VK_S);
+			robot.keyRelease(KeyEvent.VK_CONTROL);
+			Thread.sleep(4000);
+			robot.keyPress(KeyEvent.VK_ENTER);
+			Thread.sleep(1000);
+
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	]]>
+	</downloadPDF>
+	
+	<Delete>
+	<![CDATA[
+	public void Delete(By elementLocator, Map<String,Object> argumentValues) {
+		//getcallerMethod1(argumentValues);
+		waitForPageLoaded();
+		try {
+			waitForElementtoBeVisible(elementLocator, argumentValues);
+		} catch (CustomException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
+		waitForElementtoBeClickable(elementLocator, argumentValues);
+		try {
+			Actions actions = new Actions(driver);
+			// actions.sendKeys(Keys.DELETE).build().perform();
+			actions.sendKeys(Keys.CONTROL, "a", Keys.DELETE).build().perform();
+		}
+		catch (WebDriverException e) {
+		}
+	}
+	]]>
+	</Delete>
+	
+	<dateModification>
+	<![CDATA[
+	public Date dateModification(Date startDate, int day2, int month2, int year2) {
+		Date date = startDate;
+		int Day = day2;
+		int month = month2;
+		int year = year2;
+		Calendar cal = Calendar.getInstance();
+		cal.setTime(date);
+		cal.add(Calendar.DAY_OF_MONTH, Day);
+		cal.add(Calendar.MONTH, month);
+		cal.add(Calendar.YEAR, year);
+		Date result = cal.getTime();
+		return result;
+	}
+	]]>
+	</dateModification>
+	
+	<startVideoRecording>
+	<![CDATA[
+	public void startVideoRecording() throws ATUTestRecorderException {
+		Calendar calendar = Calendar.getInstance();
+		SimpleDateFormat formater = new SimpleDateFormat("dd_MM_yyyy_hh_mm_ss");
+		File file1 = new File(System.getProperty("user.dir") + "\\ScriptVideos");
+//         String workingDirectory = System.getProperty("user.dir");
+
+		if (!file1.exists()) {
+			if (file1.mkdir()) {
+
+				System.out.println("ScriptVideos Folder is creating in process....................");
+				System.out.println("ScriptVideos Folder is created!");
+			}
+		}
+//		DateFormat dateFormat = new SimpleDateFormat("yy-MM-dd  HH-mm-ss");
+//		Date date = new Date();
+		recorder = new ATUTestRecorder("ScriptVideos", "Video"+formater.format(calendar.getTime()), false);
+
+		recorder.start();
+	}
+	]]>
+	</startVideoRecording>
+
+	<stopVideoRecording>
+	<![CDATA[
+	public void stopVideoRecording() throws ATUTestRecorderException {
+		recorder.stop();
+	}
+	]]>
+	</stopVideoRecording>
+	
+	<PRINTSCREEN>
+	<![CDATA[
+	public void PRINTSCREEN() {
+		try {
+			Thread.sleep(120);
+			Robot r = new Robot();
+			Calendar calendar = Calendar.getInstance();
+			SimpleDateFormat formater = new SimpleDateFormat("dd_MM_yyyy_hh_mm_ss");
+			File file1 = new File(System.getProperty("user.dir") + "\\Screenshot");
+			String workingDirectory = System.getProperty("user.dir");
+			if (!file1.exists()) {
+				if (file1.mkdir()) {
+					System.out.println("Screenshot Folder is creating in process....................");
+					System.out.println("Screenshot Folder is created!");
+				}
+			}
+			String filename = "\\Screenshot\\Screenshot_" + formater.format(calendar.getTime()) + ".jpg";
+			// String workingDirectory = System.getProperty("user.dir");
+			File file = new File(workingDirectory, filename);
+			System.out.println("Final filepath : " + file.getAbsolutePath());
+			Rectangle capture = new Rectangle(Toolkit.getDefaultToolkit().getScreenSize());
+			BufferedImage Image = r.createScreenCapture(capture);
+			ImageIO.write(Image, "jpg", file);
+			System.out.println("Screenshot is saved in screenshot folder");
+			Report.getReport().logPass("Screenshot is saved in screenshot folder");
+		}
+		catch (AWTException | IOException | InterruptedException ex) {
+			System.out.println(ex);
+		} catch (NullPointerException e) {
+			e.printStackTrace();
+		}
+	}
+	]]>
+	</PRINTSCREEN>
+	
+	<iframe>
+	<![CDATA[
+	public void iframe(String iframeXpath, Map<String,Object> argumentValues) {
+		//getcallerMethod1(argumentValues);
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(iframeXpath)));
+	}
+	]]>
+	</iframe>
+	
+	<selectCheck>
+	<![CDATA[
+	public void selectCheck(By locator, Map<String,Object> argumentValues) {
+		//getcallerMethod1(argumentValues);
+		if (driver.findElement(locator).getAttribute("innerHTML").isEmpty()) {
+			try {
+				Thread.sleep(4000);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		click(locator, argumentValues);
+		}
+	}
+	]]>
+	</selectCheck>
+	
+	<mixedSendKey>
+	<![CDATA[
+	public void mixedSendKey(String actionData,By actionData1, Map<String,Object> argumentValues)
+	{}
+	]]>
+	</mixedSendKey>
+	
+	<waitForPageLoaded>
+		<![CDATA[
+	public void waitForPageLoaded() {
+		wait.until(ExpectedConditions.jsReturnsValue("return document.readyState===\"complete\""));
+	}
+		]]>
+	</waitForPageLoaded>
+</DaisyUtility>
+	
+	
+</Header>

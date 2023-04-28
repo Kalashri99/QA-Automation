@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="[%t] %d{yyyy-MM-dd HH:mm:ss} %-5level - %msg%n"/>
+        </Console>
+        
+        
+        
+        
+        
+        <Console name="temp" target="SYSTEM_OUT">
+            <PatternLayout pattern=""/>
+        </Console>
+       <!-- Here "logs\" changed to "logs/" for Linux execution -->
+          <RollingFile name="RollingAppender" fileName="logs/${sys:scriptfilename:-.log}.log"
+				                             immediateFlush="true" append="false" 	
+				                             filePattern="logs/$${date:yyyy-MM}/app-%d{MM-dd-yyyy}-%i.log">
+				                    <PatternLayout pattern="[%t] %d{yyyy-MM-dd HH:mm:ss} %-5level - %msg%n"/>
+				                    <SizeBasedTriggeringPolicy size="10MB" />
+		</RollingFile>
+        
+        <Routing name="RoutingAppender">
+        		<Routes pattern="$${ctx:logFileName}" >
+          		  <Route>
+          		  <!-- Here "logs\" changed to "logs/" for Linux execution -->
+          		      <RollingFile name="Rolling-${ctx:logFileName:-consolidated}" fileName="logs/${ctx:logFileName}.log"
+                             immediateFlush="true" append="false" 	
+                             filePattern="logs/$${date:yyyy-MM}/app-%d{MM-dd-yyyy}-%i.log">
+		                    <PatternLayout pattern="[%t] %d{yyyy-MM-dd HH:mm:ss} %-5level - %msg%n"/>
+		                    <SizeBasedTriggeringPolicy size="10MB" />
+          		      </RollingFile>
+          		  </Route>
+ 				
+ 				
+           			 <Route ref="temp" key="${ctx:logFileName}"/>
+        		</Routes>
+        		
+        		
+   		 </Routing>
+
+    </Appenders>
+    <Loggers>
+        <Root level="ALL" >
+            <AppenderRef ref="RoutingAppender" />    
+              <AppenderRef ref="Console" />   
+             <AppenderRef ref="RollingAppender" />    
+
+        </Root>
+    </Loggers>
+</Configuration>

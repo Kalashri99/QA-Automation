@@ -1,0 +1,15 @@
+[main] 2023-04-19 14:42:50 INFO  - #[ Filename: RGI-Feature testcase2 ( sheet :Sheet1 ) on line no: 2 ]
+[main] 2023-04-19 14:42:50 WARN  - Invalid URL https://www.hackerearth.comException details: unknown error: failed to change window state to 'normal', current state is 'maximized'
+  (Session info: chrome=112.0.5615.137)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'GAL000310', ip: '10.244.54.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.137, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\KALASH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50035}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fb7d1de22a5e11ee2c47a763ee6d45d3
+[main] 2023-04-19 14:42:51 ERROR - Invalid URL https://www.hackerearth.com
+[main] 2023-04-19 14:42:51 ERROR - !!!Failure in RGI-Feature testcase2 ( sheet : Sheet1 ) on line no: 2
+[main] 2023-04-19 14:42:51 ERROR - ERROR : Invalid URL https://www.hackerearth.com
+[main] 2023-04-19 14:42:51 INFO  - Re-Triggering failed test cases is disabled
+[main] 2023-04-19 14:42:51 INFO  - Closing Browser
+[main] 2023-04-19 14:42:53 INFO  - End of execution
+[main] 2023-04-19 14:42:53 INFO  - This is the end of test case execution

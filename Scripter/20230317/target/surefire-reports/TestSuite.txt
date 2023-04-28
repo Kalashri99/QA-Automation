@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 1, Errors: 0, Skipped: 7, Time elapsed: 24.945 s <<< FAILURE! - in TestSuite
+com.persistent.daisy.core.Test_Cases.Execute_Configuration  Time elapsed: 21.313 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.persistent.daisy.core.browser.SeleniumUtils$2@21c7208d (tried for 10 second(s) with 500 milliseconds interval)
+	at com.persistent.daisy.core.Test_Cases.Execute_Configuration(Test_Cases.java:230)
+Caused by: org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=111.0.5563.147)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'GAL000310', ip: '192.168.18.138', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\KALASH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53403}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ccc7686d964496d018bb7cbc3437d729
+	at com.persistent.daisy.core.Test_Cases.Execute_Configuration(Test_Cases.java:230)
+

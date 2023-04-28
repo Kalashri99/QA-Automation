@@ -1,0 +1,22 @@
+[main] 2023-04-25 15:27:05 INFO  - #[ Filename: Format2(1) ( sheet :Sheet1 ) on line no: 2 ]
+[main] 2023-04-25 15:27:09 INFO  - User have entered URL successfully : https://github.com/
+[main] 2023-04-25 15:27:09 INFO  - #[ Filename: Format2(1) ( sheet :Sheet1 ) on line no: 3 ]
+[main] 2023-04-25 15:27:09 INFO  -  Click Retry Cout: 0
+[main] 2023-04-25 15:27:09 INFO  - Inside the TRY of else block By.xpath: /html/body/div[1]/div[1]/header/div/div[2]/div/div/div[2]/a
+[main] 2023-04-25 15:27:09 INFO  - Inside clickUsingJavaScript step:last
+[main] 2023-04-25 15:27:09 INFO  - Successfully clicked on Sign In Button
+[main] 2023-04-25 15:27:09 INFO  - #[ Filename: Format2(1) ( sheet :Sheet1 ) on line no: 4 ]
+[main] 2023-04-25 15:27:20 WARN  - Waited for 10 seconds. Element is not Visible!
+[main] 2023-04-25 15:56:26 WARN  - Underlying exception: java.lang.reflect.InvocationTargetException
+[main] 2023-04-25 15:56:26 WARN  - Exception java.lang.reflect.InvocationTargetException
+[main] 2023-04-25 15:56:26 ERROR - Element is not visible : By.id: login_field
+[main] 2023-04-25 15:56:26 ERROR - !!!Failure in Format2(1) ( sheet : Sheet1 ) on line no: 4
+[main] 2023-04-25 15:56:26 ERROR - ERROR : Element is not visible : By.id: login_field
+[main] 2023-04-25 15:56:26 INFO  - Re-Triggering failed test cases is disabled
+[main] 2023-04-25 15:56:26 INFO  - Closing Browser
+[main] 2023-04-25 15:56:31 WARN  - Exception ejava.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:29372
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'GAL000310', ip: '10.244.54.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: driver.version: RemoteWebDriver
+[main] 2023-04-25 15:56:31 INFO  - End of execution
+[main] 2023-04-25 15:56:31 INFO  - This is the end of test case execution

@@ -1,0 +1,11 @@
+[main] 2023-04-25 10:45:35 INFO  - #[ Filename: GitHub ( sheet :Sheet1 ) on line no: 2 ]
+[main] 2023-04-25 10:45:38 INFO  - User have entered URL successfully : https://github.com
+[main] 2023-04-25 10:45:38 INFO  - #[ Filename: GitHub ( sheet :Sheet1 ) on line no: 3 ]
+[main] 2023-04-25 10:45:49 WARN  - Waited for 10 seconds. Element is not Visible!
+[main] 2023-04-25 10:46:03 ERROR - Element is not visible : By.xpath: //input[@value='Sign in'] | //input[normalize-space()='Sign in']
+[main] 2023-04-25 10:46:03 ERROR - !!!Failure in GitHub ( sheet : Sheet1 ) on line no: 3
+[main] 2023-04-25 10:46:04 ERROR - ERROR : Element is not visible : By.xpath: //input[@value='Sign in'] | //input[normalize-space()='Sign in']
+[main] 2023-04-25 10:46:04 INFO  - Re-Triggering failed test cases is disabled
+[main] 2023-04-25 10:46:04 INFO  - Closing Browser
+[main] 2023-04-25 10:46:06 INFO  - End of execution
+[main] 2023-04-25 10:46:06 INFO  - This is the end of test case execution

@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 1, Errors: 0, Skipped: 9, Time elapsed: 20.76 s <<< FAILURE! - in TestSuite
+com.persistent.daisy.core.Test_Cases.Execute_Configuration  Time elapsed: 17.563 s  <<< FAILURE!
+java.lang.AssertionError: Invalid locator type submit is provided. Locator Type is case sensitive. Supported Locator Types are: cssSelector, name, tag, xpath, Link, id, label_for and className. Please refer Daisy documentation for more details.
+	at com.persistent.daisy.core.Test_Cases.Execute_Configuration(Test_Cases.java:230)
+

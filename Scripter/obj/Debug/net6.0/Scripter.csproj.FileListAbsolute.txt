@@ -1,0 +1,682 @@
+D:\internalProject\Scripter\obj\Debug\net6.0\Scripter.csproj.AssemblyReference.cache
+D:\internalProject\Scripter\obj\Debug\net6.0\Scripter.GeneratedMSBuildEditorConfig.editorconfig
+D:\internalProject\Scripter\obj\Debug\net6.0\Scripter.AssemblyInfoInputs.cache
+D:\internalProject\Scripter\obj\Debug\net6.0\Scripter.AssemblyInfo.cs
+D:\internalProject\Scripter\obj\Debug\net6.0\Scripter.csproj.CoreCompileInputs.cache
+D:\internalProject\Scripter\obj\Debug\net6.0\Scripter.MvcApplicationPartsAssemblyInfo.cs
+D:\internalProject\Scripter\obj\Debug\net6.0\Scripter.MvcApplicationPartsAssemblyInfo.cache
+D:\internalProject\Scripter\bin\Debug\net6.0\appsettings.Development.json
+D:\internalProject\Scripter\bin\Debug\net6.0\appsettings.json
+D:\internalProject\Scripter\bin\Debug\net6.0\Scripter.exe
+D:\internalProject\Scripter\bin\Debug\net6.0\Scripter.deps.json
+D:\internalProject\Scripter\bin\Debug\net6.0\Scripter.runtimeconfig.json
+D:\internalProject\Scripter\bin\Debug\net6.0\Scripter.dll
+D:\internalProject\Scripter\bin\Debug\net6.0\Scripter.pdb
+D:\internalProject\Scripter\bin\Debug\net6.0\AutoMapper.dll
+D:\internalProject\Scripter\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\internalProject\Scripter\bin\Debug\net6.0\Humanizer.dll
+D:\internalProject\Scripter\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\internalProject\Scripter\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\internalProject\Scripter\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\internalProject\Scripter\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\internalProject\Scripter\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\internalProject\Scripter\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\internalProject\Scripter\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\internalProject\Scripter\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\internalProject\Scripter\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\internalProject\Scripter\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\internalProject\Scripter\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\internalProject\Scripter\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\internalProject\Scripter\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\internalProject\Scripter\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\internalProject\Scripter\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+D:\internalProject\Scripter\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+D:\internalProject\Scripter\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\internalProject\Scripter\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\internalProject\Scripter\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\internalProject\Scripter\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\internalProject\Scripter\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\internalProject\Scripter\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\internalProject\Scripter\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\internalProject\Scripter\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\internalProject\Scripter\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\internalProject\Scripter\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+D:\internalProject\Scripter\bin\Debug\net6.0\Swashbuckle.AspNetCore.Annotations.dll
+D:\internalProject\Scripter\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\internalProject\Scripter\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\internalProject\Scripter\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\internalProject\Scripter\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\internalProject\Scripter\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\internalProject\Scripter\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\internalProject\Scripter\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\internalProject\Scripter\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\internalProject\Scripter\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\internalProject\Scripter\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\internalProject\Scripter\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\internalProject\Scripter\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\internalProject\Scripter\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\internalProject\Scripter\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\internalProject\Scripter\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\internalProject\Scripter\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\internalProject\Scripter\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\internalProject\Scripter\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\internalProject\Scripter\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\internalProject\Scripter\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\internalProject\Scripter\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\internalProject\Scripter\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\internalProject\Scripter\obj\Debug\net6.0\staticwebassets.build.json
+D:\internalProject\Scripter\obj\Debug\net6.0\staticwebassets.development.json
+D:\internalProject\Scripter\obj\Debug\net6.0\scopedcss\bundle\Scripter.styles.css
+D:\internalProject\Scripter\obj\Debug\net6.0\Scripter.csproj.CopyComplete
+D:\internalProject\Scripter\obj\Debug\net6.0\Scripter.dll
+D:\internalProject\Scripter\obj\Debug\net6.0\refint\Scripter.dll
+D:\internalProject\Scripter\obj\Debug\net6.0\Scripter.pdb
+D:\internalProject\Scripter\obj\Debug\net6.0\Scripter.genruntimeconfig.cache
+D:\internalProject\Scripter\obj\Debug\net6.0\ref\Scripter.dll
+D:\internalProject\Daisy-Input-Format\Scripter\bin\Debug\net6.0\appsettings.Development.json
+D:\internalProject\Daisy-Input-Format\Scripter\bin\Debug\net6.0\appsettings.json
+D:\internalProject\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Scripter.exe
+D:\internalProject\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Scripter.deps.json
+D:\internalProject\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Scripter.runtimeconfig.json
+D:\internalProject\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Scripter.dll
+D:\internalProject\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Scripter.pdb
+D:\internalProject\Daisy-Input-Format\Scripter\bin\Debug\net6.0\AutoMapper.dll
+D:\internalProject\Daisy-Input-Format\Scripter\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\internalProject\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Humanizer.dll
+D:\internalProject\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\internalProject\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\internalProject\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\internalProject\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\internalProject\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\internalProject\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\internalProject\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\internalProject\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\internalProject\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\internalProject\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\internalProject\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\internalProject\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\internalProject\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\internalProject\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\internalProject\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+D:\internalProject\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+D:\internalProject\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\internalProject\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\internalProject\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\internalProject\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\internalProject\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\internalProject\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\internalProject\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\internalProject\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\internalProject\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\internalProject\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+D:\internalProject\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Swashbuckle.AspNetCore.Annotations.dll
+D:\internalProject\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\internalProject\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\internalProject\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\internalProject\Daisy-Input-Format\Scripter\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\internalProject\Daisy-Input-Format\Scripter\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\internalProject\Daisy-Input-Format\Scripter\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\internalProject\Daisy-Input-Format\Scripter\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\internalProject\Daisy-Input-Format\Scripter\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\internalProject\Daisy-Input-Format\Scripter\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\internalProject\Daisy-Input-Format\Scripter\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\internalProject\Daisy-Input-Format\Scripter\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\internalProject\Daisy-Input-Format\Scripter\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\internalProject\Daisy-Input-Format\Scripter\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\internalProject\Daisy-Input-Format\Scripter\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\internalProject\Daisy-Input-Format\Scripter\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\internalProject\Daisy-Input-Format\Scripter\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\internalProject\Daisy-Input-Format\Scripter\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\internalProject\Daisy-Input-Format\Scripter\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\internalProject\Daisy-Input-Format\Scripter\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\internalProject\Daisy-Input-Format\Scripter\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\internalProject\Daisy-Input-Format\Scripter\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\internalProject\Daisy-Input-Format\Scripter\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\internalProject\Daisy-Input-Format\Scripter\obj\Debug\net6.0\Scripter.csproj.AssemblyReference.cache
+D:\internalProject\Daisy-Input-Format\Scripter\obj\Debug\net6.0\Scripter.GeneratedMSBuildEditorConfig.editorconfig
+D:\internalProject\Daisy-Input-Format\Scripter\obj\Debug\net6.0\Scripter.AssemblyInfoInputs.cache
+D:\internalProject\Daisy-Input-Format\Scripter\obj\Debug\net6.0\Scripter.AssemblyInfo.cs
+D:\internalProject\Daisy-Input-Format\Scripter\obj\Debug\net6.0\Scripter.csproj.CoreCompileInputs.cache
+D:\internalProject\Daisy-Input-Format\Scripter\obj\Debug\net6.0\Scripter.MvcApplicationPartsAssemblyInfo.cs
+D:\internalProject\Daisy-Input-Format\Scripter\obj\Debug\net6.0\Scripter.MvcApplicationPartsAssemblyInfo.cache
+D:\internalProject\Daisy-Input-Format\Scripter\obj\Debug\net6.0\staticwebassets.build.json
+D:\internalProject\Daisy-Input-Format\Scripter\obj\Debug\net6.0\staticwebassets.development.json
+D:\internalProject\Daisy-Input-Format\Scripter\obj\Debug\net6.0\scopedcss\bundle\Scripter.styles.css
+D:\internalProject\Daisy-Input-Format\Scripter\obj\Debug\net6.0\Scripter.csproj.CopyComplete
+D:\internalProject\Daisy-Input-Format\Scripter\obj\Debug\net6.0\Scripter.dll
+D:\internalProject\Daisy-Input-Format\Scripter\obj\Debug\net6.0\refint\Scripter.dll
+D:\internalProject\Daisy-Input-Format\Scripter\obj\Debug\net6.0\Scripter.pdb
+D:\internalProject\Daisy-Input-Format\Scripter\obj\Debug\net6.0\Scripter.genruntimeconfig.cache
+D:\internalProject\Daisy-Input-Format\Scripter\obj\Debug\net6.0\ref\Scripter.dll
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\bin\Debug\net6.0\appsettings.Development.json
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\bin\Debug\net6.0\appsettings.json
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Scripter.exe
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Scripter.deps.json
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Scripter.runtimeconfig.json
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Scripter.dll
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Scripter.pdb
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\bin\Debug\net6.0\AutoMapper.dll
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Humanizer.dll
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Swashbuckle.AspNetCore.Annotations.dll
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\obj\Debug\net6.0\Scripter.csproj.AssemblyReference.cache
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\obj\Debug\net6.0\Scripter.GeneratedMSBuildEditorConfig.editorconfig
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\obj\Debug\net6.0\Scripter.AssemblyInfoInputs.cache
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\obj\Debug\net6.0\Scripter.AssemblyInfo.cs
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\obj\Debug\net6.0\Scripter.csproj.CoreCompileInputs.cache
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\obj\Debug\net6.0\Scripter.MvcApplicationPartsAssemblyInfo.cs
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\obj\Debug\net6.0\Scripter.MvcApplicationPartsAssemblyInfo.cache
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\obj\Debug\net6.0\staticwebassets.build.json
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\obj\Debug\net6.0\staticwebassets.development.json
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\obj\Debug\net6.0\scopedcss\bundle\Scripter.styles.css
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\obj\Debug\net6.0\Scripter.csproj.CopyComplete
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\obj\Debug\net6.0\Scripter.dll
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\obj\Debug\net6.0\refint\Scripter.dll
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\obj\Debug\net6.0\Scripter.pdb
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\obj\Debug\net6.0\Scripter.genruntimeconfig.cache
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\obj\Debug\net6.0\ref\Scripter.dll
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\obj\Debug\net6.0\Interop.Microsoft.Office.Interop.Excel.dll
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\obj\Debug\net6.0\Interop.Microsoft.Office.Interop.Word.dll
+D:\internalProject\FinalCodes\Daisy-Input-Format\Scripter\obj\Debug\net6.0\Scripter.csproj.ResolveComReference.cache
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\obj\Debug\net6.0\Scripter.dll
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\obj\Debug\net6.0\refint\Scripter.dll
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\obj\Debug\net6.0\Scripter.pdb
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\obj\Debug\net6.0\Scripter.csproj.AssemblyReference.cache
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\obj\Debug\net6.0\Interop.Microsoft.Office.Interop.Excel.dll
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\obj\Debug\net6.0\Interop.Microsoft.Office.Interop.Word.dll
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\obj\Debug\net6.0\Scripter.csproj.ResolveComReference.cache
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\obj\Debug\net6.0\Scripter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\obj\Debug\net6.0\Scripter.AssemblyInfoInputs.cache
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\obj\Debug\net6.0\Scripter.AssemblyInfo.cs
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\obj\Debug\net6.0\Scripter.csproj.CoreCompileInputs.cache
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\obj\Debug\net6.0\Scripter.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\obj\Debug\net6.0\Scripter.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\bin\Debug\net6.0\appsettings.json
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Scripter.exe
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Scripter.deps.json
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Scripter.runtimeconfig.json
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Scripter.dll
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Scripter.pdb
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Humanizer.dll
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Swashbuckle.AspNetCore.Annotations.dll
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\obj\Debug\net6.0\staticwebassets\msbuild.Scripter.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\obj\Debug\net6.0\staticwebassets\msbuild.build.Scripter.props
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Scripter.props
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Scripter.props
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\obj\Debug\net6.0\scopedcss\bundle\Scripter.styles.css
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\obj\Debug\net6.0\Scripter.csproj.CopyComplete
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\obj\Debug\net6.0\Scripter.genruntimeconfig.cache
+C:\Users\nitin_mishra\Daisy-Input-Format\Scripter\obj\Debug\net6.0\ref\Scripter.dll
+D:\internalProject\Scripter\Scripter\bin\Debug\net6.0\appsettings.Development.json
+D:\internalProject\Scripter\Scripter\bin\Debug\net6.0\appsettings.json
+D:\internalProject\Scripter\Scripter\bin\Debug\net6.0\Scripter.exe
+D:\internalProject\Scripter\Scripter\bin\Debug\net6.0\Scripter.deps.json
+D:\internalProject\Scripter\Scripter\bin\Debug\net6.0\Scripter.runtimeconfig.json
+D:\internalProject\Scripter\Scripter\bin\Debug\net6.0\Scripter.dll
+D:\internalProject\Scripter\Scripter\bin\Debug\net6.0\Scripter.pdb
+D:\internalProject\Scripter\Scripter\bin\Debug\net6.0\AutoMapper.dll
+D:\internalProject\Scripter\Scripter\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\internalProject\Scripter\Scripter\bin\Debug\net6.0\Humanizer.dll
+D:\internalProject\Scripter\Scripter\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\internalProject\Scripter\Scripter\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\internalProject\Scripter\Scripter\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\internalProject\Scripter\Scripter\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\internalProject\Scripter\Scripter\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\internalProject\Scripter\Scripter\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\internalProject\Scripter\Scripter\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\internalProject\Scripter\Scripter\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\internalProject\Scripter\Scripter\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\internalProject\Scripter\Scripter\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\internalProject\Scripter\Scripter\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\internalProject\Scripter\Scripter\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\internalProject\Scripter\Scripter\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+D:\internalProject\Scripter\Scripter\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+D:\internalProject\Scripter\Scripter\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\internalProject\Scripter\Scripter\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\internalProject\Scripter\Scripter\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\internalProject\Scripter\Scripter\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\internalProject\Scripter\Scripter\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\internalProject\Scripter\Scripter\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\internalProject\Scripter\Scripter\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\internalProject\Scripter\Scripter\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\internalProject\Scripter\Scripter\bin\Debug\net6.0\Swashbuckle.AspNetCore.Annotations.dll
+D:\internalProject\Scripter\Scripter\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\internalProject\Scripter\Scripter\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\internalProject\Scripter\Scripter\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\internalProject\Scripter\Scripter\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\internalProject\Scripter\Scripter\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\internalProject\Scripter\Scripter\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\internalProject\Scripter\Scripter\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\internalProject\Scripter\Scripter\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\internalProject\Scripter\Scripter\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\internalProject\Scripter\Scripter\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\internalProject\Scripter\Scripter\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\internalProject\Scripter\Scripter\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\internalProject\Scripter\Scripter\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\internalProject\Scripter\Scripter\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\internalProject\Scripter\Scripter\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\internalProject\Scripter\Scripter\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\internalProject\Scripter\Scripter\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\internalProject\Scripter\Scripter\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\internalProject\Scripter\Scripter\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\internalProject\Scripter\Scripter\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\internalProject\Scripter\Scripter\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\internalProject\Scripter\Scripter\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\internalProject\Scripter\Scripter\obj\Debug\net6.0\Scripter.csproj.AssemblyReference.cache
+D:\internalProject\Scripter\Scripter\obj\Debug\net6.0\Interop.Microsoft.Office.Interop.Excel.dll
+D:\internalProject\Scripter\Scripter\obj\Debug\net6.0\Interop.Microsoft.Office.Interop.Word.dll
+D:\internalProject\Scripter\Scripter\obj\Debug\net6.0\Scripter.csproj.ResolveComReference.cache
+D:\internalProject\Scripter\Scripter\obj\Debug\net6.0\Scripter.GeneratedMSBuildEditorConfig.editorconfig
+D:\internalProject\Scripter\Scripter\obj\Debug\net6.0\Scripter.AssemblyInfoInputs.cache
+D:\internalProject\Scripter\Scripter\obj\Debug\net6.0\Scripter.AssemblyInfo.cs
+D:\internalProject\Scripter\Scripter\obj\Debug\net6.0\Scripter.csproj.CoreCompileInputs.cache
+D:\internalProject\Scripter\Scripter\obj\Debug\net6.0\Scripter.MvcApplicationPartsAssemblyInfo.cs
+D:\internalProject\Scripter\Scripter\obj\Debug\net6.0\Scripter.MvcApplicationPartsAssemblyInfo.cache
+D:\internalProject\Scripter\Scripter\obj\Debug\net6.0\staticwebassets.build.json
+D:\internalProject\Scripter\Scripter\obj\Debug\net6.0\staticwebassets.development.json
+D:\internalProject\Scripter\Scripter\obj\Debug\net6.0\scopedcss\bundle\Scripter.styles.css
+D:\internalProject\Scripter\Scripter\obj\Debug\net6.0\Scripter.csproj.CopyComplete
+D:\internalProject\Scripter\Scripter\obj\Debug\net6.0\Scripter.dll
+D:\internalProject\Scripter\Scripter\obj\Debug\net6.0\refint\Scripter.dll
+D:\internalProject\Scripter\Scripter\obj\Debug\net6.0\Scripter.pdb
+D:\internalProject\Scripter\Scripter\obj\Debug\net6.0\Scripter.genruntimeconfig.cache
+D:\internalProject\Scripter\Scripter\obj\Debug\net6.0\ref\Scripter.dll
+D:\internalProject\Scripter\Scripter\obj\Debug\net6.0\staticwebassets\msbuild.Scripter.Microsoft.AspNetCore.StaticWebAssets.props
+D:\internalProject\Scripter\Scripter\obj\Debug\net6.0\staticwebassets\msbuild.build.Scripter.props
+D:\internalProject\Scripter\Scripter\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Scripter.props
+D:\internalProject\Scripter\Scripter\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Scripter.props
+D:\internalProject\Scripter\Scripter\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Scripter\Scripter\bin\Debug\net6.0\appsettings.Development.json
+D:\Scripter\Scripter\bin\Debug\net6.0\appsettings.json
+D:\Scripter\Scripter\bin\Debug\net6.0\Scripter.exe
+D:\Scripter\Scripter\bin\Debug\net6.0\Scripter.deps.json
+D:\Scripter\Scripter\bin\Debug\net6.0\Scripter.runtimeconfig.json
+D:\Scripter\Scripter\bin\Debug\net6.0\Scripter.dll
+D:\Scripter\Scripter\bin\Debug\net6.0\Scripter.pdb
+D:\Scripter\Scripter\bin\Debug\net6.0\AutoMapper.dll
+D:\Scripter\Scripter\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Scripter\Scripter\bin\Debug\net6.0\Humanizer.dll
+D:\Scripter\Scripter\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Scripter\Scripter\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Scripter\Scripter\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Scripter\Scripter\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Scripter\Scripter\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\Scripter\Scripter\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Scripter\Scripter\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Scripter\Scripter\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Scripter\Scripter\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Scripter\Scripter\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Scripter\Scripter\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Scripter\Scripter\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Scripter\Scripter\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+D:\Scripter\Scripter\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Scripter\Scripter\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\Scripter\Scripter\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Scripter\Scripter\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Scripter\Scripter\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Scripter\Scripter\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Scripter\Scripter\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Scripter\Scripter\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Scripter\Scripter\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Scripter\Scripter\bin\Debug\net6.0\Swashbuckle.AspNetCore.Annotations.dll
+D:\Scripter\Scripter\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Scripter\Scripter\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Scripter\Scripter\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Scripter\Scripter\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Scripter\Scripter\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Scripter\Scripter\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Scripter\Scripter\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\Scripter\Scripter\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Scripter\Scripter\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Scripter\Scripter\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Scripter\Scripter\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Scripter\Scripter\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Scripter\Scripter\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Scripter\Scripter\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Scripter\Scripter\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Scripter\Scripter\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Scripter\Scripter\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Scripter\Scripter\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Scripter\Scripter\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Scripter\Scripter\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Scripter\Scripter\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Scripter\Scripter\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Scripter\Scripter\obj\Debug\net6.0\Scripter.csproj.AssemblyReference.cache
+D:\Scripter\Scripter\obj\Debug\net6.0\Interop.Microsoft.Office.Interop.Excel.dll
+D:\Scripter\Scripter\obj\Debug\net6.0\Interop.Microsoft.Office.Interop.Word.dll
+D:\Scripter\Scripter\obj\Debug\net6.0\Scripter.csproj.ResolveComReference.cache
+D:\Scripter\Scripter\obj\Debug\net6.0\Scripter.GeneratedMSBuildEditorConfig.editorconfig
+D:\Scripter\Scripter\obj\Debug\net6.0\Scripter.AssemblyInfoInputs.cache
+D:\Scripter\Scripter\obj\Debug\net6.0\Scripter.AssemblyInfo.cs
+D:\Scripter\Scripter\obj\Debug\net6.0\Scripter.csproj.CoreCompileInputs.cache
+D:\Scripter\Scripter\obj\Debug\net6.0\Scripter.MvcApplicationPartsAssemblyInfo.cs
+D:\Scripter\Scripter\obj\Debug\net6.0\Scripter.MvcApplicationPartsAssemblyInfo.cache
+D:\Scripter\Scripter\obj\Debug\net6.0\staticwebassets.build.json
+D:\Scripter\Scripter\obj\Debug\net6.0\staticwebassets.development.json
+D:\Scripter\Scripter\obj\Debug\net6.0\scopedcss\bundle\Scripter.styles.css
+D:\Scripter\Scripter\obj\Debug\net6.0\Scripter.csproj.CopyComplete
+D:\Scripter\Scripter\obj\Debug\net6.0\Scripter.dll
+D:\Scripter\Scripter\obj\Debug\net6.0\refint\Scripter.dll
+D:\Scripter\Scripter\obj\Debug\net6.0\Scripter.pdb
+D:\Scripter\Scripter\obj\Debug\net6.0\Scripter.genruntimeconfig.cache
+D:\Scripter\Scripter\obj\Debug\net6.0\ref\Scripter.dll
+D:\Scripter - Copy\Scripter\bin\Debug\net6.0\appsettings.Development.json
+D:\Scripter - Copy\Scripter\bin\Debug\net6.0\appsettings.json
+D:\Scripter - Copy\Scripter\bin\Debug\net6.0\Scripter.exe
+D:\Scripter - Copy\Scripter\bin\Debug\net6.0\Scripter.deps.json
+D:\Scripter - Copy\Scripter\bin\Debug\net6.0\Scripter.runtimeconfig.json
+D:\Scripter - Copy\Scripter\bin\Debug\net6.0\Scripter.dll
+D:\Scripter - Copy\Scripter\bin\Debug\net6.0\Scripter.pdb
+D:\Scripter - Copy\Scripter\bin\Debug\net6.0\AutoMapper.dll
+D:\Scripter - Copy\Scripter\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Scripter - Copy\Scripter\bin\Debug\net6.0\Humanizer.dll
+D:\Scripter - Copy\Scripter\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Scripter - Copy\Scripter\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Scripter - Copy\Scripter\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Scripter - Copy\Scripter\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Scripter - Copy\Scripter\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\Scripter - Copy\Scripter\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Scripter - Copy\Scripter\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Scripter - Copy\Scripter\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Scripter - Copy\Scripter\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Scripter - Copy\Scripter\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Scripter - Copy\Scripter\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Scripter - Copy\Scripter\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Scripter - Copy\Scripter\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+D:\Scripter - Copy\Scripter\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Scripter - Copy\Scripter\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\Scripter - Copy\Scripter\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Scripter - Copy\Scripter\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Scripter - Copy\Scripter\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Scripter - Copy\Scripter\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Scripter - Copy\Scripter\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Scripter - Copy\Scripter\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Scripter - Copy\Scripter\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Scripter - Copy\Scripter\bin\Debug\net6.0\Swashbuckle.AspNetCore.Annotations.dll
+D:\Scripter - Copy\Scripter\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Scripter - Copy\Scripter\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Scripter - Copy\Scripter\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Scripter - Copy\Scripter\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Scripter - Copy\Scripter\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Scripter - Copy\Scripter\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Scripter - Copy\Scripter\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\Scripter - Copy\Scripter\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Scripter - Copy\Scripter\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Scripter - Copy\Scripter\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Scripter - Copy\Scripter\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Scripter - Copy\Scripter\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Scripter - Copy\Scripter\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Scripter - Copy\Scripter\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Scripter - Copy\Scripter\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Scripter - Copy\Scripter\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Scripter - Copy\Scripter\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Scripter - Copy\Scripter\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Scripter - Copy\Scripter\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Scripter - Copy\Scripter\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Scripter - Copy\Scripter\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Scripter - Copy\Scripter\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Scripter - Copy\Scripter\obj\Debug\net6.0\Scripter.csproj.AssemblyReference.cache
+D:\Scripter - Copy\Scripter\obj\Debug\net6.0\Interop.Microsoft.Office.Interop.Excel.dll
+D:\Scripter - Copy\Scripter\obj\Debug\net6.0\Interop.Microsoft.Office.Interop.Word.dll
+D:\Scripter - Copy\Scripter\obj\Debug\net6.0\Scripter.csproj.ResolveComReference.cache
+D:\Scripter - Copy\Scripter\obj\Debug\net6.0\Scripter.GeneratedMSBuildEditorConfig.editorconfig
+D:\Scripter - Copy\Scripter\obj\Debug\net6.0\Scripter.AssemblyInfoInputs.cache
+D:\Scripter - Copy\Scripter\obj\Debug\net6.0\Scripter.AssemblyInfo.cs
+D:\Scripter - Copy\Scripter\obj\Debug\net6.0\Scripter.csproj.CoreCompileInputs.cache
+D:\Scripter - Copy\Scripter\obj\Debug\net6.0\Scripter.MvcApplicationPartsAssemblyInfo.cs
+D:\Scripter - Copy\Scripter\obj\Debug\net6.0\Scripter.MvcApplicationPartsAssemblyInfo.cache
+D:\Scripter - Copy\Scripter\obj\Debug\net6.0\staticwebassets.build.json
+D:\Scripter - Copy\Scripter\obj\Debug\net6.0\staticwebassets.development.json
+D:\Scripter - Copy\Scripter\obj\Debug\net6.0\scopedcss\bundle\Scripter.styles.css
+D:\Scripter - Copy\Scripter\obj\Debug\net6.0\Scripter.csproj.CopyComplete
+D:\Scripter - Copy\Scripter\obj\Debug\net6.0\Scripter.dll
+D:\Scripter - Copy\Scripter\obj\Debug\net6.0\refint\Scripter.dll
+D:\Scripter - Copy\Scripter\obj\Debug\net6.0\Scripter.pdb
+D:\Scripter - Copy\Scripter\obj\Debug\net6.0\Scripter.genruntimeconfig.cache
+D:\Scripter - Copy\Scripter\obj\Debug\net6.0\ref\Scripter.dll
+D:\Scripter1\Scripter\bin\Debug\net6.0\appsettings.Development.json
+D:\Scripter1\Scripter\bin\Debug\net6.0\appsettings.json
+D:\Scripter1\Scripter\bin\Debug\net6.0\Scripter.exe
+D:\Scripter1\Scripter\bin\Debug\net6.0\Scripter.deps.json
+D:\Scripter1\Scripter\bin\Debug\net6.0\Scripter.runtimeconfig.json
+D:\Scripter1\Scripter\bin\Debug\net6.0\Scripter.dll
+D:\Scripter1\Scripter\bin\Debug\net6.0\Scripter.pdb
+D:\Scripter1\Scripter\bin\Debug\net6.0\AutoMapper.dll
+D:\Scripter1\Scripter\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Scripter1\Scripter\bin\Debug\net6.0\Humanizer.dll
+D:\Scripter1\Scripter\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Scripter1\Scripter\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Scripter1\Scripter\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Scripter1\Scripter\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Scripter1\Scripter\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\Scripter1\Scripter\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Scripter1\Scripter\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Scripter1\Scripter\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Scripter1\Scripter\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Scripter1\Scripter\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Scripter1\Scripter\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Scripter1\Scripter\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Scripter1\Scripter\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+D:\Scripter1\Scripter\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Scripter1\Scripter\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\Scripter1\Scripter\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Scripter1\Scripter\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Scripter1\Scripter\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Scripter1\Scripter\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Scripter1\Scripter\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Scripter1\Scripter\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Scripter1\Scripter\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Scripter1\Scripter\bin\Debug\net6.0\Swashbuckle.AspNetCore.Annotations.dll
+D:\Scripter1\Scripter\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Scripter1\Scripter\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Scripter1\Scripter\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Scripter1\Scripter\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Scripter1\Scripter\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Scripter1\Scripter\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Scripter1\Scripter\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\Scripter1\Scripter\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Scripter1\Scripter\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Scripter1\Scripter\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Scripter1\Scripter\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Scripter1\Scripter\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Scripter1\Scripter\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Scripter1\Scripter\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Scripter1\Scripter\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Scripter1\Scripter\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Scripter1\Scripter\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Scripter1\Scripter\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Scripter1\Scripter\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Scripter1\Scripter\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Scripter1\Scripter\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Scripter1\Scripter\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Scripter1\Scripter\obj\Debug\net6.0\Scripter.csproj.AssemblyReference.cache
+D:\Scripter1\Scripter\obj\Debug\net6.0\Interop.Microsoft.Office.Interop.Excel.dll
+D:\Scripter1\Scripter\obj\Debug\net6.0\Interop.Microsoft.Office.Interop.Word.dll
+D:\Scripter1\Scripter\obj\Debug\net6.0\Scripter.csproj.ResolveComReference.cache
+D:\Scripter1\Scripter\obj\Debug\net6.0\Scripter.GeneratedMSBuildEditorConfig.editorconfig
+D:\Scripter1\Scripter\obj\Debug\net6.0\Scripter.AssemblyInfoInputs.cache
+D:\Scripter1\Scripter\obj\Debug\net6.0\Scripter.AssemblyInfo.cs
+D:\Scripter1\Scripter\obj\Debug\net6.0\Scripter.csproj.CoreCompileInputs.cache
+D:\Scripter1\Scripter\obj\Debug\net6.0\Scripter.MvcApplicationPartsAssemblyInfo.cs
+D:\Scripter1\Scripter\obj\Debug\net6.0\Scripter.MvcApplicationPartsAssemblyInfo.cache
+D:\Scripter1\Scripter\obj\Debug\net6.0\staticwebassets.build.json
+D:\Scripter1\Scripter\obj\Debug\net6.0\staticwebassets.development.json
+D:\Scripter1\Scripter\obj\Debug\net6.0\scopedcss\bundle\Scripter.styles.css
+D:\Scripter1\Scripter\obj\Debug\net6.0\Scripter.csproj.CopyComplete
+D:\Scripter1\Scripter\obj\Debug\net6.0\Scripter.dll
+D:\Scripter1\Scripter\obj\Debug\net6.0\refint\Scripter.dll
+D:\Scripter1\Scripter\obj\Debug\net6.0\Scripter.pdb
+D:\Scripter1\Scripter\obj\Debug\net6.0\Scripter.genruntimeconfig.cache
+D:\Scripter1\Scripter\obj\Debug\net6.0\ref\Scripter.dll
+D:\RGI Project Documents\complete_project\Scripter\bin\Debug\net6.0\appsettings.Development.json
+D:\RGI Project Documents\complete_project\Scripter\bin\Debug\net6.0\appsettings.json
+D:\RGI Project Documents\complete_project\Scripter\bin\Debug\net6.0\Scripter.exe
+D:\RGI Project Documents\complete_project\Scripter\bin\Debug\net6.0\Scripter.deps.json
+D:\RGI Project Documents\complete_project\Scripter\bin\Debug\net6.0\Scripter.runtimeconfig.json
+D:\RGI Project Documents\complete_project\Scripter\bin\Debug\net6.0\Scripter.dll
+D:\RGI Project Documents\complete_project\Scripter\bin\Debug\net6.0\Scripter.pdb
+D:\RGI Project Documents\complete_project\Scripter\bin\Debug\net6.0\AutoMapper.dll
+D:\RGI Project Documents\complete_project\Scripter\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\RGI Project Documents\complete_project\Scripter\bin\Debug\net6.0\Humanizer.dll
+D:\RGI Project Documents\complete_project\Scripter\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\RGI Project Documents\complete_project\Scripter\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\RGI Project Documents\complete_project\Scripter\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\RGI Project Documents\complete_project\Scripter\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\RGI Project Documents\complete_project\Scripter\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\RGI Project Documents\complete_project\Scripter\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\RGI Project Documents\complete_project\Scripter\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\RGI Project Documents\complete_project\Scripter\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\RGI Project Documents\complete_project\Scripter\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\RGI Project Documents\complete_project\Scripter\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\RGI Project Documents\complete_project\Scripter\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\RGI Project Documents\complete_project\Scripter\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\RGI Project Documents\complete_project\Scripter\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+D:\RGI Project Documents\complete_project\Scripter\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+D:\RGI Project Documents\complete_project\Scripter\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\RGI Project Documents\complete_project\Scripter\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\RGI Project Documents\complete_project\Scripter\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\RGI Project Documents\complete_project\Scripter\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\RGI Project Documents\complete_project\Scripter\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\RGI Project Documents\complete_project\Scripter\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\RGI Project Documents\complete_project\Scripter\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\RGI Project Documents\complete_project\Scripter\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\RGI Project Documents\complete_project\Scripter\bin\Debug\net6.0\Swashbuckle.AspNetCore.Annotations.dll
+D:\RGI Project Documents\complete_project\Scripter\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\RGI Project Documents\complete_project\Scripter\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\RGI Project Documents\complete_project\Scripter\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\RGI Project Documents\complete_project\Scripter\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\RGI Project Documents\complete_project\Scripter\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\RGI Project Documents\complete_project\Scripter\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\RGI Project Documents\complete_project\Scripter\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\RGI Project Documents\complete_project\Scripter\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\RGI Project Documents\complete_project\Scripter\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\RGI Project Documents\complete_project\Scripter\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\RGI Project Documents\complete_project\Scripter\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\RGI Project Documents\complete_project\Scripter\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\RGI Project Documents\complete_project\Scripter\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\RGI Project Documents\complete_project\Scripter\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\RGI Project Documents\complete_project\Scripter\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\RGI Project Documents\complete_project\Scripter\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\RGI Project Documents\complete_project\Scripter\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\RGI Project Documents\complete_project\Scripter\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\RGI Project Documents\complete_project\Scripter\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\RGI Project Documents\complete_project\Scripter\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\RGI Project Documents\complete_project\Scripter\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\RGI Project Documents\complete_project\Scripter\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\RGI Project Documents\complete_project\Scripter\obj\Debug\net6.0\Scripter.csproj.AssemblyReference.cache
+D:\RGI Project Documents\complete_project\Scripter\obj\Debug\net6.0\Interop.Microsoft.Office.Interop.Excel.dll
+D:\RGI Project Documents\complete_project\Scripter\obj\Debug\net6.0\Interop.Microsoft.Office.Interop.Word.dll
+D:\RGI Project Documents\complete_project\Scripter\obj\Debug\net6.0\Scripter.csproj.ResolveComReference.cache
+D:\RGI Project Documents\complete_project\Scripter\obj\Debug\net6.0\Scripter.GeneratedMSBuildEditorConfig.editorconfig
+D:\RGI Project Documents\complete_project\Scripter\obj\Debug\net6.0\Scripter.AssemblyInfoInputs.cache
+D:\RGI Project Documents\complete_project\Scripter\obj\Debug\net6.0\Scripter.AssemblyInfo.cs
+D:\RGI Project Documents\complete_project\Scripter\obj\Debug\net6.0\Scripter.csproj.CoreCompileInputs.cache
+D:\RGI Project Documents\complete_project\Scripter\obj\Debug\net6.0\Scripter.MvcApplicationPartsAssemblyInfo.cs
+D:\RGI Project Documents\complete_project\Scripter\obj\Debug\net6.0\Scripter.MvcApplicationPartsAssemblyInfo.cache
+D:\RGI Project Documents\complete_project\Scripter\obj\Debug\net6.0\staticwebassets.build.json
+D:\RGI Project Documents\complete_project\Scripter\obj\Debug\net6.0\staticwebassets.development.json
+D:\RGI Project Documents\complete_project\Scripter\obj\Debug\net6.0\scopedcss\bundle\Scripter.styles.css
+D:\RGI Project Documents\complete_project\Scripter\obj\Debug\net6.0\Scripter.csproj.CopyComplete
+D:\RGI Project Documents\complete_project\Scripter\obj\Debug\net6.0\Scripter.dll
+D:\RGI Project Documents\complete_project\Scripter\obj\Debug\net6.0\refint\Scripter.dll
+D:\RGI Project Documents\complete_project\Scripter\obj\Debug\net6.0\Scripter.pdb
+D:\RGI Project Documents\complete_project\Scripter\obj\Debug\net6.0\Scripter.genruntimeconfig.cache
+D:\RGI Project Documents\complete_project\Scripter\obj\Debug\net6.0\ref\Scripter.dll

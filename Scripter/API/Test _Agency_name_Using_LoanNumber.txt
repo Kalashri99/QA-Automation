@@ -1,0 +1,9 @@
+{
+  "url": "https://capitalfirst--uat.my.salesforce.com/services/data/v20.0/query/?q=SELECT+Agency__r.Name%2CCaseNumber+FROM+Case+WHERE+Loan_Application__r.Name+%3D%27${0}%27+AND+Status__c+%21%3D+%27Closed%27",
+  "method": "GET",
+  "timeout": 0,
+  "headers": {
+    "Authorization": "Bearer ${access_token}",
+    "Content-Type": "application/json"
+  },
+}

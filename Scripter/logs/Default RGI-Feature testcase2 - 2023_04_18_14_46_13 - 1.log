@@ -1,0 +1,22 @@
+[main] 2023-04-18 14:46:13 INFO  - #[ Filename: RGI-Feature testcase2 ( sheet :Sheet1 ) on line no: 2 ]
+[main] 2023-04-18 14:46:18 INFO  - User have entered URL successfully : https://www.hackerearth.com
+[main] 2023-04-18 14:46:18 INFO  - #[ Filename: RGI-Feature testcase2 ( sheet :Sheet1 ) on line no: 3 ]
+[main] 2023-04-18 14:46:18 INFO  -  Click Retry Cout: 0
+[main] 2023-04-18 14:46:18 INFO  - Inside the TRY of else block By.xpath: //a[@value='Login'] | //a[normalize-space()='Login']
+[main] 2023-04-18 14:46:18 INFO  - Inside clickUsingJavaScript step:last
+[main] 2023-04-18 14:46:18 INFO  - Successfully clicked on Login Button
+[main] 2023-04-18 14:46:18 INFO  - #[ Filename: RGI-Feature testcase2 ( sheet :Sheet1 ) on line no: 4 ]
+[main] 2023-04-18 14:46:20 INFO  - Successfully entered text
+[main] 2023-04-18 14:46:20 INFO  - Entered project.daisy.input@gmail.com in Username or Email field
+[main] 2023-04-18 14:46:20 INFO  - #[ Filename: RGI-Feature testcase2 ( sheet :Sheet1 ) on line no: 5 ]
+[main] 2023-04-18 14:46:22 INFO  - Successfully entered text
+[main] 2023-04-18 14:46:22 INFO  - Entered Password Successfully
+[main] 2023-04-18 14:46:22 INFO  - #[ Filename: RGI-Feature testcase2 ( sheet :Sheet1 ) on line no: 6 ]
+[main] 2023-04-18 14:46:22 INFO  -  Click Retry Cout: 0
+[main] 2023-04-18 14:46:22 INFO  - Inside the TRY of else block By.xpath: //button[@value='Log in'] | //button[normalize-space()='Log in']
+[main] 2023-04-18 14:46:22 INFO  - Inside clickUsingJavaScript step:last
+[main] 2023-04-18 14:46:22 INFO  - Successfully clicked on Log in Button
+[main] 2023-04-18 14:46:23 INFO  - Re-Triggering failed test cases is disabled
+[main] 2023-04-18 14:46:23 INFO  - Closing Browser
+[main] 2023-04-18 14:46:24 INFO  - End of execution
+[main] 2023-04-18 14:46:24 INFO  - This is the end of test case execution

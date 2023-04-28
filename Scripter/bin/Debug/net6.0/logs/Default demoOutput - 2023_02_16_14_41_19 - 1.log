@@ -1,0 +1,12 @@
+[main] 2023-02-16 14:41:19 INFO  - #[ Filename: demoOutput ( sheet :Sheet1 ) on line no: 2 ]
+[main] 2023-02-16 14:41:19 WARN  - Invalid URL https://github.com/Exception details: null
+[main] 2023-02-16 14:41:19 WARN  - Underlying exception: null
+[main] 2023-02-16 14:41:19 WARN  - Exception null
+[main] 2023-02-16 14:41:19 ERROR - Invalid URL https://github.com/
+[main] 2023-02-16 14:41:19 ERROR - !!!Failure in demoOutput ( sheet : Sheet1 ) on line no: 2
+[main] 2023-02-16 14:41:19 ERROR - ERROR : Invalid URL https://github.com/
+[main] 2023-02-16 14:41:19 INFO  - Re-Triggering failed test cases is disabled
+[main] 2023-02-16 14:41:19 INFO  - Closing Browser
+[main] 2023-02-16 14:41:19 WARN  - Exception enull
+[main] 2023-02-16 14:41:19 INFO  - End of execution
+[main] 2023-02-16 14:41:19 INFO  - This is the end of test case execution

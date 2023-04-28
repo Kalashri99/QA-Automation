@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+ <suite name="Suite" parallel="tests" thread-count="2">
+
+		<listeners> 
+			<listener class-name="com.persistent.daisy.core.browser.ScreenshotListener"/> 
+      	</listeners>
+	
+	<test name="DaisyTestSetup">
+		
+		<parameter name="browser" value="${browser}" />
+		<parameter name="timeout" value="${timeout}" />
+		<parameter name="org" value="${org}" />
+		<parameter name="url" value="${url}" />
+		<parameter name="username" value="${username}" />
+		<parameter name="password" value="${password}" />
+		
+		<parameter name="target" value="${target}" />
+		<parameter name="platform" value="${platform}" />
+		<parameter name="saucelabs_user" value="${saucelabs_user}" />
+		<parameter name="saucelabs_access_key" value="${saucelabs_access_key}" />
+		
+		<parameter name="use_proxy" value="${use_proxy}" />
+		<parameter name="proxy_host" value="${proxy_host}" />
+		<parameter name="proxy_port" value="${proxy_port}" />
+		<parameter name="proxy_port" value="${proxy_port}" />
+		<parameter name="report_dir" value="${report_dir}" />
+		<parameter name="mode" value="${mode}" />
+		<parameter name="parallelscript" value="${parallelscript}" />
+		<parameter name="paralleldata" value="${paralleldata}" />
+		<parameter name="parallelIndex" value="${parallelIndex}" />
+		<parameter name="masterFile" value="${masterFile}" />
+
+		
+		<classes>
+			<class name="com.persistent.daisy.core.Test_Cases" />
+		</classes>
+		
+	</test>
+</suite>

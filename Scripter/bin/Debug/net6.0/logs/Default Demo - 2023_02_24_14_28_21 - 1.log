@@ -1,0 +1,43 @@
+[main] 2023-02-24 14:28:21 INFO  - #[ Filename: Demo ( sheet :Sheet1Demo ) on line no: 2 ]
+[main] 2023-02-24 14:28:21 INFO  - Data File Length:1 Datafile nameDataFile_DemoLogin.xlsx
+[main] 2023-02-24 14:28:21 INFO  - Executing Action Sheet name: Sheet1Script and Data Sheet name :Sheet1Data
+[main] 2023-02-24 14:28:21 INFO  - #[ Filename: DemoLogin.xlsx ( sheet : Sheet1Script ) (Iteration : 0 ) on line no: 2 ]
+[main] 2023-02-24 14:28:23 INFO  - User have entered URL successfully : https://login.salesforce.com/
+[main] 2023-02-24 14:28:23 INFO  - #[ Filename: DemoLogin.xlsx ( sheet : Sheet1Script ) (Iteration : 0 ) on line no: 3 ]
+[main] 2023-02-24 14:28:23 INFO  - Used ByLabel for email
+[main] 2023-02-24 14:28:23 INFO  - for label command handler working fine
+[main] 2023-02-24 14:28:23 INFO  - #[ Filename: DemoLogin.xlsx ( sheet : Sheet1Script ) (Iteration : 0 ) on line no: 4 ]
+[main] 2023-02-24 14:28:23 INFO  - Locator value from Label.xml:  password for the Key passwordtxt
+[main] 2023-02-24 14:28:23 INFO  - This is encrypted string
+[main] 2023-02-24 14:28:23 WARN  - Using blank password, since Error decrypting password : Input byte array has wrong 4-byte ending unit
+[main] 2023-02-24 14:28:23 INFO  - #[ Filename: DemoLogin.xlsx ( sheet : Sheet1Script ) (Iteration : 0 ) on line no: 5 ]
+[main] 2023-02-24 14:28:23 INFO  - Locator value from Label.xml:  Login for the Key loginbtn
+[main] 2023-02-24 14:28:23 INFO  -  Click Retry Cout: 0
+[main] 2023-02-24 14:28:24 INFO  - Inside the TRY of else block By.id: Login
+[main] 2023-02-24 14:28:24 INFO  - Inside clickUsingJavaScript step:last
+[main] 2023-02-24 14:28:24 INFO  - Successfully clicked on Login Button
+[main] 2023-02-24 14:28:24 INFO  - #[ Filename: DemoLogin.xlsx ( sheet : Sheet1Script ) (Iteration : 0 ) on line no: 6 ]
+[main] 2023-02-24 14:28:24 INFO  - Locator value from Label.xml:  slds-icon-waffle for the Key app_launcher
+[main] 2023-02-24 14:28:35 WARN  - Waited for 10 seconds. Element is not Visible!
+[main] 2023-02-24 14:28:35 WARN  - Underlying exception: null
+[main] 2023-02-24 14:28:35 WARN  - Exception no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=110.0.5481.100)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PSL-2Q47XM3', ip: '10.44.16.151', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.100, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\NAMAN_~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63154}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 730fe540ce9e4d3e827171b3a9bca105
+[main] 2023-02-24 14:28:35 WARN  - Error in for loop: Element is not visible : By.className: slds-icon-waffle
+[main] 2023-02-24 14:28:35 ERROR - !!!Failure in DemoLogin.xlsx ( sheet : Sheet1Script ) (Iteration : 0 ) on line no: 6
+[main] 2023-02-24 14:28:35 ERROR - ERROR : Element is not visible : By.className: slds-icon-waffle
+[main] 2023-02-24 14:28:35 INFO  - Skipped by User - DemoLogin
+[main] 2023-02-24 14:28:35 INFO  - Skipped by User - DemoSequenceExecution1
+[main] 2023-02-24 14:28:35 INFO  - Skipped by User - DemoSequenceExecution2
+[main] 2023-02-24 14:28:35 INFO  - Skipped by User - DemoSequenceExecution3
+[main] 2023-02-24 14:28:35 INFO  - Skipped by User - DemoSequenceExecution4
+[main] 2023-02-24 14:28:35 INFO  - Skipped by User - api-demos-MobileAutomation Nativeapp
+[main] 2023-02-24 14:28:35 INFO  - Re-Triggering failed test cases is disabled
+[main] 2023-02-24 14:28:35 INFO  - Closing Browser
+[main] 2023-02-24 14:28:36 INFO  - End of execution
+[main] 2023-02-24 14:28:36 INFO  - This is the end of test case execution

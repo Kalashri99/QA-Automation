@@ -1,0 +1,65 @@
+[main] 2023-03-31 11:02:25 INFO  - #[ Filename: output ( sheet :Sheet1 ) on line no: 2 ]
+[main] 2023-03-31 11:02:29 INFO  - User have entered URL successfully : https://github.com
+[main] 2023-03-31 11:02:29 INFO  - #[ Filename: output ( sheet :Sheet1 ) on line no: 3 ]
+[main] 2023-03-31 11:02:29 INFO  -  Click Retry Cout: 0
+[main] 2023-03-31 11:02:29 INFO  - Inside the TRY of else block By.xpath: //a[@value='Sign in'] | //a[normalize-space()='Sign in']
+[main] 2023-03-31 11:02:29 INFO  - Inside clickUsingJavaScript step:last
+[main] 2023-03-31 11:02:29 INFO  - Successfully clicked on Sign in Button
+[main] 2023-03-31 11:02:29 INFO  - #[ Filename: output ( sheet :Sheet1 ) on line no: 4 ]
+[main] 2023-03-31 11:02:32 INFO  - Successfully entered text
+[main] 2023-03-31 11:02:32 INFO  - Entered daisy-input in Username or email address field
+[main] 2023-03-31 11:02:32 INFO  - #[ Filename: output ( sheet :Sheet1 ) on line no: 5 ]
+[main] 2023-03-31 11:02:34 INFO  - Successfully entered text
+[main] 2023-03-31 11:02:34 INFO  - Entered Password Successfully
+[main] 2023-03-31 11:02:34 INFO  - #[ Filename: output ( sheet :Sheet1 ) on line no: 6 ]
+[main] 2023-03-31 11:02:34 INFO  -  Click Retry Cout: 0
+[main] 2023-03-31 11:02:34 INFO  - Inside the TRY of else block By.xpath: //input[@value='Sign in'] | //input[normalize-space()='Sign in']
+[main] 2023-03-31 11:02:36 INFO  - Inside clickUsingJavaScript step:last
+[main] 2023-03-31 11:02:36 INFO  - Successfully clicked on Sign in Button
+[main] 2023-03-31 11:02:36 INFO  - #[ Filename: output ( sheet :Sheet1 ) on line no: 7 ]
+[main] 2023-03-31 11:02:36 INFO  -  Click Retry Cout: 0
+[main] 2023-03-31 11:02:37 INFO  - Inside the TRY of else block By.xpath: //a[@value='New'] | //a[normalize-space()='New']
+[main] 2023-03-31 11:02:38 INFO  - Inside clickUsingJavaScript step:last
+[main] 2023-03-31 11:02:38 INFO  - Successfully clicked on New Button
+[main] 2023-03-31 11:02:38 INFO  - #[ Filename: output ( sheet :Sheet1 ) on line no: 8 ]
+[main] 2023-03-31 11:02:40 INFO  - Successfully entered text
+[main] 2023-03-31 11:02:40 INFO  - Entered DaisyDemo1 in Repository name field
+[main] 2023-03-31 11:02:40 INFO  - #[ Filename: output ( sheet :Sheet1 ) on line no: 9 ]
+[main] 2023-03-31 11:02:40 INFO  -  Click Retry Cout: 0
+[main] 2023-03-31 11:02:40 INFO  - Inside the TRY of else block By.xpath: //button[@value='Create repository'] | //button[normalize-space()='Create repository']
+[main] 2023-03-31 11:02:42 INFO  - Inside clickUsingJavaScript step:last
+[main] 2023-03-31 11:02:42 INFO  - Successfully clicked on Create repository Button
+[main] 2023-03-31 11:02:42 INFO  - #[ Filename: output ( sheet :Sheet1 ) on line no: 10 ]
+[main] 2023-03-31 11:02:42 INFO  -  Click Retry Cout: 0
+[main] 2023-03-31 11:02:42 INFO  - Inside the TRY of else block By.xpath: //a[@value='README'] | //a[normalize-space()='README']
+[main] 2023-03-31 11:02:43 INFO  - Inside clickUsingJavaScript step:last
+[main] 2023-03-31 11:02:43 INFO  - Successfully clicked on README Button
+[main] 2023-03-31 11:02:43 INFO  - #[ Filename: output ( sheet :Sheet1 ) on line no: 11 ]
+[main] 2023-03-31 11:02:44 INFO  -  Click Retry Cout: 0
+[main] 2023-03-31 11:02:44 INFO  - Inside the TRY of else block By.xpath: //button[@value='Commit new file'] | //button[normalize-space()='Commit new file']
+[main] 2023-03-31 11:02:46 INFO  - Inside clickUsingJavaScript step:last
+[main] 2023-03-31 11:02:46 INFO  - Successfully clicked on Commit new file Button
+[main] 2023-03-31 11:02:46 INFO  - #[ Filename: output ( sheet :Sheet1 ) on line no: 12 ]
+[main] 2023-03-31 11:02:46 INFO  -  Click Retry Cout: 0
+[main] 2023-03-31 11:02:46 INFO  - Inside the TRY of else block By.xpath: //span[@value='Add file'] | //span[normalize-space()='Add file']
+[main] 2023-03-31 11:02:46 INFO  - Inside clickUsingJavaScript step:last
+[main] 2023-03-31 11:02:46 INFO  - Successfully clicked on Add file Button
+[main] 2023-03-31 11:02:46 INFO  - #[ Filename: output ( sheet :Sheet1 ) on line no: 13 ]
+[main] 2023-03-31 11:02:47 INFO  -  Click Retry Cout: 0
+[main] 2023-03-31 11:02:47 INFO  - Inside the TRY of else block By.xpath: //button[@value='Create new file'] | //button[normalize-space()='Create new file']
+[main] 2023-03-31 11:02:48 INFO  - Inside clickUsingJavaScript step:last
+[main] 2023-03-31 11:02:48 INFO  - Successfully clicked on Create new file Button
+[main] 2023-03-31 11:02:48 INFO  - #[ Filename: output ( sheet :Sheet1 ) on line no: 14 ]
+[main] 2023-03-31 11:02:50 INFO  - Successfully entered text
+[main] 2023-03-31 11:02:50 INFO  - Entered file1 in Name your file… field
+[main] 2023-03-31 11:02:50 INFO  - #[ Filename: output ( sheet :Sheet1 ) on line no: 15 ]
+[main] 2023-03-31 11:02:50 INFO  -  Click Retry Cout: 0
+[main] 2023-03-31 11:02:50 INFO  - Inside the TRY of else block By.xpath: //button[@value='Commit new file'] | //button[normalize-space()='Commit new file']
+[main] 2023-03-31 11:02:52 INFO  - Inside clickUsingJavaScript step:last
+[main] 2023-03-31 11:02:52 INFO  - Successfully clicked on Commit new file Button
+[main] 2023-03-31 11:02:52 INFO  - Skipped by User - DemoSequenceExecution4
+[main] 2023-03-31 11:02:52 INFO  - Skipped by User - api-demos-MobileAutomation Nativeapp
+[main] 2023-03-31 11:02:52 INFO  - Re-Triggering failed test cases is disabled
+[main] 2023-03-31 11:02:52 INFO  - Closing Browser
+[main] 2023-03-31 11:02:53 INFO  - End of execution
+[main] 2023-03-31 11:02:53 INFO  - This is the end of test case execution

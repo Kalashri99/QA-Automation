@@ -1,0 +1,23 @@
+[main] 2023-02-23 23:49:03 INFO  - #[ Filename: demoOutput ( sheet :Sheet1 ) on line no: 2 ]
+[main] 2023-02-23 23:49:04 INFO  - User have entered URL successfully : https://github.com/
+[main] 2023-02-23 23:49:04 INFO  - #[ Filename: demoOutput ( sheet :Sheet1 ) on line no: 3 ]
+[main] 2023-02-23 23:49:04 INFO  -  Click Retry Cout: 0
+[main] 2023-02-23 23:49:04 INFO  - Inside the TRY of else block By.xpath: /html/body/div[1]/div[1]/header/div/div[2]/div/div/div[2]/a
+[main] 2023-02-23 23:49:04 INFO  - Inside clickUsingJavaScript step:last
+[main] 2023-02-23 23:49:04 INFO  - Successfully clicked on Sign In Button
+[main] 2023-02-23 23:49:04 INFO  - #[ Filename: demoOutput ( sheet :Sheet1 ) on line no: 4 ]
+[main] 2023-02-23 23:49:07 INFO  - Successfully entered text
+[main] 2023-02-23 23:49:07 INFO  - Entered daisy-input in Username field
+[main] 2023-02-23 23:49:07 INFO  - #[ Filename: demoOutput ( sheet :Sheet1 ) on line no: 5 ]
+[main] 2023-02-23 23:49:08 WARN  - Error: element expectionno such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=110.0.1587.50)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HJ-INSINS15418', ip: '10.53.96.208', os.name: 'Windows NT (unknown)', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_92'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 110.0.1587.50, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:57439}, msedge: {msedgedriverVersion: 110.0.1587.50 (05bf83b2e806..., userDataDir: C:\Users\NITIN_~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 11a01c5d50057b1acc4fa4f25b8a4d9f
+*** Element info: {Using=name, value=password}
+[main] 2023-02-23 23:49:08 INFO  - Successfully entered text
+[main] 2023-02-23 23:49:08 INFO  - Entered Password Successfully
+[main] 2023-02-23 23:49:08 INFO  - #[ Filename: demoOutput ( sheet :Sheet1 ) on line no: 6 ]

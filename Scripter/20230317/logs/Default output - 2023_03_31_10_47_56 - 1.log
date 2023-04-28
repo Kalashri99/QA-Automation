@@ -1,0 +1,38 @@
+[main] 2023-03-31 10:47:56 INFO  - #[ Filename: output ( sheet :Sheet1 ) on line no: 2 ]
+[main] 2023-03-31 10:47:59 INFO  - User have entered URL successfully : https://github.com
+[main] 2023-03-31 10:47:59 INFO  - #[ Filename: output ( sheet :Sheet1 ) on line no: 3 ]
+[main] 2023-03-31 10:47:59 INFO  -  Click Retry Cout: 0
+[main] 2023-03-31 10:47:59 INFO  - Inside the TRY of else block By.xpath: //a[@value='Sign in'] | //a[normalize-space()='Sign in']
+[main] 2023-03-31 10:47:59 INFO  - Inside clickUsingJavaScript step:last
+[main] 2023-03-31 10:47:59 INFO  - Successfully clicked on Sign in Button
+[main] 2023-03-31 10:47:59 INFO  - #[ Filename: output ( sheet :Sheet1 ) on line no: 4 ]
+[main] 2023-03-31 10:48:02 INFO  - Successfully entered text
+[main] 2023-03-31 10:48:02 INFO  - Entered daisy-input in Username or email address field
+[main] 2023-03-31 10:48:02 INFO  - #[ Filename: output ( sheet :Sheet1 ) on line no: 5 ]
+[main] 2023-03-31 10:48:04 INFO  - Successfully entered text
+[main] 2023-03-31 10:48:04 INFO  - Entered Password Successfully
+[main] 2023-03-31 10:48:04 INFO  - #[ Filename: output ( sheet :Sheet1 ) on line no: 6 ]
+[main] 2023-03-31 10:48:04 INFO  -  Click Retry Cout: 0
+[main] 2023-03-31 10:48:04 INFO  - Inside the TRY of else block By.xpath: //input[@value='Sign in'] | //input[normalize-space()='Sign in']
+[main] 2023-03-31 10:48:06 INFO  - Inside clickUsingJavaScript step:last
+[main] 2023-03-31 10:48:06 INFO  - Successfully clicked on Sign in Button
+[main] 2023-03-31 10:48:06 INFO  - #[ Filename: output ( sheet :Sheet1 ) on line no: 7 ]
+[main] 2023-03-31 10:48:06 INFO  -  Click Retry Cout: 0
+[main] 2023-03-31 10:48:06 INFO  - Inside the TRY of else block By.xpath: //a[@value='New'] | //a[normalize-space()='New']
+[main] 2023-03-31 10:48:07 INFO  - Inside clickUsingJavaScript step:last
+[main] 2023-03-31 10:48:07 INFO  - Successfully clicked on New Button
+[main] 2023-03-31 10:48:07 INFO  - #[ Filename: output ( sheet :Sheet1 ) on line no: 8 ]
+[main] 2023-03-31 10:48:09 INFO  - Successfully entered text
+[main] 2023-03-31 10:48:09 INFO  - Entered DaisyDemo1 in Repository name field
+[main] 2023-03-31 10:48:09 INFO  - #[ Filename: output ( sheet :Sheet1 ) on line no: 9 ]
+[main] 2023-03-31 10:48:09 INFO  -  Click Retry Cout: 0
+[main] 2023-03-31 10:48:19 ERROR - Element is not clickable : By.xpath: //button[@value='Create repository'] | //button[normalize-space()='Create repository']
+[main] 2023-03-31 10:48:20 ERROR - Element is not clickable : By.xpath: //button[@value='Create repository'] | //button[normalize-space()='Create repository']
+[main] 2023-03-31 10:48:20 ERROR - !!!Failure in output ( sheet : Sheet1 ) on line no: 9
+[main] 2023-03-31 10:48:21 ERROR - ERROR : Element is not clickable : By.xpath: //button[@value='Create repository'] | //button[normalize-space()='Create repository']
+[main] 2023-03-31 10:48:21 INFO  - Skipped by User - DemoSequenceExecution4
+[main] 2023-03-31 10:48:21 INFO  - Skipped by User - api-demos-MobileAutomation Nativeapp
+[main] 2023-03-31 10:48:21 INFO  - Re-Triggering failed test cases is disabled
+[main] 2023-03-31 10:48:21 INFO  - Closing Browser
+[main] 2023-03-31 10:48:21 INFO  - End of execution
+[main] 2023-03-31 10:48:21 INFO  - This is the end of test case execution

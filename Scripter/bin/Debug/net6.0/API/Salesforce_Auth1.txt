@@ -1,0 +1,15 @@
+{
+  "url": "https://login.salesforce.com/services/oauth2/token",
+  "method": "POST",
+  "timeout": 0,
+  "headers": {
+	"Content-Type": "application/x-www-form-urlencoded"
+  },
+  "data": {
+    "grant_type": "password",
+    "client_id": "3MVG9YDQS5WtC11pW4LIMzVeHtuHyTyCuCcjGo9RAIJDU5XyLm0eQkTdzddPErHF6ZWx3knJduVnz9qEey3aJ",
+    "client_secret": "4ECA7BEF0F2D32DF13E3F4C6929E5628E5BEEA1EFFBDE53C9502868315C09A74",
+    "username": "sikander_ansari@persistent.com",
+    "password": "NewPassword@123"
+  }
+}

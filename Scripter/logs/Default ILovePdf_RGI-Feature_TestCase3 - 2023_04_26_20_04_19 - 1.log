@@ -1,0 +1,7 @@
+[main] 2023-04-26 20:04:19 ERROR - 6
+[main] 2023-04-26 20:04:19 ERROR - !!!Failure in ILovePdf_RGI-Feature_TestCase3 ( sheet : Sheet1 ) on line no: 1
+[main] 2023-04-26 20:04:19 ERROR - ERROR : 6
+[main] 2023-04-26 20:04:19 INFO  - Re-Triggering failed test cases is disabled
+[main] 2023-04-26 20:04:19 INFO  - Closing Browser
+[main] 2023-04-26 20:04:21 INFO  - End of execution
+[main] 2023-04-26 20:04:21 INFO  - This is the end of test case execution

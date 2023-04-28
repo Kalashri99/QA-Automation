@@ -1,0 +1,57 @@
+<Labels>
+<LoginPage>
+	<Label key="usernametxt">CDATA[username]</Label>
+	<Label key="passwordtxt">CDATA[password]</Label>
+	<Label key="loginbtn">CDATA[Login]</Label>
+</LoginPage>
+<DashboardPage>
+	<Label key="app_launcher">CDATA[slds-icon-waffle]</Label>
+	<Label key="searchtxt">CDATA[//input[@placeholder='Search apps and items...']]</Label>
+	<Label key="dashboardlbl">CDATA[div[class='oneLeftContentWrapper']]</Label>
+</DashboardPage>
+<SalesConsole>
+	<Label key="arrow">CDATA[div[class='slds-context-bar__icon-action']]</Label>
+	<Label key="leads">CDATA[a[href='/lightning/o/Lead/list?filterName=Recent']]</Label>
+</SalesConsole>
+<Lead>
+	<Label key="arrow">CDATA[a[class='slds-context-bar__label-action slds-p-left--xx-small']]</Label>
+	<Label key="new">CDATA[div[title='New']]</Label>
+	<Label key="phonetxt">CDATA[//input[@name='Phone']]</Label>
+	<Label key="salutation_list">CDATA[//div[@class='salutation compoundTLRadius compoundTRRadius compoundBorderBottom form-element__row uiMenu']]</Label>
+	<Label key="salutation_select">CDATA[/html/body/div[8]/div/ul/li[2]/a]</Label>
+	<Label key="firstname_txt">CDATA[//input[@name='firstName']]</Label>
+	<Label key="lastname_txt">CDATA[//input[@name='lastName']]</Label>
+	<Label key="company_txt">CDATA[//input[@name='Company']]</Label>
+	<Label key="title_txt">CDATA[//label[@class='label inputLabel uiLabel-left form-element__label uiLabel']//following::input[7]]</Label>
+	<Label key="leadsource_list">CDATA[//span[text()='Lead Source']//following::a[@role='button']]</Label>
+	<Label key="leadsource_select">CDATA[a[title='Web']]</Label>
+	<Label key="save">CDATA[//button[@name='SaveEdit']]</Label>
+	<Label key="working_contacted">CDATA[a[title='Working - Contacted']]</Label>
+	<Label key="converted">CDATA[a[title='Converted']]</Label>
+	<Label key="select_converted">CDATA[button[class='slds-button slds-button--brand slds-path__mark-complete stepAction active uiButton']]</Label>
+	<Label key="convert">CDATA[//span[@class=' label bBody' and contains(text(),'Convert')]]</Label>
+	<Label key="goto_leads">CDATA[button[class='slds-button slds-button_brand']]</Label>
+	<Label key="CloseTab">CDATA[(//button[contains(@title,'Close')])[1]]</Label>
+	<Label key="LeadOwner">CDATA[//span[@class='displayLabel']/slot]</Label>
+</Lead>
+<Logout>
+	<Label key="profile">CDATA[//button[contains(.,'View profile')]]</Label>
+	<Label key="logout">CDATA[a[href='/secur/logout.jsp']]</Label>
+	
+</Logout>
+
+<ApkDemos>
+<Label key="preference">CDATA[//android.widget.TextView[@content-desc="Preference"]]</Label>
+<Label key="app">CDATA[//android.widget.TextView[@content-desc="App"]]</Label>
+<Label key="Dialog">CDATA[//android.widget.TextView[@content-desc="Alert Dialogs"]]</Label>
+<Label key="DialogAlert">CDATA[//android.widget.Button[@content-desc="OK Cancel dialog with a message"]]</Label>
+<Label key="preferenceDependencies">CDATA[//android.widget.TextView[@content-desc="3. Preference dependencies"]]</Label>
+<Label key="preferenceDependencies1">CDATA[//android.widget.TextView[@content-desc="Preference"]]</Label>
+<Label key="checkboxch">CDATA[/hierarchy/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[2]/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.ListView/android.widget.LinearLayout[1]/android.widget.LinearLayout/android.widget.CheckBox]</Label>
+<Label key="wifi">CDATA[/hierarchy/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[2]/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.ListView/android.widget.LinearLayout[2]/android.widget.RelativeLayout]</Label>
+<Label key="text">CDATA[/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.EditText]</Label>
+<Label key="ok">CDATA[/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.Button[2]]</Label>
+
+</ApkDemos>
+
+</Labels>

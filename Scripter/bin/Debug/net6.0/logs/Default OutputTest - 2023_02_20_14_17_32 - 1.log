@@ -1,0 +1,27 @@
+[main] 2023-02-20 14:17:32 INFO  - #[ Filename: OutputTest ( sheet :Sheet1 ) on line no: 2 ]
+[main] 2023-02-20 14:17:33 INFO  - User have entered URL successfully : https://github.com
+[main] 2023-02-20 14:17:33 INFO  - #[ Filename: OutputTest ( sheet :Sheet1 ) on line no: 3 ]
+[main] 2023-02-20 14:17:33 INFO  -  Click Retry Cout: 0
+[main] 2023-02-20 14:17:33 INFO  - Inside the TRY of else block By.xpath: // a[contains(text(),'Sign in')]
+[main] 2023-02-20 14:17:33 INFO  - Inside clickUsingJavaScript step:last
+[main] 2023-02-20 14:17:33 INFO  - Successfully clicked on Sign in Button
+[main] 2023-02-20 14:17:33 INFO  - #[ Filename: OutputTest ( sheet :Sheet1 ) on line no: 4 ]
+[main] 2023-02-20 14:17:37 INFO  - Successfully entered text
+[main] 2023-02-20 14:17:37 INFO  - Entered daisy-input in Username or email address field
+[main] 2023-02-20 14:17:37 INFO  - #[ Filename: OutputTest ( sheet :Sheet1 ) on line no: 5 ]
+[main] 2023-02-20 14:17:38 INFO  - Successfully entered text
+[main] 2023-02-20 14:17:38 INFO  - Entered Password Successfully
+[main] 2023-02-20 14:17:38 INFO  - #[ Filename: OutputTest ( sheet :Sheet1 ) on line no: 6 ]
+[main] 2023-02-20 14:17:38 INFO  -  Click Retry Cout: 0
+[main] 2023-02-20 14:17:38 INFO  - Inside the TRY of else block By.cssSelector: input[value='Sign in']
+[main] 2023-02-20 14:17:40 INFO  - Inside clickUsingJavaScript step:last
+[main] 2023-02-20 14:17:40 INFO  - Successfully clicked on Sign in Button
+[main] 2023-02-20 14:17:40 INFO  - #[ Filename: OutputTest ( sheet :Sheet1 ) on line no: 7 ]
+[main] 2023-02-20 14:17:50 WARN  - Waited for 10 seconds. Element is not Visible!
+[main] 2023-02-20 14:17:54 ERROR - Element is not visible : By.xpath: // a[contains(text(),' New ')]
+[main] 2023-02-20 14:17:54 ERROR - !!!Failure in OutputTest ( sheet : Sheet1 ) on line no: 7
+[main] 2023-02-20 14:17:54 ERROR - ERROR : Element is not visible : By.xpath: // a[contains(text(),' New ')]
+[main] 2023-02-20 14:17:54 INFO  - Re-Triggering failed test cases is disabled
+[main] 2023-02-20 14:17:54 INFO  - Closing Browser
+[main] 2023-02-20 14:17:55 INFO  - End of execution
+[main] 2023-02-20 14:17:55 INFO  - This is the end of test case execution

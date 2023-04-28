@@ -1,0 +1,29 @@
+[main] 2023-02-25 17:56:46 INFO  - #[ Filename: github_login14 ( sheet :Sheet1 ) on line no: 2 ]
+[main] 2023-02-25 17:56:48 INFO  - User have entered URL successfully : https://github.com
+[main] 2023-02-25 17:56:48 INFO  - #[ Filename: github_login14 ( sheet :Sheet1 ) on line no: 3 ]
+[main] 2023-02-25 17:56:48 INFO  - Invalid command or no command found. Given Command Name is : xpath. Please refer Daisy documentation for correct command. 
+[main] 2023-02-25 17:56:48 INFO  - >>>Failed  in github_login14 ( sheet :Sheet1 ) on line no: 3
+[main] 2023-02-25 17:56:48 INFO  - #[ Filename: github_login14 ( sheet :Sheet1 ) on line no: 4 ]
+[main] 2023-02-25 17:56:48 INFO  - Invalid command or no command found. Given Command Name is : Text. Please refer Daisy documentation for correct command. 
+[main] 2023-02-25 17:56:48 INFO  - >>>Failed  in github_login14 ( sheet :Sheet1 ) on line no: 4
+[main] 2023-02-25 17:56:48 INFO  - #[ Filename: github_login14 ( sheet :Sheet1 ) on line no: 5 ]
+[main] 2023-02-25 17:56:48 INFO  - Invalid command or no command found. Given Command Name is : password. Please refer Daisy documentation for correct command. 
+[main] 2023-02-25 17:56:48 INFO  - >>>Failed  in github_login14 ( sheet :Sheet1 ) on line no: 5
+[main] 2023-02-25 17:56:48 INFO  - #[ Filename: github_login14 ( sheet :Sheet1 ) on line no: 6 ]
+[main] 2023-02-25 17:56:49 WARN  - Invalid locator type submit is provided. Locator Type is case sensitive. Supported Locator Types are: cssSelector, name, tag, xpath, Link, id, label_for and className. Please refer Daisy documentation for more details.No enum constant com.persistent.daisy.core.browser.SeleniumUtils.Locators.submit
+[main] 2023-02-25 17:57:01 ERROR - Invalid locator type submit is provided. Locator Type is case sensitive. Supported Locator Types are: cssSelector, name, tag, xpath, Link, id, label_for and className. Please refer Daisy documentation for more details.
+[main] 2023-02-25 17:57:01 ERROR - !!!Failure in github_login14 ( sheet : Sheet1 ) on line no: 6
+[main] 2023-02-25 17:57:01 ERROR - ERROR : Invalid locator type submit is provided. Locator Type is case sensitive. Supported Locator Types are: cssSelector, name, tag, xpath, Link, id, label_for and className. Please refer Daisy documentation for more details.
+[main] 2023-02-25 17:57:01 INFO  - Skipped by User - 
+[main] 2023-02-25 17:57:01 INFO  - Skipped by User - 
+[main] 2023-02-25 17:57:01 INFO  - Skipped by User - 
+[main] 2023-02-25 17:57:01 INFO  - Skipped by User - 
+[main] 2023-02-25 17:57:01 INFO  - Skipped by User - 
+[main] 2023-02-25 17:57:01 INFO  - Skipped by User - 
+[main] 2023-02-25 17:57:01 INFO  - Skipped by User - 
+[main] 2023-02-25 17:57:01 INFO  - Skipped by User - 
+[main] 2023-02-25 17:57:01 INFO  - Skipped by User - 
+[main] 2023-02-25 17:57:01 INFO  - Re-Triggering failed test cases is disabled
+[main] 2023-02-25 17:57:01 INFO  - Closing Browser
+[main] 2023-02-25 17:57:02 INFO  - End of execution
+[main] 2023-02-25 17:57:02 INFO  - This is the end of test case execution

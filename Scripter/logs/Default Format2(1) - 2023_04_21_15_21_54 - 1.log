@@ -1,0 +1,15 @@
+[main] 2023-04-21 15:21:54 INFO  - #[ Filename: Format2(1) ( sheet :Sheet1 ) on line no: 2 ]
+[main] 2023-04-21 15:21:54 WARN  - Invalid URL https://github.com/Exception details: unknown error: failed to change window state to 'normal', current state is 'maximized'
+  (Session info: chrome=112.0.5615.137)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'GAL000310', ip: '10.244.54.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.137, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\KALASH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63382}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a4649136a73375fb97c3671f1bb3948c
+[main] 2023-04-21 15:21:55 ERROR - Invalid URL https://github.com/
+[main] 2023-04-21 15:21:55 ERROR - !!!Failure in Format2(1) ( sheet : Sheet1 ) on line no: 2
+[main] 2023-04-21 15:21:56 ERROR - ERROR : Invalid URL https://github.com/
+[main] 2023-04-21 15:21:56 INFO  - Re-Triggering failed test cases is disabled
+[main] 2023-04-21 15:21:56 INFO  - Closing Browser
+[main] 2023-04-21 15:21:57 INFO  - End of execution
+[main] 2023-04-21 15:21:58 INFO  - This is the end of test case execution

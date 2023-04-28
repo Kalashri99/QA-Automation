@@ -1,0 +1,26 @@
+<Configuration>
+	<Default>
+		<ScriptDir>./Org/Script</ScriptDir>		<!-- All "\\" in Configuration.xml replaced by "/" . This "/" will work in both windows and linux too.-->
+		<DataDir>./Org/Script/DataScript</DataDir>
+		<ConfigDir>./config</ConfigDir>
+		<FileUploadDir></FileUploadDir>
+	</Default>
+	<UAT>
+		<ScriptDir>./Org/ScriptUAT</ScriptDir>
+		<DataDir>./Org/ScriptUAT/DataScriptUAT</DataDir>
+		<ConfigDir>./Org/UAT</ConfigDir>
+		<FileUploadDir></FileUploadDir>
+	</UAT>
+	<QA>
+		<ScriptDir>./Org/ScriptQA</ScriptDir>
+		<DataDir>./Org/ScriptQA/DataScriptQA</DataDir>
+		<ConfigDir>./Org/QA</ConfigDir>
+		<FileUploadDir></FileUploadDir>
+	</QA>
+	<Perf>
+		<ScriptDir>./Org/Script</ScriptDir>
+		<DataDir>./Org/Script/DataScript</DataDir>
+		<ConfigDir>./Org/Perf</ConfigDir>
+		<FileUploadDir></FileUploadDir>
+	</Perf>
+</Configuration>

@@ -1,0 +1,22 @@
+[main] 2023-04-13 12:54:14 INFO  - #[ Filename: RGI-Feature testcase4 ( sheet :Sheet1 ) on line no: 2 ]
+[main] 2023-04-13 12:54:41 INFO  - User have entered URL successfully : https://www.functionize.com
+[main] 2023-04-13 12:54:41 INFO  - #[ Filename: RGI-Feature testcase4 ( sheet :Sheet1 ) on line no: 3 ]
+[main] 2023-04-13 12:54:41 INFO  -  Click Retry Cout: 0
+[main] 2023-04-13 12:54:41 INFO  - Inside the TRY of else block By.xpath: //a[@value='LOG In'] | //a[normalize-space()='LOG In']
+[main] 2023-04-13 12:54:55 INFO  - Inside clickUsingJavaScript step:last
+[main] 2023-04-13 12:54:55 INFO  - Successfully clicked on LOG In Button
+[main] 2023-04-13 12:54:55 INFO  - #[ Filename: RGI-Feature testcase4 ( sheet :Sheet1 ) on line no: 4 ]
+[main] 2023-04-13 12:54:57 INFO  - Successfully entered text
+[main] 2023-04-13 12:54:57 INFO  - Entered project.daisy.input@gmail.com in User ID field
+[main] 2023-04-13 12:54:57 INFO  - #[ Filename: RGI-Feature testcase4 ( sheet :Sheet1 ) on line no: 5 ]
+[main] 2023-04-13 12:54:59 INFO  - Successfully entered text
+[main] 2023-04-13 12:54:59 INFO  - Entered Password Successfully
+[main] 2023-04-13 12:54:59 INFO  - #[ Filename: RGI-Feature testcase4 ( sheet :Sheet1 ) on line no: 6 ]
+[main] 2023-04-13 12:54:59 INFO  -  Click Retry Cout: 0
+[main] 2023-04-13 12:54:59 INFO  - Inside the TRY of else block By.xpath: //button[@value='Submit'] | //button[normalize-space()='Submit']
+[main] 2023-04-13 12:55:00 INFO  - Inside clickUsingJavaScript step:last
+[main] 2023-04-13 12:55:00 INFO  - Successfully clicked on Submit Button
+[main] 2023-04-13 12:55:00 INFO  - Re-Triggering failed test cases is disabled
+[main] 2023-04-13 12:55:00 INFO  - Closing Browser
+[main] 2023-04-13 12:55:01 INFO  - End of execution
+[main] 2023-04-13 12:55:01 INFO  - This is the end of test case execution

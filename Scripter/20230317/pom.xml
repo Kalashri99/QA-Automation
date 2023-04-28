@@ -1,0 +1,300 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+<modelVersion>4.0.0</modelVersion>
+<groupId>daisy-start</groupId>
+<artifactId>daisy-start</artifactId>
+<version>1.0.0</version>
+<repositories>
+	<repository>
+    	<id>in-project</id>
+    	<name>In Project Repo</name>
+    	<url>file://${project.basedir}/lib</url>
+	</repository>
+</repositories>
+<dependencies>    	 
+
+<dependency>
+    <groupId>daisy-main-project</groupId>
+    <artifactId>daisy-core-browser-base-command</artifactId>
+    <version>0.0.1</version>
+    <scope>system</scope> 
+    <systemPath>${basedir}/lib/daisy-core-browser-base-command-0.0.1.jar</systemPath>
+	<type>jar</type>
+	<optional>true</optional>
+</dependency> 
+ <dependency>
+         <groupId>atu</groupId>
+         <artifactId>ATUReporter_Selenium_testNG</artifactId>
+         <version>5.1.1</version>
+      </dependency>
+      <dependency>
+         <groupId>atu</groupId>
+         <artifactId>ATUTestRecorder</artifactId>
+         <version>2.1</version>
+      </dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.8.2</version>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
+		<dependency>
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava</artifactId>
+			<version>29.0-jre</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/javax.mail/javax.mail-api -->
+		<dependency>
+			<groupId>javax.mail</groupId>
+			<artifactId>javax.mail-api</artifactId>
+			<version>1.6.2</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.apache.pdfbox/pdfbox -->
+		<dependency>
+			<groupId>org.apache.pdfbox</groupId>
+			<artifactId>pdfbox</artifactId>
+			<version>2.0.21</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>4.1.2</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>4.1.2</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>3.141.59</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>7.3.0</version>
+			<scope>compile</scope>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+		<dependency>
+			<groupId>com.aventstack</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>5.0.3</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.relevantcodes/extentreports -->
+		<dependency>
+			<groupId>com.relevantcodes</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>2.41.2</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>3.11</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-htmlunit-driver -->
+		<dependency>
+		    <groupId>org.seleniumhq.selenium</groupId>
+		    <artifactId>htmlunit-driver</artifactId>
+		    <version>2.43.1</version>
+		</dependency>
+
+		<dependency>
+		    <groupId>com.assertthat</groupId>
+		    <artifactId>selenium-shutterbug</artifactId>
+		    <version>1.2</version>
+		    <exclusions>
+		        <exclusion>
+				    <groupId>org.seleniumhq.selenium</groupId>
+				    <artifactId>selenium-java</artifactId>
+				</exclusion>
+		    </exclusions>
+		</dependency>
+		
+			
+		<dependency>
+    <groupId>com.fasterxml.jackson.core</groupId>
+    <artifactId>jackson-databind</artifactId>
+    <version>2.11.3</version>
+    </dependency>
+		
+		<!-- https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple -->
+<dependency>
+    <groupId>com.googlecode.json-simple</groupId>
+    <artifactId>json-simple</artifactId>
+    <version>1.1.1</version>
+</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/com.jayway.jsonpath/json-path -->
+<dependency>
+    <groupId>com.jayway.jsonpath</groupId>
+    <artifactId>json-path</artifactId>
+    <version>2.4.0</version>
+</dependency>
+		<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
+<dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>slf4j-api</artifactId>
+    <version>1.7.30</version>
+</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-simple -->
+<dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>slf4j-simple</artifactId>
+    <version>1.7.30</version>
+    <scope>test</scope>
+</dependency>
+	<!-- https://mvnrepository.com/artifact/net.minidev/json-smart -->
+<dependency>
+    <groupId>net.minidev</groupId>
+    <artifactId>json-smart</artifactId>
+    <version>2.3</version>
+</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/javax.xml.bind/jaxb-api -->
+<dependency>
+    <groupId>javax.xml.bind</groupId>
+    <artifactId>jaxb-api</artifactId>
+    <version>2.2.12</version>
+</dependency>
+
+	
+	<dependency>
+    <groupId>io.rest-assured</groupId>
+    <artifactId>rest-assured</artifactId>
+    <version>3.1.1</version>
+</dependency>
+
+	<dependency>
+    <groupId>com.github.opendevl</groupId>
+    <artifactId>json2flat</artifactId>
+    <version>1.0.3</version>
+</dependency>  
+		
+<!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
+<dependency>
+    <groupId>com.google.guava</groupId>
+    <artifactId>guava</artifactId>
+    <version>25.0-jre</version>
+</dependency>
+  <dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-api</artifactId>
+    <version>2.14.1</version>
+  </dependency>
+  <dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-core</artifactId>
+    <version>2.14.1</version>
+  </dependency>		
+  
+       <dependency>
+            <groupId>io.github.bonigarcia</groupId>
+            <artifactId>webdrivermanager</artifactId>
+            <version>4.2.2</version>
+        </dependency>
+        
+        
+        <!-- https://mvnrepository.com/artifact/io.appium/java-client -->
+<dependency>
+    <groupId>io.appium</groupId>
+    <artifactId>java-client</artifactId>
+    <version>7.4.1</version>
+</dependency>
+	
+<dependency>
+	<groupId>mysql</groupId>
+	<artifactId>mysql-connector-java</artifactId>
+	<version>8.0.27</version>
+</dependency>
+	
+<dependency>
+	<groupId>com.oracle.database.jdbc</groupId>
+	<artifactId>ojdbc8</artifactId>
+	<version>19.3.0.0</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->
+<dependency>
+    <groupId>org.postgresql</groupId>
+    <artifactId>postgresql</artifactId>
+    <version>42.2.15</version>
+</dependency>
+
+<!-- For SOAP API -->
+<!-- https://mvnrepository.com/artifact/com.predic8/soa-model-core -->
+        <dependency>
+            <groupId>com.predic8</groupId>
+            <artifactId>soa-model-core</artifactId>
+            <version>1.6.0</version>
+        </dependency>
+        
+                 <!-- Apache HttpClient -->
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>4.5.2</version>
+        </dependency>
+
+<!-- https://mvnrepository.com/artifact/org.jboss.aerogear/aerogear-otp-java -->
+<dependency>
+    <groupId>org.jboss.aerogear</groupId>
+    <artifactId>aerogear-otp-java</artifactId>
+    <version>1.0.0</version>
+</dependency>
+
+	</dependencies>
+<build>
+<plugins>
+ 	<plugin>
+	<groupId>org.apache.maven.plugins</groupId>
+	<artifactId>maven-compiler-plugin</artifactId>
+	<version>3.5.1</version>
+	<configuration>
+		<source>1.8</source>
+		<target>1.8</target>
+	</configuration>
+	</plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        
+        <version>3.0.0-M4</version>
+        <configuration>
+         <argLine>-Dfile.encoding=UTF-8</argLine>
+        		<forkCount>3</forkCount>
+    			<reuseForks>true</reuseForks>
+    		<parallel>all</parallel>
+    			<threadCount>10</threadCount>
+          <suiteXmlFiles>
+          <suiteXmlFile>testng.xml</suiteXmlFile>
+          </suiteXmlFiles>
+        <systemPropertyVariables>
+          	<browser>chrome</browser>
+          	<timeout>200</timeout>
+          	<org>Org/ScriptQA</org>
+          	<url>https://login.salesforce.com</url>
+          	<username>sikander_ansari@persistent.com</username>
+          	<password>DqKQ6U5NFuJYxsduwQhQ6Q==</password>
+          	<path>Org</path>
+          	<remote>true</remote>
+          	<testng.dtd.http>true</testng.dtd.http>
+         </systemPropertyVariables>
+        <maven.test.haltafterfailure>true</maven.test.haltafterfailure>  
+        
+        </configuration>
+      </plugin>
+</plugins>	
+</build>
+ </project>

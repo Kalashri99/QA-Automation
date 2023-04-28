@@ -1,0 +1,5 @@
+{
+  "url": "https://tester.free.beeceptor.com/getDate",
+  "method": "GET",
+  "timeout": 0,
+}

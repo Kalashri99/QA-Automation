@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">DaisyTestSetup</a></td><td class="num">1</td><td class="num attn">7</td><td class="num">0</td><td class="num attn">1</td><td class="num">23,954</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">DaisyTestSetup &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.persistent.daisy.core.Test_Cases</td><td><a href="#m0">Execute_Configuration</a></td><td rowspan="1">1681200323290</td><td rowspan="1">21292</td></tr><tr><th colspan="4">DaisyTestSetup &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="7">com.persistent.daisy.core.Test_Cases</td><td><a href="#m1">Execute_Configuration</a></td><td rowspan="7">1681200345084</td><td rowspan="7">0</td></tr><tr class="skippedeven"><td><a href="#m2">Execute_Configuration</a></td></tr><tr class="skippedeven"><td><a href="#m3">Execute_Configuration</a></td></tr><tr class="skippedeven"><td><a href="#m4">Execute_Configuration</a></td></tr><tr class="skippedeven"><td><a href="#m5">Execute_Configuration</a></td></tr><tr class="skippedeven"><td><a href="#m6">Execute_Configuration</a></td></tr><tr class="skippedeven"><td><a href="#m7">Execute_Configuration</a></td></tr><tr><th colspan="4">DaisyTestSetup &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.persistent.daisy.core.Test_Cases</td><td><a href="#m8">FailedTests</a></td><td rowspan="1">1681200345094</td><td rowspan="1">0</td></tr></tbody>
+</table>
+<h2>DaisyTestSetup</h2><h3 id="m0">com.persistent.daisy.core.Test_Cases#Execute_Configuration</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr><tr class="param stripe"><td>output</td><td>Yes</td><td>No</td><td></td><td>web</td><td></td></tr><tr><th colspan="6">Exception</th></tr><tr><td colspan="6"><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.persistent.daisy.core.browser.SeleniumUtils$2@21c7208d (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.persistent.daisy.core.browser.SeleniumUtils.waitForPageLoaded(SeleniumUtils.java:1768)
+	at com.persistent.daisy.ext.system.CommandHandler.handle(CommandHandler.java:514)
+	at com.persistent.daisy.core.ExtLoader.findCommandInChain(ExtLoader.java:187)
+	at com.persistent.daisy.core.browser.SeleniumUtils.performActions(SeleniumUtils.java:2505)
+	at com.persistent.daisy.core.Executor.perform(Executor.java:879)
+	at com.persistent.daisy.core.Executor.execute(Executor.java:586)
+	at com.persistent.daisy.core.Master.execute(Master.java:453)
+	at com.persistent.daisy.core.Test_Cases.Execute_Configuration(Test_Cases.java:230)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=111.0.5563.147)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;GAL000310&apos;, ip: &apos;192.168.18.138&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_282&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\KALASH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53403}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ccc7686d964496d018bb7cbc3437d729
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489)
+	at com.persistent.daisy.core.browser.SeleniumUtils$2.apply(SeleniumUtils.java:1764)
+	at com.persistent.daisy.core.browser.SeleniumUtils$2.apply(SeleniumUtils.java:1762)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 40 more
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.persistent.daisy.core.Test_Cases#Execute_Configuration</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr><tr class="param stripe"><td>DemoSequenceExecution4</td><td>No</td><td>No</td><td></td><td>Mobile</td><td></td></tr><tr><th colspan="6">Exception</th></tr><tr><td colspan="6"><div class="stacktrace">org.testng.SkipException: Skipping the execution of file DemoSequenceExecution4 as Execute flag set to No
+	at com.persistent.daisy.core.Master.execute(Master.java:491)
+	at com.persistent.daisy.core.Test_Cases.Execute_Configuration(Test_Cases.java:230)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.persistent.daisy.core.Test_Cases#Execute_Configuration</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr><tr class="param stripe"><td>DemoSequenceExecution2</td><td>No</td><td>No</td><td></td><td></td><td></td></tr><tr><th colspan="6">Exception</th></tr><tr><td colspan="6"><div class="stacktrace">org.testng.SkipException: Skipping the execution of file DemoSequenceExecution2 as Execute flag set to No
+	at com.persistent.daisy.core.Master.execute(Master.java:491)
+	at com.persistent.daisy.core.Test_Cases.Execute_Configuration(Test_Cases.java:230)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.persistent.daisy.core.Test_Cases#Execute_Configuration</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr><tr class="param stripe"><td>api-demos-MobileAutomation Nativeapp</td><td></td><td></td><td></td><td></td><td></td></tr><tr><th colspan="6">Exception</th></tr><tr><td colspan="6"><div class="stacktrace">org.testng.SkipException: Skipping the execution of file api-demos-MobileAutomation Nativeapp as Execute flag set to No
+	at com.persistent.daisy.core.Master.execute(Master.java:491)
+	at com.persistent.daisy.core.Test_Cases.Execute_Configuration(Test_Cases.java:230)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.persistent.daisy.core.Test_Cases#Execute_Configuration</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr><tr class="param stripe"><td>DemoSequenceExecution1</td><td>No</td><td>No</td><td></td><td>Mobile</td><td></td></tr><tr><th colspan="6">Exception</th></tr><tr><td colspan="6"><div class="stacktrace">org.testng.SkipException: Skipping the execution of file DemoSequenceExecution1 as Execute flag set to No
+	at com.persistent.daisy.core.Master.execute(Master.java:491)
+	at com.persistent.daisy.core.Test_Cases.Execute_Configuration(Test_Cases.java:230)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.persistent.daisy.core.Test_Cases#Execute_Configuration</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr><tr class="param stripe"><td>Demo</td><td>No</td><td>No</td><td></td><td>web</td><td></td></tr><tr><th colspan="6">Exception</th></tr><tr><td colspan="6"><div class="stacktrace">org.testng.SkipException: Skipping the execution of file Demo as Execute flag set to No
+	at com.persistent.daisy.core.Master.execute(Master.java:491)
+	at com.persistent.daisy.core.Test_Cases.Execute_Configuration(Test_Cases.java:230)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.persistent.daisy.core.Test_Cases#Execute_Configuration</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr><tr class="param stripe"><td>DemoLogin</td><td>No</td><td>No</td><td>DataFile_DemoLogin</td><td></td><td></td></tr><tr><th colspan="6">Exception</th></tr><tr><td colspan="6"><div class="stacktrace">org.testng.SkipException: Skipping the execution of file DemoLogin as Execute flag set to No
+	at com.persistent.daisy.core.Master.execute(Master.java:491)
+	at com.persistent.daisy.core.Test_Cases.Execute_Configuration(Test_Cases.java:230)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.persistent.daisy.core.Test_Cases#Execute_Configuration</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr><tr class="param stripe"><td>DemoSequenceExecution3</td><td>No</td><td>No</td><td></td><td></td><td></td></tr><tr><th colspan="6">Exception</th></tr><tr><td colspan="6"><div class="stacktrace">org.testng.SkipException: Skipping the execution of file DemoSequenceExecution3 as Execute flag set to No
+	at com.persistent.daisy.core.Master.execute(Master.java:491)
+	at com.persistent.daisy.core.Test_Cases.Execute_Configuration(Test_Cases.java:230)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.persistent.daisy.core.Test_Cases#FailedTests</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr><tr class="param stripe"><td>Disable</td><td>null</td><td>null</td><td>null</td><td>null</td><td>null</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

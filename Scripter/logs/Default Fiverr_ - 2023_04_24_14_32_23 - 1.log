@@ -1,0 +1,11 @@
+[main] 2023-04-24 14:32:23 INFO  - #[ Filename: Fiverr_ ( sheet :Sheet1 ) on line no: 2 ]
+[main] 2023-04-24 14:32:26 INFO  - User have entered URL successfully : https://www.fiverr.com/
+[main] 2023-04-24 14:32:26 INFO  - #[ Filename: Fiverr_ ( sheet :Sheet1 ) on line no: 3 ]
+[main] 2023-04-24 14:32:37 WARN  - Waited for 10 seconds. Element is not Visible!
+[main] 2023-04-24 14:33:04 ERROR - Element is not visible : By.xpath: //a[@value='Sign in'] | //a[normalize-space()='Sign in']
+[main] 2023-04-24 14:33:04 ERROR - !!!Failure in Fiverr_ ( sheet : Sheet1 ) on line no: 3
+[main] 2023-04-24 14:33:04 ERROR - ERROR : Element is not visible : By.xpath: //a[@value='Sign in'] | //a[normalize-space()='Sign in']
+[main] 2023-04-24 14:33:04 INFO  - Re-Triggering failed test cases is disabled
+[main] 2023-04-24 14:33:04 INFO  - Closing Browser
+[main] 2023-04-24 14:33:05 INFO  - End of execution
+[main] 2023-04-24 14:33:06 INFO  - This is the end of test case execution

@@ -1,0 +1,29 @@
+[main] 2023-03-31 10:42:46 INFO  - #[ Filename: Demo ( sheet :Sheet1Demo ) on line no: 2 ]
+[main] 2023-03-31 10:42:46 INFO  - Data File Length:1 Datafile nameDataFile_DemoLogin.xlsx
+[main] 2023-03-31 10:42:46 INFO  - Executing Action Sheet name: Sheet1Script and Data Sheet name :Sheet1Data
+[main] 2023-03-31 10:42:46 INFO  - #[ Filename: DemoLogin.xlsx ( sheet : Sheet1Script ) (Iteration : 0 ) on line no: 2 ]
+[main] 2023-03-31 10:42:48 INFO  - User have entered URL successfully : https://login.salesforce.com/
+[main] 2023-03-31 10:42:48 INFO  - #[ Filename: DemoLogin.xlsx ( sheet : Sheet1Script ) (Iteration : 0 ) on line no: 3 ]
+[main] 2023-03-31 10:42:48 INFO  - Locator value from Label.xml:  username for the Key usernametxt
+[main] 2023-03-31 10:42:50 INFO  - Successfully entered text
+[main] 2023-03-31 10:42:50 INFO  - Entered pushpanjali_p@persistent.com in Username field
+[main] 2023-03-31 10:42:50 INFO  - #[ Filename: DemoLogin.xlsx ( sheet : Sheet1Script ) (Iteration : 0 ) on line no: 4 ]
+[main] 2023-03-31 10:42:50 INFO  - Locator value from Label.xml:  password for the Key passwordtxt
+[main] 2023-03-31 10:42:50 INFO  - This is encrypted string
+[main] 2023-03-31 10:42:50 WARN  - Using blank password, since Error decrypting password : Input byte array has wrong 4-byte ending unit
+[main] 2023-03-31 10:42:50 INFO  - #[ Filename: DemoLogin.xlsx ( sheet : Sheet1Script ) (Iteration : 0 ) on line no: 5 ]
+[main] 2023-03-31 10:42:50 INFO  -  Click Retry Cout: 0
+[main] 2023-03-31 10:42:50 INFO  - Inside the TRY of else block By.xpath: //input[@type='submit']
+[main] 2023-03-31 10:42:51 INFO  - Inside clickUsingJavaScript step:last
+[main] 2023-03-31 10:42:51 INFO  - Successfully clicked on Login Button
+[main] 2023-03-31 10:42:51 INFO  - #[ Filename: DemoLogin.xlsx ( sheet : Sheet1Script ) (Iteration : 0 ) on line no: 6 ]
+[main] 2023-03-31 10:42:51 INFO  - Locator value from Label.xml:  slds-icon-waffle for the Key app_launcher
+[main] 2023-03-31 10:43:01 WARN  - Waited for 10 seconds. Element is not Visible!
+[main] 2023-03-31 10:43:12 WARN  - Error in for loop: Element is not visible : By.className: slds-icon-waffle
+[main] 2023-03-31 10:43:12 ERROR - !!!Failure in DemoLogin.xlsx ( sheet : Sheet1Script ) (Iteration : 0 ) on line no: 6
+[main] 2023-03-31 10:43:12 ERROR - ERROR : Element is not visible : By.className: slds-icon-waffle
+[main] 2023-03-31 10:43:12 INFO  - Skipped by User - DemoLogin
+[main] 2023-03-31 10:43:12 INFO  - Skipped by User - DemoSequenceExecution1
+[main] 2023-03-31 10:43:12 INFO  - Skipped by User - DemoSequenceExecution2
+[main] 2023-03-31 10:43:12 INFO  - Skipped by User - DemoSequenceExecution3
+[main] 2023-03-31 10:43:12 INFO  - Executing File : output and Sheet : Sheet1

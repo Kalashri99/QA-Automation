@@ -1,0 +1,54 @@
+[main] 2023-04-13 12:19:55 INFO  - Configurations.initialize
+[main] 2023-04-13 12:19:55 INFO  - Build release inforamtion: Daisy2-20230309 : Browser zoom functionality and key validations
+[main] 2023-04-13 12:19:55 INFO  - ScriptDir: ./Org/Script
+[main] 2023-04-13 12:19:55 INFO  - DataDir: ./Org/Script/DataScript
+[main] 2023-04-13 12:19:55 INFO  - ConfigDir: ./config
+[main] 2023-04-13 12:19:55 INFO  - FileUploadDir: 
+[main] 2023-04-13 12:19:55 WARN  - No Directory path entered
+[main] 2023-04-13 12:19:55 INFO  - propFileName::: ./config\CustomConfig.properties
+[main] 2023-04-13 12:19:56 INFO  - Skipped by User - 
+[main] 2023-04-13 12:19:56 INFO  - Skipped by User - 
+[main] 2023-04-13 12:19:56 INFO  - Skipped by User - 
+[main] 2023-04-13 12:19:56 INFO  - Skipped by User - 
+[main] 2023-04-13 12:19:56 INFO  - Skipped by User - 
+[main] 2023-04-13 12:19:56 INFO  - Skipped by User - 
+[main] 2023-04-13 12:19:56 INFO  - Skipped by User - 
+[main] 2023-04-13 12:19:56 INFO  - Skipped by User - 
+[main] 2023-04-13 12:19:56 INFO  - Skipped by User - 
+[main] 2023-04-13 12:19:56 INFO  - Skipped by User - 
+[main] 2023-04-13 12:19:56 INFO  - Skipped by User - 
+[main] 2023-04-13 12:19:56 INFO  - Skipped by User - 
+[main] 2023-04-13 12:19:56 INFO  - Skipped by User - 
+[main] 2023-04-13 12:19:56 INFO  - Skipped by User - 
+[main] 2023-04-13 12:19:56 INFO  - Skipped by User - 
+[main] 2023-04-13 12:19:56 INFO  - Skipped by User - 
+[main] 2023-04-13 12:19:56 INFO  - Skipped by User - 
+[main] 2023-04-13 12:19:56 INFO  - Skipped by User - 
+[main] 2023-04-13 12:19:56 INFO  - Skipped by User - 
+[main] 2023-04-13 12:19:56 INFO  - Skipped by User - 
+[main] 2023-04-13 12:19:56 INFO  - Skipped by User - 
+[main] 2023-04-13 12:19:56 INFO  - Skipped by User - 
+[main] 2023-04-13 12:19:56 INFO  - Skipped by User - 
+[main] 2023-04-13 12:19:56 INFO  - Skipped by User - 
+[main] 2023-04-13 12:19:56 INFO  - Opening local browser
+[main] 2023-04-13 12:19:56 INFO  - Inside the setBrowser method
+[main] 2023-04-13 12:19:56 INFO  - Setting up Chrome Browser
+[main] 2023-04-13 12:19:56 INFO  - ChromeManager class getDriver()STARTED.....
+[main] 2023-04-13 12:19:58 INFO  - Configurations.PATH value  = D:\RGI Project Documents\complete_project\Scripter\20230317\
+[main] 2023-04-13 12:19:58 INFO  - options= Capabilities {browserName: chrome}
+[main] 2023-04-13 12:20:00 INFO  - Setting up Explicit Wait with timeout 10
+[main] 2023-04-13 12:20:00 INFO  - ExtLoader, construtor, setting driver as null
+[main] 2023-04-13 12:20:00 INFO  - ==== Loading extensions ====
+[main] 2023-04-13 12:20:00 INFO  - Loading extensions from =  D:\RGI Project Documents\complete_project\Scripter\20230317\/lib/extensions/
+[main] 2023-04-13 12:20:00 INFO  - Total ext count : 9
+[main] 2023-04-13 12:20:00 INFO  - Loading : D:\RGI Project Documents\complete_project\Scripter\20230317\lib\extensions\daisy-ext-api-0.0.1.jar
+[main] 2023-04-13 12:20:00 INFO  - Loading : D:\RGI Project Documents\complete_project\Scripter\20230317\lib\extensions\daisy-ext-azureupdate-0.0.1.jar
+[main] 2023-04-13 12:20:00 INFO  - Loading : D:\RGI Project Documents\complete_project\Scripter\20230317\lib\extensions\daisy-ext-debug-0.0.1.jar
+[main] 2023-04-13 12:20:00 INFO  - Loading : D:\RGI Project Documents\complete_project\Scripter\20230317\lib\extensions\daisy-ext-fileio-0.0.1.jar
+[main] 2023-04-13 12:20:00 INFO  - Loading : D:\RGI Project Documents\complete_project\Scripter\20230317\lib\extensions\daisy-ext-perf-0.0.1.jar
+[main] 2023-04-13 12:20:00 INFO  - Loading : D:\RGI Project Documents\complete_project\Scripter\20230317\lib\extensions\daisy-ext-recordaction-0.0.1.jar
+[main] 2023-04-13 12:20:00 INFO  - Loading : D:\RGI Project Documents\complete_project\Scripter\20230317\lib\extensions\daisy-ext-seleniumcode-0.0.1.jar
+[main] 2023-04-13 12:20:00 INFO  - Loading : D:\RGI Project Documents\complete_project\Scripter\20230317\lib\extensions\daisy-ext-system-0.0.1.jar
+[main] 2023-04-13 12:20:00 INFO  - Loading : D:\RGI Project Documents\complete_project\Scripter\20230317\lib\extensions\daisy-ext-uielement-0.0.1.jar
+[main] 2023-04-13 12:20:00 INFO  - ==== 9 extensions loaded ====
+[main] 2023-04-13 12:20:00 INFO  - Executing File : demoInput and Sheet : Sheet1

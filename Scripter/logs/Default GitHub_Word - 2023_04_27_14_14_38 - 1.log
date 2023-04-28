@@ -1,0 +1,22 @@
+[main] 2023-04-27 14:14:38 INFO  - #[ Filename: GitHub_Word ( sheet :Sheet1 ) on line no: 2 ]
+[main] 2023-04-27 14:14:43 INFO  - User have entered URL successfully : https://github.com/
+[main] 2023-04-27 14:14:43 INFO  - #[ Filename: GitHub_Word ( sheet :Sheet1 ) on line no: 3 ]
+[main] 2023-04-27 14:14:43 INFO  -  Click Retry Cout: 0
+[main] 2023-04-27 14:14:43 INFO  - Inside the TRY of else block By.xpath: /html/body/div[1]/div[1]/header/div/div[2]/div/div/div[2]/a
+[main] 2023-04-27 14:14:43 INFO  - Inside clickUsingJavaScript step:last
+[main] 2023-04-27 14:14:43 INFO  - Successfully clicked on Sign In Button
+[main] 2023-04-27 14:14:43 INFO  - #[ Filename: GitHub_Word ( sheet :Sheet1 ) on line no: 4 ]
+[main] 2023-04-27 14:14:46 INFO  - Successfully entered text
+[main] 2023-04-27 14:14:46 INFO  - Entered daisy-input in Username field
+[main] 2023-04-27 14:14:46 INFO  - #[ Filename: GitHub_Word ( sheet :Sheet1 ) on line no: 5 ]
+[main] 2023-04-27 14:14:47 INFO  - Successfully entered text
+[main] 2023-04-27 14:14:47 INFO  - Entered Password Successfully
+[main] 2023-04-27 14:14:47 INFO  - #[ Filename: GitHub_Word ( sheet :Sheet1 ) on line no: 6 ]
+[main] 2023-04-27 14:14:47 INFO  -  Click Retry Cout: 0
+[main] 2023-04-27 14:14:48 INFO  - Inside the TRY of else block By.name: commit
+[main] 2023-04-27 14:14:49 INFO  - Inside clickUsingJavaScript step:last
+[main] 2023-04-27 14:14:49 INFO  - Successfully clicked on Sign in Button
+[main] 2023-04-27 14:14:50 INFO  - Re-Triggering failed test cases is disabled
+[main] 2023-04-27 14:14:50 INFO  - Closing Browser
+[main] 2023-04-27 14:14:51 INFO  - End of execution
+[main] 2023-04-27 14:14:52 INFO  - This is the end of test case execution

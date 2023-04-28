@@ -1,0 +1,5 @@
+{
+  "url": "https://tester.free.beeceptor.com/auth/${something}",
+  "method": "GET",
+  "timeout": 0,
+}
